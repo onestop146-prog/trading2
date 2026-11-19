@@ -18,8 +18,18 @@
 2026-11-19 21:08:36 UTC | INFO | Downloaded S&P 500 list: 503 tickers
 2026-11-19 21:09:37 UTC | INFO | Loaded prices from yahoo: 504 tickers, 4499 days (2009-01-02 to 2026-11-19)
 2026-11-19 21:09:58 UTC | INFO | Backtest: bot +8584% (CAGR +30.2%, max DD -43%) vs SPY +766% (CAGR +13.6%)
-2026-11-19 21:18:20 UTC | INFO | ============================================================
-2026-11-19 21:18:20 UTC | INFO | BACKTEST starting
-2026-11-19 21:18:20 UTC | INFO | Downloaded S&P 500 list: 503 tickers
-2026-11-19 21:19:08 UTC | INFO | Loaded prices from yahoo: 504 tickers, 4499 days (2009-01-02 to 2026-11-19)
-2026-11-19 21:19:36 UTC | INFO | Backtest: bot +8584% (CAGR +30.2%, max DD -43%) vs SPY +766% (CAGR +13.6%)
+2026-11-19 21:20:17 UTC | INFO | ============================================================
+2026-11-19 21:20:17 UTC | INFO | BACKTEST starting
+2026-11-19 21:20:17 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-19 21:21:25 UTC | INFO | Loaded prices from yahoo: 504 tickers, 4499 days (2009-01-02 to 2026-11-19)
+2026-11-19 21:22:01 UTC | INFO | Backtest: bot +8584% (CAGR +30.2%, max DD -43%) vs SPY +766% (CAGR +13.6%)
+2026-11-19 21:26:31 UTC | INFO | ============================================================
+2026-11-19 21:26:31 UTC | INFO | DAILY PERFORMANCE LOG starting
+2026-11-19 21:26:31 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-19 21:26:32 UTC | INFO | Loaded prices from alpaca: 1 tickers, 11 days (2026-11-05 to 2026-11-19)
+2026-11-19 21:26:32 UTC | INFO | Logged 2026-11-19: bot $10000.00 | SPY benchmark $10000.00 | cash $10000.00 | 0 holdings
+2026-11-19 22:18:21 UTC | INFO | ============================================================
+2026-11-19 22:18:21 UTC | INFO | DAILY PERFORMANCE LOG starting
+2026-11-19 22:18:21 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-19 22:18:21 UTC | INFO | Loaded prices from alpaca: 1 tickers, 11 days (2026-11-05 to 2026-11-19)
+2026-11-19 22:18:21 UTC | INFO | Logged 2026-11-19: bot $10000.00 | SPY benchmark $10000.00 | cash $10000.00 | 0 holdings
