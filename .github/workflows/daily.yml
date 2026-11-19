@@ -1,0 +1,43 @@
+# DAILY PERFORMANCE LOG (no trading)
+#
+# 21:30 UTC = 4:30pm ET in winter / 5:30pm ET in summer - after the close
+# either way. On weekends/holidays the script sees the market was closed and
+# does nothing.
+name: Daily performance log
+
+on:
+  schedule:
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot-repo-writes
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Log today's performance
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python -m bot.daily
+
+      - name: Commit results back to the repo
+        if: always()
+        run: bash .github/scripts/commit_results.sh "Daily performance log"
