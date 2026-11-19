@@ -8,7 +8,7 @@
 > the real-life winners later crashed and left the index. **Real results would very likely
 > have been worse than shown here.** Treat this as an optimistic upper bound, not a forecast.
 
-_Generated 2026-11-19 · Period: 2010-01-05 to 2026-11-18 · Data: 502 of 503 current S&P 500 stocks had data (17.9 years of prices, first year used as warm-up)_
+_Generated 2026-11-19 · Period: 2010-01-05 to 2026-11-18 · Data: 503 of 503 current S&P 500 stocks had data (17.9 years of prices, first year used as warm-up)_
 
 ![Backtest chart](backtest_chart.png)
 
@@ -16,15 +16,15 @@ _The chart uses a log scale, so equal vertical distances mean equal % changes._
 
 | | Momentum bot | SPY buy & hold | Today's S&P 500, equal weight* |
 |---|---|---|---|
-| $10,000 became | $868,398 | $86,602 | $167,606 |
-| Total return | +8584% | +766% | +1576% |
+| $10,000 became | $868,397 | $86,602 | $167,128 |
+| Total return | +8584% | +766% | +1571% |
 | Yearly return (CAGR) | +30.2% | +13.6% | +18.2% |
 | Max drawdown | -42.9% | -33.7% | -38.3% |
 | Volatility (per year) | 30.3% | 17.1% | 17.9% |
 | Sharpe ratio (no risk-free rate) | 1.03 | 0.84 | 1.03 |
 
 \* **Survivorship-bias yardstick:** simply owning *all* of today's S&P 500 members in equal
-amounts, with no strategy. Its lead over SPY (+4.6% per year) is roughly how much the survivor list alone flatters
+amounts, with no strategy. Its lead over SPY (+4.5% per year) is roughly how much the survivor list alone flatters
 results. The bot's lead over **this** column (+12.0% per year) is a fairer (still optimistic) guess at what momentum adds.
 
 - **Return vs SPY:** +7818% total, +16.6% per year
@@ -39,7 +39,7 @@ The bot is set to **daily** (change `REBALANCE_FREQUENCY` in `bot/config.py`). S
 
 | Rebalance | $10,000 became | Yearly return | Max drawdown | Trades |
 |---|---|---|---|---|
-| daily | $868,398 | +30.2% | -42.9% | 5,792 |
+| daily | $868,397 | +30.2% | -42.9% | 5,792 |
 | weekly | $849,903 | +30.1% | -46.3% | 2,656 |
 
 _Daily checks react faster to the crash filter and to new leaders, but trade more, and each trade costs an assumed 0.1%._
