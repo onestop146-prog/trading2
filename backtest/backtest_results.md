@@ -8,23 +8,28 @@
 > the real-life winners later crashed and left the index. **Real results would very likely
 > have been worse than shown here.** Treat this as an optimistic upper bound, not a forecast.
 
-_Generated 2026-11-19 · Period: 2010-01-05 to 2026-11-19 · Data: 503 of 503 current S&P 500 stocks had data (17.9 years of prices, first year used as warm-up)_
+_Generated 2026-11-19 · Period: 2010-01-05 to 2026-11-18 · Data: 503 of 503 current S&P 500 stocks had data (17.9 years of prices, first year used as warm-up)_
 
 ![Backtest chart](backtest_chart.png)
 
 _The chart uses a log scale, so equal vertical distances mean equal % changes._
 
-| | Momentum bot | SPY buy & hold |
-|---|---|---|
-| $10,000 became | $852,626 | $85,126 |
-| Total return | +8426% | +751% |
-| Yearly return (CAGR) | +30.2% | +13.5% |
-| Max drawdown | -46.3% | -33.7% |
-| Volatility (per year) | 30.5% | 17.1% |
-| Sharpe ratio (no risk-free rate) | 1.02 | 0.83 |
+| | Momentum bot | SPY buy & hold | Today's S&P 500, equal weight* |
+|---|---|---|---|
+| $10,000 became | $849,903 | $86,602 | $167,128 |
+| Total return | +8399% | +766% | +1571% |
+| Yearly return (CAGR) | +30.1% | +13.6% | +18.2% |
+| Max drawdown | -46.3% | -33.7% | -38.3% |
+| Volatility (per year) | 30.5% | 17.1% | 17.9% |
+| Sharpe ratio (no risk-free rate) | 1.02 | 0.84 | 1.03 |
 
-- **Return vs SPY:** +7675% total, +16.6% per year
+\* **Survivorship-bias yardstick:** simply owning *all* of today's S&P 500 members in equal
+amounts, with no strategy. Its lead over SPY (+4.5% per year) is roughly how much the survivor list alone flatters
+results. The bot's lead over **this** column (+12.0% per year) is a fairer (still optimistic) guess at what momentum adds.
+
+- **Return vs SPY:** +7633% total, +16.5% per year
 - **Win rate:** 53% of 1323 closed trades sold above their purchase price
+- **Right now** the bot is 46% below its all-time high in this backtest (0% = at a new high)
 - **Time spent in cash** (crash filter): 16% of trading days
 - **Trades:** 2656 total; assumed 0.1% slippage per trade, no commissions
 
@@ -48,7 +53,7 @@ _The chart uses a log scale, so equal vertical distances mean equal % changes._
 | 2023 | +30.1% | +26.2% | +4.0% |
 | 2024 | +137.1% | +24.9% | +112.2% |
 | 2025 | +57.6% | +17.7% | +39.9% |
-| 2026 | +25.0% | +6.1% | +19.0% |
+| 2026 | +24.6% | +7.9% | +16.7% |
 
 ## How the backtest works
 
