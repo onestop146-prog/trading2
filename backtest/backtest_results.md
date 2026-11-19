@@ -16,7 +16,7 @@ _The chart uses a log scale, so equal vertical distances mean equal % changes._
 
 | | Momentum bot | SPY buy & hold | Today's S&P 500, equal weight* |
 |---|---|---|---|
-| $10,000 became | $868,397 | $86,602 | $167,128 |
+| $10,000 became | $868,398 | $86,602 | $167,128 |
 | Total return | +8584% | +766% | +1571% |
 | Yearly return (CAGR) | +30.2% | +13.6% | +18.2% |
 | Max drawdown | -42.9% | -33.7% | -38.3% |
@@ -39,8 +39,8 @@ The bot is set to **daily** (change `REBALANCE_FREQUENCY` in `bot/config.py`). S
 
 | Rebalance | $10,000 became | Yearly return | Max drawdown | Trades |
 |---|---|---|---|---|
-| daily | $868,397 | +30.2% | -42.9% | 5,792 |
-| weekly | $849,903 | +30.1% | -46.3% | 2,656 |
+| daily | $868,398 | +30.2% | -42.9% | 5,792 |
+| weekly | $849,904 | +30.1% | -46.3% | 2,656 |
 
 _Daily checks react faster to the crash filter and to new leaders, but trade more, and each trade costs an assumed 0.1%._
 
