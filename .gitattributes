@@ -1,0 +1,3 @@
+# The log file only ever has lines added at the end. If two jobs add lines at
+# the same time, keep both sets of lines instead of reporting a conflict.
+logs/bot.log merge=union

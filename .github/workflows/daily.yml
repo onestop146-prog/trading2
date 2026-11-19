@@ -22,9 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      # Check out the LATEST version of the branch (not the version from when
+      # this run was queued), so the bot always reads the newest trades.csv.
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
           cache: pip
