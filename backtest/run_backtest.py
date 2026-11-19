@@ -53,12 +53,18 @@ def run_backtest(opens: pd.DataFrame, closes: pd.DataFrame):
     week_id = iso["year"].astype(str) + "-" + iso["week"].astype(str)
     rebalance_days = set(closes.index[~week_id.duplicated()])
 
+    # Survivorship-bias yardstick: an equal-weight mix of ALL of today's S&P 500
+    # stocks (rebalanced daily). It has no strategy at all, so any big lead it
+    # has over SPY comes mostly from knowing in advance which companies survived.
+    survivor_daily_returns = closes[stocks].pct_change(fill_method=None).mean(axis=1)
+
     first = max(config.LOOKBACK_DAYS, config.SMA_DAYS) + 1  # need a year of history
     cash = config.STARTING_CAPITAL
     holdings = {}          # ticker -> shares
     trades = []
     equity = []
     spy_shares = None
+    survivors_value = config.STARTING_CAPITAL
 
     def price_at_open(ticker, i):
         """Opening price; falls back to the previous close if missing."""
@@ -96,9 +102,12 @@ def run_backtest(opens: pd.DataFrame, closes: pd.DataFrame):
 
         # Value everything at today's close
         value = cash + sum(q * float(closes[t].iloc[i]) for t, q in holdings.items())
-        equity.append((day, value, spy_shares * float(spy.iloc[i]), len(holdings)))
+        if i > first:
+            survivors_value *= 1 + survivor_daily_returns.iloc[i]
+        equity.append((day, value, spy_shares * float(spy.iloc[i]), survivors_value, len(holdings)))
 
-    equity = pd.DataFrame(equity, columns=["date", "bot_value", "spy_value", "num_holdings"])
+    equity = pd.DataFrame(equity, columns=["date", "bot_value", "spy_value", "survivors_value",
+                                           "num_holdings"])
     trades = pd.DataFrame(trades, columns=["date", "ticker", "side", "shares", "price", "reason"])
     return equity, trades
 
@@ -120,7 +129,7 @@ def stats(values: pd.Series, dates: pd.Series) -> dict:
 
 def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str) -> None:
     OUT.mkdir(exist_ok=True)
-    equity.round({"bot_value": 2, "spy_value": 2}).to_csv(OUT / "backtest_equity.csv", index=False)
+    equity.round({"bot_value": 2, "spy_value": 2, "survivors_value": 2}).to_csv(OUT / "backtest_equity.csv", index=False)
     trades.round({"shares": 4, "price": 2}).to_csv(OUT / "backtest_trades.csv", index=False)
 
     dates = pd.to_datetime(equity["date"])
@@ -131,6 +140,7 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str) 
 
     b = stats(equity["bot_value"], dates)
     s = stats(equity["spy_value"], dates)
+    sv = stats(equity["survivors_value"], dates)
     wr, closed = ledger.win_rate(trades)
     in_cash = (equity["num_holdings"] == 0).mean()
 
@@ -153,19 +163,27 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str) 
         f"_Generated {date.today()} · Period: {start} to {end} · Data: {source_note}_", "",
         "![Backtest chart](backtest_chart.png)", "",
         "_The chart uses a log scale, so equal vertical distances mean equal % changes._", "",
-        "| | Momentum bot | SPY buy & hold |",
-        "|---|---|---|",
-        f"| $10,000 became | ${b['final']:,.0f} | ${s['final']:,.0f} |",
-        f"| Total return | {b['total']:+.0%} | {s['total']:+.0%} |",
-        f"| Yearly return (CAGR) | {b['cagr']:+.1%} | {s['cagr']:+.1%} |",
-        f"| Max drawdown | {b['max_dd']:.1%} | {s['max_dd']:.1%} |",
-        f"| Volatility (per year) | {b['vol']:.1%} | {s['vol']:.1%} |",
-        f"| Sharpe ratio (no risk-free rate) | {b['sharpe']:.2f} | {s['sharpe']:.2f} |",
+        "| | Momentum bot | SPY buy & hold | Today's S&P 500, equal weight* |",
+        "|---|---|---|---|",
+        f"| $10,000 became | ${b['final']:,.0f} | ${s['final']:,.0f} | ${sv['final']:,.0f} |",
+        f"| Total return | {b['total']:+.0%} | {s['total']:+.0%} | {sv['total']:+.0%} |",
+        f"| Yearly return (CAGR) | {b['cagr']:+.1%} | {s['cagr']:+.1%} | {sv['cagr']:+.1%} |",
+        f"| Max drawdown | {b['max_dd']:.1%} | {s['max_dd']:.1%} | {sv['max_dd']:.1%} |",
+        f"| Volatility (per year) | {b['vol']:.1%} | {s['vol']:.1%} | {sv['vol']:.1%} |",
+        f"| Sharpe ratio (no risk-free rate) | {b['sharpe']:.2f} | {s['sharpe']:.2f} | {sv['sharpe']:.2f} |",
+        "",
+        "\\* **Survivorship-bias yardstick:** simply owning *all* of today's S&P 500 members in equal",
+        "amounts, with no strategy. Its lead over SPY "
+        f"({sv['cagr'] - s['cagr']:+.1%} per year) is roughly how much the survivor list alone flatters",
+        "results. The bot's lead over **this** column "
+        f"({b['cagr'] - sv['cagr']:+.1%} per year) is a fairer (still optimistic) guess at what momentum adds.",
         "",
         f"- **Return vs SPY:** {b['total'] - s['total']:+.0%} total, "
         f"{b['cagr'] - s['cagr']:+.1%} per year",
         f"- **Win rate:** {wr:.0%} of {closed} closed trades sold above their purchase price"
         if wr is not None else "- **Win rate:** n/a",
+        f"- **Right now** the bot is {1 - equity['bot_value'].iloc[-1] / equity['bot_value'].max():.0%} "
+        "below its all-time high in this backtest (0% = at a new high)",
         f"- **Time spent in cash** (crash filter): {in_cash:.0%} of trading days",
         f"- **Trades:** {len(trades)} total; assumed {SLIPPAGE:.1%} slippage per trade, no commissions",
         "",
@@ -201,6 +219,11 @@ def main() -> int:
     tickers = data.get_sp500_tickers()
     end = (pd.Timestamp.today() + pd.Timedelta(days=1)).strftime("%Y-%m-%d")
     opens, closes = data.get_prices(tickers + [config.BENCHMARK], DATA_START, end, prefer="yahoo")
+    # If the market is still open, today's "close" is just the latest price; drop it.
+    now_et = pd.Timestamp.now(tz="America/New_York")
+    if now_et.hour < 17:
+        closes = closes[closes.index < now_et.normalize().tz_localize(None)]
+        opens = opens.reindex(closes.index)
     if config.BENCHMARK not in closes:
         log.error("No SPY data; cannot run the backtest.")
         return 1
