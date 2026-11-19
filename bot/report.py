@@ -153,7 +153,22 @@ def write_live_report(latest_prices: dict) -> None:
             else:
                 lines.append(f"| {tk} | {q:.4f} | ${cost:,.2f} | n/a | n/a | n/a |")
         lines.append("")
-    lines += [f"Cash: ${cash:,.2f}", "",
-              "Files: [trades.csv](trades.csv) · [performance.csv](performance.csv) · "
+    lines += [f"Cash: ${cash:,.2f}", ""]
+
+    # The most recent trades, newest first (the full list is in trades.csv)
+    lines += ["## Recent trades", ""]
+    if trades.empty:
+        lines += ["No trades yet.", ""]
+    else:
+        lines += ["| Date | Ticker | Buy/Sell | Shares | Price | Value | Reason |",
+                  "|---|---|---|---|---|---|---|"]
+        for _, t in trades.iloc[::-1].head(25).iterrows():
+            lines.append(f"| {t['date']} | {t['ticker']} | {str(t['side']).upper()} | "
+                         f"{float(t['shares']):.4f} | ${float(t['price']):,.2f} | "
+                         f"${float(t['value']):,.2f} | {t['reason']} |")
+        lines += ["", f"Showing the latest {min(len(trades), 25)} of {len(trades)} trades. "
+                  "All trades: [trades.csv](trades.csv)", ""]
+
+    lines += ["Files: [trades.csv](trades.csv) · [performance.csv](performance.csv) · "
               "[log](logs/bot.log) · [backtest](backtest/backtest_results.md)", ""]
     config.SUMMARY_MD.write_text("\n".join(lines))

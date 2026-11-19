@@ -1,5 +1,7 @@
 """
-WEEKLY REBALANCE - run by GitHub Actions on Monday ~10:00am Eastern.
+REBALANCE - run by GitHub Actions every trading day ~10:00am Eastern
+(or only on the first trading day of each week if REBALANCE_FREQUENCY is
+"weekly" in config.py).
 
 Steps:
   1. Safety checks (paper account only), and make sure today is the right day
@@ -11,8 +13,8 @@ Steps:
   5. Write trades.csv, the state file, the chart and summary.md.
 
 Run it yourself with:   python -m bot.rebalance
-Force a run on a day that isn't the first trading day of the week (still only
-while the market is open):   python -m bot.rebalance --force
+Force a run outside the normal time window (still only while the market is
+open, and still only once per day):   python -m bot.rebalance --force
 
 ANY problem (missing data, failed order, ...) is logged and that step is
 skipped. The bot never "guesses".
@@ -73,14 +75,15 @@ def execute_order(client: AlpacaPaper, ticker: str, side: str, qty: float,
 
 
 def is_time_to_rebalance(client: AlpacaPaper, today: str, now_et: datetime, force: bool) -> bool:
-    """True only on the first trading day of the week, shortly after the open."""
+    """True on a trading day shortly after the open (and, in weekly mode, only on
+    the first trading day of the week)."""
     monday = (now_et.date() - timedelta(days=now_et.weekday())).isoformat()
     calendar = client.get_calendar(monday, today)
     trading_days = [d["date"] for d in calendar]
     if today not in trading_days:
         log.info("%s is not a trading day (weekend or market holiday). Nothing to do.", today)
         return False
-    if trading_days[0] != today and not force:
+    if config.REBALANCE_FREQUENCY == "weekly" and trading_days[0] != today and not force:
         log.info("Already traded this week (first trading day was %s). Nothing to do.", trading_days[0])
         return False
 
@@ -95,7 +98,7 @@ def is_time_to_rebalance(client: AlpacaPaper, today: str, now_et: datetime, forc
         log.info("Only %.0f minutes since the open; too early. Nothing to do.", minutes_open)
         return False
     if minutes_open > config.MAX_MINUTES_AFTER_OPEN and not force:
-        log.warning("It's %.0f minutes after the open (GitHub was very late); skipping this week. "
+        log.warning("It's %.0f minutes after the open (GitHub was very late); skipping today. "
                     "You can run the workflow manually with force=true.", minutes_open)
         return False
     return True
@@ -103,7 +106,7 @@ def is_time_to_rebalance(client: AlpacaPaper, today: str, now_et: datetime, forc
 
 def run(force: bool = False) -> int:
     log.info("=" * 60)
-    log.info("WEEKLY REBALANCE starting (force=%s)", force)
+    log.info("REBALANCE (%s) starting (force=%s)", config.REBALANCE_FREQUENCY, force)
 
     try:
         client = AlpacaPaper()  # <- all the paper-only safety checks happen here
@@ -257,8 +260,8 @@ def run(force: bool = False) -> int:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Weekly momentum rebalance (paper trading only)")
+    parser = argparse.ArgumentParser(description="Momentum rebalance (paper trading only)")
     parser.add_argument("--force", action="store_true",
-                        help="run even if it's not the first trading day of the week")
+                        help="run outside the normal time window (market must be open)")
     args = parser.parse_args()
     sys.exit(run(force=args.force))

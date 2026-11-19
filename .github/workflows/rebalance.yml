@@ -1,22 +1,22 @@
-# WEEKLY REBALANCE (paper trading only)
+# DAILY REBALANCE (paper trading only)
 #
 # GitHub's schedule uses UTC and ignores daylight saving time, so we run at
-# BOTH 14:00 and 15:00 UTC on Monday and Tuesday. The Python script itself
-# decides whether to act:
-#   - only on the first trading day of the week (Monday, or Tuesday if
-#     Monday is a market holiday)
+# BOTH 14:00 and 15:00 UTC every weekday. The Python script itself decides
+# whether to act:
+#   - only on trading days (market holidays are skipped)
 #   - only 25+ minutes after the 9:30am ET open (14:00 UTC = 10:00 EDT in
 #     summer; 15:00 UTC = 10:00 EST in winter)
 #   - only once per day (the second run sees it's already done and exits)
-name: Weekly rebalance
+# To go back to weekly, set REBALANCE_FREQUENCY = "weekly" in bot/config.py.
+name: Rebalance
 
 on:
   schedule:
-    - cron: "0 14,15 * * 1,2"
+    - cron: "0 14,15 * * 1-5"
   workflow_dispatch:          # lets you press "Run workflow" on your phone
     inputs:
       force:
-        description: "Trade even if it's not the first trading day of the week (market must be open)"
+        description: "Trade outside the normal ~10am window (market must be open; still once per day)"
         type: boolean
         default: false
 
@@ -42,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run weekly rebalance (PAPER account only)
+      - name: Run rebalance (PAPER account only)
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
@@ -55,4 +55,4 @@ jobs:
 
       - name: Commit results back to the repo
         if: always()          # save the log even if something went wrong
-        run: bash .github/scripts/commit_results.sh "Weekly rebalance"
+        run: bash .github/scripts/commit_results.sh "Rebalance"

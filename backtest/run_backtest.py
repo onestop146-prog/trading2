@@ -3,7 +3,8 @@ BACKTEST: how would the momentum strategy have done over the last ~15 years?
 
 It replays history one trading day at a time using the SAME strategy code
 as the live bot (bot/strategy.py):
-  * On the first trading day of each week, rank stocks using prices up to the
+  * On each rebalance day (every trading day, or the first trading day of each
+    week - see REBALANCE_FREQUENCY in bot/config.py), rank stocks using prices up to the
     PREVIOUS close (no peeking at the future), then trade at that day's
     OPENING price (the live bot trades ~30 minutes after the open).
   * Every day, value the portfolio at the closing price.
@@ -38,9 +39,11 @@ SLIPPAGE = 0.001            # assume we lose 0.1% on every trade (spread, etc.)
 OUT = config.BACKTEST_DIR
 
 
-def run_backtest(opens: pd.DataFrame, closes: pd.DataFrame):
+def run_backtest(opens: pd.DataFrame, closes: pd.DataFrame,
+                 frequency: str = config.REBALANCE_FREQUENCY):
     """
     Simulate the strategy. Returns (equity DataFrame, trades DataFrame).
+    `frequency` is "daily" or "weekly".
     `opens`/`closes`: one row per trading day, one column per ticker incl. SPY.
     """
     closes = closes.ffill(limit=5)        # fill tiny gaps in the data
@@ -48,10 +51,13 @@ def run_backtest(opens: pd.DataFrame, closes: pd.DataFrame):
     spy = closes[config.BENCHMARK]
     stocks = [c for c in closes.columns if c != config.BENCHMARK]
 
-    # First trading day of each calendar week = rebalance day
-    iso = closes.index.isocalendar()
-    week_id = iso["year"].astype(str) + "-" + iso["week"].astype(str)
-    rebalance_days = set(closes.index[~week_id.duplicated()])
+    if frequency == "daily":
+        rebalance_days = set(closes.index)                   # every trading day
+    else:
+        # First trading day of each calendar week
+        iso = closes.index.isocalendar()
+        week_id = iso["year"].astype(str) + "-" + iso["week"].astype(str)
+        rebalance_days = set(closes.index[~week_id.duplicated()])
 
     # Survivorship-bias yardstick: an equal-weight mix of ALL of today's S&P 500
     # stocks (rebalanced daily). It has no strategy at all, so any big lead it
@@ -127,7 +133,10 @@ def stats(values: pd.Series, dates: pd.Series) -> dict:
     }
 
 
-def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str) -> None:
+def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str,
+                  comparison: dict = None) -> None:
+    """Save the CSVs, chart and backtest_results.md. `comparison` optionally maps
+    "daily"/"weekly" -> (equity, trades) to show both frequencies side by side."""
     OUT.mkdir(exist_ok=True)
     equity.round({"bot_value": 2, "spy_value": 2, "survivors_value": 2}).to_csv(OUT / "backtest_equity.csv", index=False)
     trades.round({"shares": 4, "price": 2}).to_csv(OUT / "backtest_trades.csv", index=False)
@@ -135,7 +144,8 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str) 
     dates = pd.to_datetime(equity["date"])
     start, end = dates.iloc[0].date(), dates.iloc[-1].date()
     report.plot_vs_spy(dates, equity["bot_value"], equity["spy_value"],
-                       f"Backtest: 12-1 momentum (top {config.TOP_N}) vs SPY, {start.year}-{end.year}",
+                       f"Backtest: 12-1 momentum (top {config.TOP_N}, {config.REBALANCE_FREQUENCY}) vs SPY, "
+                       f"{start.year}-{end.year}",
                        OUT / "backtest_chart.png", spy_label="SPY buy & hold", log_scale=True)
 
     b = stats(equity["bot_value"], dates)
@@ -187,6 +197,22 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str) 
         f"- **Time spent in cash** (crash filter): {in_cash:.0%} of trading days",
         f"- **Trades:** {len(trades)} total; assumed {SLIPPAGE:.1%} slippage per trade, no commissions",
         "",
+    ]
+    if comparison:
+        lines += [
+            "## Daily vs weekly rebalancing", "",
+            f"The bot is set to **{config.REBALANCE_FREQUENCY}** (change `REBALANCE_FREQUENCY` in "
+            "`bot/config.py`). Same rules, same data, only how often it checks:", "",
+            "| Rebalance | $10,000 became | Yearly return | Max drawdown | Trades |",
+            "|---|---|---|---|---|",
+        ]
+        for freq, (eq, tr) in comparison.items():
+            st = stats(eq["bot_value"], pd.to_datetime(eq["date"]))
+            lines.append(f"| {freq} | ${st['final']:,.0f} | {st['cagr']:+.1%} | "
+                         f"{st['max_dd']:.1%} | {len(tr):,} |")
+        lines += ["", "_Daily checks react faster to the crash filter and to new leaders, but trade "
+                  f"more, and each trade costs an assumed {SLIPPAGE:.1%}._", ""]
+    lines += [
         "## Year by year", "",
         "| Year | Bot | SPY | Difference |",
         "|---|---|---|---|",
@@ -197,7 +223,7 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str) 
     lines += [
         "", "## How the backtest works", "",
         "- Universe: today's S&P 500 members (see warning above).",
-        "- Every week on the first trading day: rank stocks by the return from ~12 months ago to "
+        f"- Rebalance {config.REBALANCE_FREQUENCY}: rank stocks by the return from ~12 months ago to "
         "~1 month ago, using prices up to the previous close.",
         f"- Hold the top {config.TOP_N}, equal weight. Only stocks that drop out of the top "
         f"{config.TOP_N} are sold; new entries are bought at the opening price.",
@@ -231,7 +257,13 @@ def main() -> int:
     source_note = (f"{closes.shape[1] - 1} of {len(tickers)} current S&P 500 stocks had data "
                    f"({years:.1f} years of prices, first year used as warm-up)")
     equity, trades = run_backtest(opens, closes)
-    write_results(equity, trades, source_note)
+
+    # Also run the other rebalance frequency, just to compare
+    other = "weekly" if config.REBALANCE_FREQUENCY == "daily" else "daily"
+    other_equity, other_trades = run_backtest(opens, closes, frequency=other)
+    comparison = {config.REBALANCE_FREQUENCY: (equity, trades), other: (other_equity, other_trades)}
+
+    write_results(equity, trades, source_note, comparison)
     return 0
 
 

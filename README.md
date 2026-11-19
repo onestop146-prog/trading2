@@ -17,17 +17,28 @@ from your phone.
 
 ---
 
+## 📱 Where to see your trades
+
+1. **[summary.md](summary.md)** — open this on your phone and bookmark it. It shows how the bot is doing vs SPY,
+   what it holds right now, and its 25 most recent trades. It refreshes after every trading day.
+2. **[trades.csv](trades.csv)** — every trade the bot has ever made (GitHub shows it as a table).
+3. **Alpaca app / dashboard** (switched to your *Paper* account) — live orders and positions.
+4. **Actions tab** on GitHub — each run with a ✅ or ❌; tap one to see exactly what happened.
+
+---
+
 ## The strategy in plain English
 
 1. **Universe:** the stocks currently in the S&P 500.
 2. **Score:** each stock's return from ~12 months ago to ~1 month ago ("12-1 momentum").
    The latest month is skipped because very recent winners tend to dip back short-term.
 3. **Hold:** the 10 highest-scoring stocks, equal dollar amounts (~$1,000 each from $10,000).
-4. **Rebalance weekly:** Monday ~10:00am Eastern (30 min after the open). Sell stocks that fell out of the
-   top 10, buy the new ones. Stocks still in the top 10 are left alone.
-   If Monday is a market holiday, it trades on Tuesday instead.
+4. **Rebalance daily:** every trading day ~10:00am Eastern (30 min after the open). Sell stocks that fell
+   out of the top 10, buy the new ones. Stocks still in the top 10 are left alone, so on most days there's
+   little or nothing to trade. Market holidays are skipped. (Prefer weekly? Set
+   `REBALANCE_FREQUENCY = "weekly"` in `bot/config.py`; the backtest shows both.)
 5. **Crash filter:** if SPY (the S&P 500 ETF) is below its 200-day average at rebalance time,
-   sell everything and sit in cash until a weekly check finds SPY back above it.
+   sell everything and sit in cash until a later check finds SPY back above it.
 
 The bot treats **$10,000** as its money even if the paper account has $100,000. It keeps its own books
 in `trades.csv` (cash = $10,000 − buys + sells). Fractional shares are used where Alpaca allows them.
@@ -91,11 +102,11 @@ Nothing else to do. Automatically:
 
 | Workflow | When (Eastern time) | What it does |
 |---|---|---|
-| **Weekly rebalance** | Mon ~10:00am (Tue if Monday is a holiday) | Checks crash filter, ranks stocks, places paper orders |
+| **Rebalance** | Every trading day ~10:00am | Checks crash filter, ranks stocks, places paper orders |
 | **Daily performance log** | Weekdays ~4:30–5:30pm | Values the portfolio & SPY benchmark, updates chart + summary (no trading) |
 | **Backtest** | When you run it, or when the strategy code changes | Re-runs the historical test |
 
-Want to start trading before next Monday? Actions → **Weekly rebalance** → **Run workflow** →
+Want to trade right now instead of waiting for tomorrow's 10am run? Actions → **Rebalance** → **Run workflow** →
 tick **force** → Run (only works while the market is open, from ~9:55am to 4:00pm ET).
 
 ---
@@ -104,7 +115,7 @@ tick **force** → Run (only works while the market is open, from ~9:55am to 4:0
 
 | File | What's in it |
 |---|---|
-| `summary.md` | Total return, return vs SPY, max drawdown, win rate, current holdings, chart |
+| `summary.md` | **Start here.** Total return, return vs SPY, max drawdown, win rate, current holdings, the 25 most recent trades, chart |
 | `performance_chart.png` | Bot vs SPY over time |
 | `trades.csv` | Every filled trade: date, ticker, buy/sell, shares, price, value, reason, order id |
 | `performance.csv` | One row per trading day: bot value, SPY benchmark value, cash, holdings |
@@ -127,7 +138,7 @@ tick **force** → Run (only works while the market is open, from ~9:55am to 4:0
 - **Never sells more than it owns**: sells are capped at the shares actually in the paper account.
 - **Market holidays** are skipped using Alpaca's market calendar.
 - **Late GitHub runs:** GitHub's scheduler can be late. If the rebalance starts more than 5 hours after the open,
-  it skips that week rather than trading at a strange time (you can force it manually).
+  it skips that day rather than trading at a strange time (you can force it manually).
 
 ---
 
@@ -154,7 +165,7 @@ bot/
   strategy.py       momentum score, crash filter, what to buy/sell (shared with the backtest)
   ledger.py         trades.csv / performance.csv bookkeeping
   report.py         chart + summary.md
-  rebalance.py      weekly trading job
+  rebalance.py      daily trading job
   daily.py          daily logging job
 backtest/run_backtest.py   historical simulation
 tests/test_bot.py          offline tests with fake prices and a fake Alpaca

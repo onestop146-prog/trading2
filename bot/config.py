@@ -33,6 +33,9 @@ CASH_BUFFER = 0.01  # 1%
 # STRATEGY
 # ---------------------------------------------------------------------------
 TOP_N = 10               # how many stocks to hold
+# How often to rebalance: "daily" (every trading day ~10am ET) or "weekly"
+# (first trading day of each week). The backtest compares both.
+REBALANCE_FREQUENCY = "daily"
 LOOKBACK_DAYS = 252      # ~12 months of trading days
 SKIP_DAYS = 21           # ~1 month of trading days (the "-1" in "12-1")
 SMA_DAYS = 200           # crash filter: SPY's 200-day moving average

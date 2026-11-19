@@ -133,11 +133,14 @@ def test_refuses_non_paper_account(monkeypatch):
 def test_backtest_runs():
     from backtest import run_backtest
     opens, closes = fake_prices()
-    equity, trades = run_backtest.run_backtest(opens, closes)
+    equity, trades = run_backtest.run_backtest(opens, closes, frequency="daily")
+    weekly_eq, weekly_tr = run_backtest.run_backtest(opens, closes, frequency="weekly")
     assert len(equity) == len(closes) - 253
     assert equity["num_holdings"].max() == config.TOP_N
     assert (equity["bot_value"] > 0).all()
-    run_backtest.write_results(equity, trades, "synthetic")
+    assert len(trades) > len(weekly_tr)          # daily checks trade more often
+    run_backtest.write_results(equity, trades, "synthetic",
+                               {"daily": (equity, trades), "weekly": (weekly_eq, weekly_tr)})
     assert (config.BACKTEST_DIR / "backtest_chart.png").exists()
     assert "Survivorship" in (config.BACKTEST_DIR / "backtest_results.md").read_text()
 
@@ -269,4 +272,18 @@ def test_daily_log_and_report(monkeypatch):
     assert perf.iloc[0]["bot_value"] == pytest.approx(expected, abs=0.01)
     summary = config.SUMMARY_MD.read_text()
     assert "S001" in summary and "Max drawdown" in summary
+    assert "Recent trades" in summary and "| BUY |" in summary
     assert config.CHART_PNG.exists()
+
+
+def test_daily_mode_trades_midweek_and_weekly_mode_does_not(monkeypatch):
+    """A Wednesday that isn't the first trading day of the week."""
+    today = "2025-01-08"
+    fake = FakeAlpaca({}, today)
+    fake.get_calendar = lambda s, e: [{"date": d, "open": "09:30", "close": "16:00"}
+                                      for d in ("2025-01-06", "2025-01-07", "2025-01-08")]
+    now = datetime(2025, 1, 8, 10, 0, tzinfo=ZoneInfo("America/New_York"))
+    monkeypatch.setattr(config, "REBALANCE_FREQUENCY", "daily")
+    assert rebalance.is_time_to_rebalance(fake, today, now, force=False) is True
+    monkeypatch.setattr(config, "REBALANCE_FREQUENCY", "weekly")
+    assert rebalance.is_time_to_rebalance(fake, today, now, force=False) is False
