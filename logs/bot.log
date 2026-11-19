@@ -1,0 +1,15 @@
+2026-11-19 20:50:44 UTC | INFO | ============================================================
+2026-11-19 20:50:44 UTC | INFO | BACKTEST starting
+2026-11-19 20:50:44 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-19 20:51:27 UTC | INFO | Loaded prices from yahoo: 504 tickers, 4499 days (2009-01-02 to 2026-11-19)
+2026-11-19 20:51:32 UTC | INFO | Backtest: bot +8426% (CAGR +30.2%, max DD -46%) vs SPY +751% (CAGR +13.5%)
+2026-11-19 20:53:22 UTC | INFO | ============================================================
+2026-11-19 20:53:22 UTC | INFO | BACKTEST starting
+2026-11-19 20:53:22 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-19 20:54:15 UTC | INFO | Loaded prices from yahoo: 504 tickers, 4499 days (2009-01-02 to 2026-11-19)
+2026-11-19 20:54:20 UTC | INFO | Backtest: bot +8399% (CAGR +30.1%, max DD -46%) vs SPY +766% (CAGR +13.6%)
+2026-11-19 21:03:58 UTC | INFO | ============================================================
+2026-11-19 21:03:58 UTC | INFO | BACKTEST starting
+2026-11-19 21:03:59 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-19 21:04:51 UTC | INFO | Loaded prices from yahoo: 503 tickers, 4499 days (2009-01-02 to 2026-11-19)
+2026-11-19 21:05:13 UTC | INFO | Backtest: bot +8584% (CAGR +30.2%, max DD -43%) vs SPY +766% (CAGR +13.6%)

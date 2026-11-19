@@ -1,0 +1,51 @@
+# BACKTEST - downloads ~17 years of prices and simulates the strategy.
+# Runs when you press "Run workflow", or automatically when the strategy
+# code changes. Saves the chart and results into the backtest/ folder.
+name: Backtest
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "backtest/run_backtest.py"
+      - "bot/strategy.py"
+      - "bot/config.py"
+      - ".github/workflows/backtest.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot-repo-writes
+  cancel-in-progress: false
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests first
+        run: |
+          pip install pytest==9.1.1
+          python -m pytest -q
+
+      - name: Run backtest
+        env:
+          # Only used as a backup price source if Yahoo Finance fails.
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python -m backtest.run_backtest
+
+      - name: Commit results back to the repo
+        if: always()
+        run: bash .github/scripts/commit_results.sh "Backtest results"
