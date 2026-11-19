@@ -160,6 +160,10 @@ class FakeAlpaca:
     def get_calendar(self, start, end):
         return [{"date": self.today, "open": "09:30", "close": "16:00"}]
 
+    def get_account(self):
+        return {"account_number": "PA123", "status": "ACTIVE", "trading_blocked": False,
+                "account_blocked": False, "buying_power": "100000"}
+
     def get_clock(self):
         return {"is_open": True}
 
@@ -287,3 +291,42 @@ def test_daily_mode_trades_midweek_and_weekly_mode_does_not(monkeypatch):
     assert rebalance.is_time_to_rebalance(fake, today, now, force=False) is True
     monkeypatch.setattr(config, "REBALANCE_FREQUENCY", "weekly")
     assert rebalance.is_time_to_rebalance(fake, today, now, force=False) is False
+
+
+def _patch_rebalance(monkeypatch, fake, opens, closes, today, hour=10):
+    monkeypatch.setattr(rebalance, "AlpacaPaper", lambda: fake)
+    monkeypatch.setattr(rebalance.data, "get_sp500_tickers",
+                        lambda: [c for c in closes.columns if c != "SPY"])
+    monkeypatch.setattr(rebalance.data, "get_prices", lambda *a, **k: (opens, closes))
+
+    class FakeDatetime(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return datetime.fromisoformat(f"{today}T{hour:02d}:00:00").replace(
+                tzinfo=ZoneInfo("America/New_York"))
+    monkeypatch.setattr(rebalance, "datetime", FakeDatetime)
+
+
+def test_dry_run_places_no_orders_and_saves_nothing(monkeypatch):
+    opens, closes = fake_prices(spy_trend=0.001)
+    today = (closes.index[-1] + pd.offsets.BDay(1)).date().isoformat()
+    fake = FakeAlpaca({c: float(closes[c].iloc[-1]) for c in closes.columns}, today)
+    fake.get_clock = lambda: {"is_open": False}      # works even when the market is closed
+    _patch_rebalance(monkeypatch, fake, opens, closes, today, hour=18)
+
+    assert rebalance.run(dry_run=True) == 0
+    assert fake.orders == {}
+    assert not config.TRADES_CSV.exists()
+    assert not config.STATE_FILE.exists()
+    assert not config.SUMMARY_MD.exists()
+
+
+def test_blocked_account_does_not_trade(monkeypatch):
+    opens, closes = fake_prices(spy_trend=0.001)
+    today = (closes.index[-1] + pd.offsets.BDay(1)).date().isoformat()
+    fake = FakeAlpaca({c: float(closes[c].iloc[-1]) for c in closes.columns}, today)
+    fake.get_account = lambda: {"account_number": "PA123", "status": "ACTIVE", "trading_blocked": True}
+    _patch_rebalance(monkeypatch, fake, opens, closes, today)
+
+    assert rebalance.run() == 0
+    assert fake.orders == {}

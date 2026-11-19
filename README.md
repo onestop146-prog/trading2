@@ -109,6 +109,10 @@ Nothing else to do. Automatically:
 Want to trade right now instead of waiting for tomorrow's 10am run? Actions → **Rebalance** → **Run workflow** →
 tick **force** → Run (only works while the market is open, from ~9:55am to 4:00pm ET).
 
+Want to check everything works without trading? Actions → **Rebalance** → **Run workflow** → tick
+**dry_run** → Run. It downloads the data, checks the crash filter and your account, and lists the orders it
+*would* place, without placing any. It works any time, even when the market is closed.
+
 ---
 
 ## What gets saved to the repo

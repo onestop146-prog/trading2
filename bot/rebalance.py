@@ -16,6 +16,9 @@ Run it yourself with:   python -m bot.rebalance
 Force a run outside the normal time window (still only while the market is
 open, and still only once per day):   python -m bot.rebalance --force
 
+Dry run - do EVERYTHING except place orders (works any time, even when the
+market is closed; nothing is saved):   python -m bot.rebalance --dry-run
+
 ANY problem (missing data, failed order, ...) is logged and that step is
 skipped. The bot never "guesses".
 """
@@ -104,9 +107,12 @@ def is_time_to_rebalance(client: AlpacaPaper, today: str, now_et: datetime, forc
     return True
 
 
-def run(force: bool = False) -> int:
+def run(force: bool = False, dry_run: bool = False) -> int:
     log.info("=" * 60)
-    log.info("REBALANCE (%s) starting (force=%s)", config.REBALANCE_FREQUENCY, force)
+    log.info("REBALANCE (%s) starting (force=%s, dry_run=%s)",
+             config.REBALANCE_FREQUENCY, force, dry_run)
+    if dry_run:
+        log.info("DRY RUN: no orders will be placed and no files will be changed.")
 
     try:
         client = AlpacaPaper()  # <- all the paper-only safety checks happen here
@@ -122,17 +128,38 @@ def run(force: bool = False) -> int:
     now_et = datetime.now(ET)
     today = now_et.date().isoformat()
 
-    state = ledger.load_state()
-    if state.get("last_rebalance_date") == today:
-        log.info("Already rebalanced today (%s). Nothing to do.", today)
+    # Is the paper account allowed to trade?
+    try:
+        account = client.get_account()
+    except Exception as exc:
+        log.error("Could not read the account: %s. Skipping.", exc)
+        return 0
+    log.info("Account status: %s | trading blocked: %s | buying power: $%s",
+             account.get("status"), account.get("trading_blocked"), account.get("buying_power"))
+    if account.get("status") != "ACTIVE" or account.get("trading_blocked") or account.get("account_blocked"):
+        log.error("The paper account can't trade right now (see status above). Skipping.")
         return 0
 
-    try:
-        if not is_time_to_rebalance(client, today, now_et, force):
+    state = ledger.load_state()
+    if dry_run:
+        # Skip the date/time checks, but report the next trading day for information.
+        try:
+            upcoming = client.get_calendar(today, (now_et.date() + timedelta(days=7)).isoformat())
+            future = [d["date"] for d in upcoming
+                      if d["date"] > today or (d["date"] == today and now_et.hour < 10)]
+            log.info("DRY RUN: next scheduled trading day: %s", future[0] if future else "unknown")
+        except Exception as exc:
+            log.warning("Could not read the market calendar: %s", exc)
+    else:
+        if state.get("last_rebalance_date") == today:
+            log.info("Already rebalanced today (%s). Nothing to do.", today)
             return 0
-    except Exception as exc:
-        log.error("Could not check the market calendar/clock: %s. Skipping.", exc)
-        return 0
+        try:
+            if not is_time_to_rebalance(client, today, now_et, force):
+                return 0
+        except Exception as exc:
+            log.error("Could not check the market calendar/clock: %s. Skipping.", exc)
+            return 0
 
     # ---- 1. Data -----------------------------------------------------------
     try:
@@ -190,7 +217,10 @@ def run(force: bool = False) -> int:
         if qty <= 0:
             log.warning("Nothing to sell for %s. Skipping.", ticker)
             continue
-        execute_order(client, ticker, "sell", qty, reason, today)
+        if dry_run:
+            log.info("DRY RUN: would SELL %.4f %s (%s)", qty, ticker, reason)
+        else:
+            execute_order(client, ticker, "sell", qty, reason, today)
 
     # ---- 4. Buys -------------------------------------------------------------
     holdings, cash = ledger.holdings_and_cash(ledger.load_trades())  # refresh after sells
@@ -235,9 +265,18 @@ def run(force: bool = False) -> int:
                 log.warning("Budget $%.2f is too small for one share of %s ($%.2f). Skipping.",
                             budget, ticker, price)
                 continue
-            execute_order(client, ticker, "buy", qty, f"entered top {config.TOP_N}", today)
+            if dry_run:
+                log.info("DRY RUN: would BUY %.4f %s @ ~$%.2f = ~$%.2f (%s)", qty, ticker, price,
+                         qty * price, "fractional ok" if asset.get("fractionable") else "whole shares")
+            else:
+                execute_order(client, ticker, "buy", qty, f"entered top {config.TOP_N}", today)
     elif healthy:
         log.info("No new stocks to buy; the top %d hasn't changed.", config.TOP_N)
+
+    if dry_run:
+        log.info("DRY RUN finished OK: data, ranking, crash filter, prices and account checks "
+                 "all worked. Nothing was traded or saved.")
+        return 0
 
     # ---- 5. Save state and reports -------------------------------------------
     holdings, cash = ledger.holdings_and_cash(ledger.load_trades())
@@ -263,5 +302,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Momentum rebalance (paper trading only)")
     parser.add_argument("--force", action="store_true",
                         help="run outside the normal time window (market must be open)")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="do everything except place orders; nothing is saved")
     args = parser.parse_args()
-    sys.exit(run(force=args.force))
+    sys.exit(run(force=args.force, dry_run=args.dry_run))
