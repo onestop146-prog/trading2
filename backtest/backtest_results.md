@@ -8,7 +8,7 @@
 > the real-life winners later crashed and left the index. **Real results would very likely
 > have been worse than shown here.** Treat this as an optimistic upper bound, not a forecast.
 
-_Generated 2026-11-19 · Period: 2010-01-05 to 2026-11-18 · Data: 503 of 503 current S&P 500 stocks had data (17.9 years of prices, first year used as warm-up)_
+_Generated 2026-11-19 · Period: 2010-01-05 to 2026-11-18 · Data: 502 of 503 current S&P 500 stocks had data (17.9 years of prices, first year used as warm-up)_
 
 ![Backtest chart](backtest_chart.png)
 
@@ -16,49 +16,60 @@ _The chart uses a log scale, so equal vertical distances mean equal % changes._
 
 | | Momentum bot | SPY buy & hold | Today's S&P 500, equal weight* |
 |---|---|---|---|
-| $10,000 became | $849,903 | $86,602 | $167,128 |
-| Total return | +8399% | +766% | +1571% |
-| Yearly return (CAGR) | +30.1% | +13.6% | +18.2% |
-| Max drawdown | -46.3% | -33.7% | -38.3% |
-| Volatility (per year) | 30.5% | 17.1% | 17.9% |
-| Sharpe ratio (no risk-free rate) | 1.02 | 0.84 | 1.03 |
+| $10,000 became | $868,398 | $86,602 | $167,606 |
+| Total return | +8584% | +766% | +1576% |
+| Yearly return (CAGR) | +30.2% | +13.6% | +18.2% |
+| Max drawdown | -42.9% | -33.7% | -38.3% |
+| Volatility (per year) | 30.3% | 17.1% | 17.9% |
+| Sharpe ratio (no risk-free rate) | 1.03 | 0.84 | 1.03 |
 
 \* **Survivorship-bias yardstick:** simply owning *all* of today's S&P 500 members in equal
-amounts, with no strategy. Its lead over SPY (+4.5% per year) is roughly how much the survivor list alone flatters
+amounts, with no strategy. Its lead over SPY (+4.6% per year) is roughly how much the survivor list alone flatters
 results. The bot's lead over **this** column (+12.0% per year) is a fairer (still optimistic) guess at what momentum adds.
 
-- **Return vs SPY:** +7633% total, +16.5% per year
-- **Win rate:** 53% of 1323 closed trades sold above their purchase price
-- **Right now** the bot is 46% below its all-time high in this backtest (0% = at a new high)
+- **Return vs SPY:** +7818% total, +16.6% per year
+- **Win rate:** 51% of 2891 closed trades sold above their purchase price
+- **Right now** the bot is 43% below its all-time high in this backtest (0% = at a new high)
 - **Time spent in cash** (crash filter): 16% of trading days
-- **Trades:** 2656 total; assumed 0.1% slippage per trade, no commissions
+- **Trades:** 5792 total; assumed 0.1% slippage per trade, no commissions
+
+## Daily vs weekly rebalancing
+
+The bot is set to **daily** (change `REBALANCE_FREQUENCY` in `bot/config.py`). Same rules, same data, only how often it checks:
+
+| Rebalance | $10,000 became | Yearly return | Max drawdown | Trades |
+|---|---|---|---|---|
+| daily | $868,398 | +30.2% | -42.9% | 5,792 |
+| weekly | $849,903 | +30.1% | -46.3% | 2,656 |
+
+_Daily checks react faster to the crash filter and to new leaders, but trade more, and each trade costs an assumed 0.1%._
 
 ## Year by year
 
 | Year | Bot | SPY | Difference |
 |---|---|---|---|
-| 2010 | +12.4% | +13.2% | -0.8% |
-| 2011 | -1.7% | +1.9% | -3.6% |
-| 2012 | +47.8% | +16.0% | +31.8% |
-| 2013 | +60.7% | +32.3% | +28.4% |
-| 2014 | +16.4% | +13.5% | +2.9% |
-| 2015 | -0.9% | +1.2% | -2.1% |
-| 2016 | +39.5% | +12.0% | +27.5% |
-| 2017 | +40.5% | +21.7% | +18.8% |
-| 2018 | +7.9% | -4.6% | +12.4% |
-| 2019 | +16.9% | +31.2% | -14.3% |
-| 2020 | +80.7% | +18.3% | +62.4% |
-| 2021 | +10.7% | +28.7% | -18.1% |
-| 2022 | -6.3% | -18.2% | +11.9% |
-| 2023 | +30.1% | +26.2% | +4.0% |
-| 2024 | +137.1% | +24.9% | +112.2% |
-| 2025 | +57.6% | +17.7% | +39.9% |
-| 2026 | +24.6% | +7.9% | +16.7% |
+| 2010 | -7.3% | +13.2% | -20.5% |
+| 2011 | +9.4% | +1.9% | +7.5% |
+| 2012 | +33.4% | +16.0% | +17.4% |
+| 2013 | +63.0% | +32.3% | +30.7% |
+| 2014 | +10.4% | +13.5% | -3.1% |
+| 2015 | +8.6% | +1.2% | +7.4% |
+| 2016 | +35.6% | +12.0% | +23.6% |
+| 2017 | +41.2% | +21.7% | +19.5% |
+| 2018 | +19.0% | -4.6% | +23.6% |
+| 2019 | +28.4% | +31.2% | -2.9% |
+| 2020 | +63.5% | +18.3% | +45.2% |
+| 2021 | +10.9% | +28.7% | -17.8% |
+| 2022 | -6.2% | -18.2% | +12.0% |
+| 2023 | +38.9% | +26.2% | +12.8% |
+| 2024 | +122.5% | +24.9% | +97.7% |
+| 2025 | +54.9% | +17.7% | +37.1% |
+| 2026 | +37.9% | +7.9% | +30.0% |
 
 ## How the backtest works
 
 - Universe: today's S&P 500 members (see warning above).
-- Every week on the first trading day: rank stocks by the return from ~12 months ago to ~1 month ago, using prices up to the previous close.
+- Rebalance daily: rank stocks by the return from ~12 months ago to ~1 month ago, using prices up to the previous close.
 - Hold the top 10, equal weight. Only stocks that drop out of the top 10 are sold; new entries are bought at the opening price.
 - Crash filter: if SPY closed below its 200-day average, sell everything and wait in cash.
 - Prices are adjusted for splits and dividends (dividends are effectively reinvested).
