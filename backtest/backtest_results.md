@@ -40,7 +40,7 @@ The bot is set to **daily** (change `REBALANCE_FREQUENCY` in `bot/config.py`). S
 | Rebalance | $10,000 became | Yearly return | Max drawdown | Trades |
 |---|---|---|---|---|
 | daily | $868,397 | +30.2% | -42.9% | 5,792 |
-| weekly | $849,903 | +30.1% | -46.3% | 2,656 |
+| weekly | $849,904 | +30.1% | -46.3% | 2,656 |
 
 _Daily checks react faster to the crash filter and to new leaders, but trade more, and each trade costs an assumed 0.1%._
 
