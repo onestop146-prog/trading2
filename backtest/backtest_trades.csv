@@ -1,0 +1,2657 @@
+date,ticker,side,shares,price,reason
+2010-01-11,SW,buy,166.9952,5.93,entered top 10
+2010-01-11,LULU,buy,61.0501,16.22,entered top 10
+2010-01-11,F,buy,169.2142,5.85,entered top 10
+2010-01-11,AMD,buy,105.4383,9.39,entered top 10
+2010-01-11,STX,buy,104.9144,9.44,entered top 10
+2010-01-11,WDC,buy,35.6755,27.75,entered top 10
+2010-01-11,BKNG,buy,116.2143,8.52,entered top 10
+2010-01-11,EXPE,buy,31.2974,31.63,entered top 10
+2010-01-11,FCX,buy,30.8644,32.08,entered top 10
+2010-01-11,ISRG,buy,28.8099,34.36,entered top 10
+2010-01-19,EXPE,sell,31.2974,29.42,dropped out of top 10
+2010-01-19,ISRG,sell,28.8099,34.08,dropped out of top 10
+2010-01-19,CBRE,buy,71.3614,13.35,entered top 10
+2010-01-19,ULTA,buy,47.725,19.97,entered top 10
+2010-01-25,BKNG,sell,116.2143,8.02,dropped out of top 10
+2010-01-25,ULTA,sell,47.725,19.91,dropped out of top 10
+2010-01-25,FITB,buy,123.4129,7.43,entered top 10
+2010-01-25,SWKS,buy,84.3156,10.88,entered top 10
+2010-02-01,WDC,sell,35.6755,23.09,dropped out of top 10
+2010-02-01,FCX,sell,30.8644,24.28,dropped out of top 10
+2010-02-01,SWKS,sell,84.3156,9.91,dropped out of top 10
+2010-02-01,BKNG,buy,109.5715,7.69,entered top 10
+2010-02-01,RCL,buy,38.8346,21.69,entered top 10
+2010-02-01,INCY,buy,78.1944,10.77,entered top 10
+2010-02-08,BKNG,sell,109.5715,7.79,dropped out of top 10
+2010-02-08,INCY,sell,78.1944,10.2,dropped out of top 10
+2010-02-08,LVS,buy,84.4573,9.82,entered top 10
+2010-02-08,IP,buy,75.6847,10.96,entered top 10
+2010-02-16,CBRE,sell,71.3614,12.91,dropped out of top 10
+2010-02-16,COF,buy,31.709,28.01,entered top 10
+2010-02-22,SW,sell,166.9952,5.69,dropped out of top 10
+2010-02-22,STX,sell,104.9144,10.59,dropped out of top 10
+2010-02-22,HBAN,buy,324.4318,2.82,entered top 10
+2010-02-22,BAC,buy,74.8929,12.2,entered top 10
+2010-03-01,AMD,sell,105.4383,7.93,dropped out of top 10
+2010-03-01,RCL,sell,38.8346,22.97,dropped out of top 10
+2010-03-01,COF,sell,31.709,29.3,dropped out of top 10
+2010-03-01,HBAN,sell,324.4318,2.78,dropped out of top 10
+2010-03-01,BAC,sell,74.8929,12.77,dropped out of top 10
+2010-03-01,SW,buy,162.0748,5.7,entered top 10
+2010-03-01,STX,buy,88.9442,10.39,entered top 10
+2010-03-01,CBRE,buy,69.6042,13.27,entered top 10
+2010-03-01,INCY,buy,86.1767,10.72,entered top 10
+2010-03-01,DD,buy,27.795,33.24,entered top 10
+2010-03-08,INCY,sell,86.1767,11.59,dropped out of top 10
+2010-03-08,DD,sell,27.795,34.95,dropped out of top 10
+2010-03-08,MGM,buy,91.6389,10.66,entered top 10
+2010-03-08,HIG,buy,49.9321,19.57,entered top 10
+2010-03-15,IP,sell,75.6847,12.22,dropped out of top 10
+2010-03-15,CBRE,sell,69.6042,13.98,dropped out of top 10
+2010-03-15,MGM,sell,91.6389,11.0,dropped out of top 10
+2010-03-15,HIG,sell,49.9321,19.12,dropped out of top 10
+2010-03-15,INCY,buy,76.3548,13.02,entered top 10
+2010-03-15,JBL,buy,67.8748,14.65,entered top 10
+2010-03-15,PODD,buy,63.2321,15.73,entered top 10
+2010-03-15,LYV,buy,71.4145,13.92,entered top 10
+2010-03-22,JBL,sell,67.8748,14.44,dropped out of top 10
+2010-03-22,CBRE,buy,66.2261,14.58,entered top 10
+2010-03-29,STX,sell,88.9442,9.86,dropped out of top 10
+2010-03-29,CBRE,sell,66.2261,15.65,dropped out of top 10
+2010-03-29,ISRG,buy,26.1149,38.05,entered top 10
+2010-03-29,MGM,buy,83.4105,11.91,entered top 10
+2010-04-05,LULU,sell,61.0501,21.0,dropped out of top 10
+2010-04-05,PODD,sell,63.2321,15.02,dropped out of top 10
+2010-04-05,UAL,buy,52.5859,19.65,entered top 10
+2010-04-05,SKYD,buy,97.7159,10.57,entered top 10
+2010-04-12,F,sell,169.2142,6.24,dropped out of top 10
+2010-04-12,MGM,sell,83.4105,13.96,dropped out of top 10
+2010-04-12,SKYD,sell,97.7159,11.31,dropped out of top 10
+2010-04-12,PODD,buy,72.3327,15.14,entered top 10
+2010-04-12,IP,buy,81.6226,13.41,entered top 10
+2010-04-12,LULU,buy,49.9964,21.9,entered top 10
+2010-04-19,UAL,sell,52.5859,22.39,dropped out of top 10
+2010-04-19,PODD,sell,72.3327,15.09,dropped out of top 10
+2010-04-19,LULU,sell,49.9964,22.21,dropped out of top 10
+2010-04-19,F,buy,167.623,6.58,entered top 10
+2010-04-19,SMCI,buy,620.2461,1.78,entered top 10
+2010-04-19,STX,buy,112.3021,9.82,entered top 10
+2010-04-26,ISRG,sell,26.1149,40.5,dropped out of top 10
+2010-04-26,IP,sell,81.6226,13.89,dropped out of top 10
+2010-04-26,STX,sell,112.3021,10.73,dropped out of top 10
+2010-04-26,PODD,buy,78.1491,14.91,entered top 10
+2010-04-26,UAL,buy,51.3413,22.7,entered top 10
+2010-04-26,HIG,buy,54.2653,21.48,entered top 10
+2010-05-03,F,sell,167.623,6.47,dropped out of top 10
+2010-05-03,HIG,sell,54.2653,20.81,dropped out of top 10
+2010-05-03,LULU,buy,57.5918,19.08,entered top 10
+2010-05-03,BKNG,buy,106.228,10.35,entered top 10
+2010-05-10,LVS,sell,84.4573,14.52,dropped out of top 10
+2010-05-10,ULTA,buy,46.3676,22.43,entered top 10
+2010-05-17,FITB,sell,123.4129,8.58,dropped out of top 10
+2010-05-17,SW,sell,162.0748,5.98,dropped out of top 10
+2010-05-17,PODD,sell,78.1491,15.2,dropped out of top 10
+2010-05-17,BKNG,sell,106.228,8.06,dropped out of top 10
+2010-05-17,DXCM,buy,383.0402,2.74,entered top 10
+2010-05-17,STX,buy,112.1944,9.36,entered top 10
+2010-05-17,DECK,buy,137.5731,7.64,entered top 10
+2010-05-17,F,buy,176.893,5.94,entered top 10
+2010-05-24,INCY,sell,76.3548,12.39,crash filter: SPY below 200-day average
+2010-05-24,LYV,sell,71.4145,12.57,crash filter: SPY below 200-day average
+2010-05-24,SMCI,sell,620.2461,1.28,crash filter: SPY below 200-day average
+2010-05-24,UAL,sell,51.3413,18.28,crash filter: SPY below 200-day average
+2010-05-24,LULU,sell,57.5918,19.17,crash filter: SPY below 200-day average
+2010-05-24,ULTA,sell,46.3676,23.05,crash filter: SPY below 200-day average
+2010-05-24,DXCM,sell,383.0402,2.57,crash filter: SPY below 200-day average
+2010-05-24,STX,sell,112.1944,8.34,crash filter: SPY below 200-day average
+2010-05-24,DECK,sell,137.5731,7.38,crash filter: SPY below 200-day average
+2010-05-24,F,sell,176.893,5.54,crash filter: SPY below 200-day average
+2010-06-21,UAL,buy,40.4885,24.29,entered top 10
+2010-06-21,INCY,buy,72.8973,13.49,entered top 10
+2010-06-21,LULU,buy,42.9107,22.92,entered top 10
+2010-06-21,LVS,buy,57.5852,17.08,entered top 10
+2010-06-21,ULTA,buy,37.5104,26.22,entered top 10
+2010-06-21,WSM,buy,104.4085,9.42,entered top 10
+2010-06-21,LEN,buy,79.5807,12.36,entered top 10
+2010-06-21,NFLX,buy,545.7464,1.8,entered top 10
+2010-06-21,WYNN,buy,17.841,55.13,entered top 10
+2010-06-21,LYV,buy,80.2167,12.26,entered top 10
+2010-06-28,UAL,sell,40.4885,21.01,crash filter: SPY below 200-day average
+2010-06-28,INCY,sell,72.8973,12.27,crash filter: SPY below 200-day average
+2010-06-28,LULU,sell,42.9107,20.44,crash filter: SPY below 200-day average
+2010-06-28,LVS,sell,57.5852,16.43,crash filter: SPY below 200-day average
+2010-06-28,ULTA,sell,37.5104,24.63,crash filter: SPY below 200-day average
+2010-06-28,WSM,sell,104.4085,8.92,crash filter: SPY below 200-day average
+2010-06-28,LEN,sell,79.5807,12.07,crash filter: SPY below 200-day average
+2010-06-28,NFLX,sell,545.7464,1.69,crash filter: SPY below 200-day average
+2010-06-28,WYNN,sell,17.841,56.37,crash filter: SPY below 200-day average
+2010-06-28,LYV,sell,80.2167,11.38,crash filter: SPY below 200-day average
+2010-08-09,UAL,buy,41.14,22.44,entered top 10
+2010-08-09,NFLX,buy,547.1622,1.69,entered top 10
+2010-08-09,AKAM,buy,23.059,40.04,entered top 10
+2010-08-09,PODD,buy,61.205,15.09,entered top 10
+2010-08-09,DECK,buy,110.6388,8.35,entered top 10
+2010-08-09,INCY,buy,65.9299,14.0,entered top 10
+2010-08-09,ULTA,buy,37.457,24.65,entered top 10
+2010-08-09,LULU,buy,46.0029,20.07,entered top 10
+2010-08-09,FFIV,buy,10.3172,89.49,entered top 10
+2010-08-09,LVS,buy,51.0964,18.07,entered top 10
+2010-08-16,UAL,sell,41.14,21.29,crash filter: SPY below 200-day average
+2010-08-16,NFLX,sell,547.1622,1.88,crash filter: SPY below 200-day average
+2010-08-16,AKAM,sell,23.059,43.59,crash filter: SPY below 200-day average
+2010-08-16,PODD,sell,61.205,14.77,crash filter: SPY below 200-day average
+2010-08-16,DECK,sell,110.6388,7.49,crash filter: SPY below 200-day average
+2010-08-16,INCY,sell,65.9299,12.85,crash filter: SPY below 200-day average
+2010-08-16,ULTA,sell,37.457,21.87,crash filter: SPY below 200-day average
+2010-08-16,LULU,sell,46.0029,18.76,crash filter: SPY below 200-day average
+2010-08-16,FFIV,sell,10.3172,82.88,crash filter: SPY below 200-day average
+2010-08-16,LVS,sell,51.0964,17.56,crash filter: SPY below 200-day average
+2010-09-13,NFLX,buy,417.781,2.14,entered top 10
+2010-09-13,UAL,buy,42.003,21.25,entered top 10
+2010-09-13,AKAM,buy,17.7493,50.29,entered top 10
+2010-09-13,FFIV,buy,9.2589,96.41,entered top 10
+2010-09-13,DECK,buy,117.0753,7.62,entered top 10
+2010-09-13,INCY,buy,62.0114,14.39,entered top 10
+2010-09-13,BKNG,buy,70.005,12.75,entered top 10
+2010-09-13,EL,buy,36.8834,24.2,entered top 10
+2010-09-13,EW,buy,89.8311,9.94,entered top 10
+2010-09-13,LULU,buy,43.5412,20.5,entered top 10
+2010-09-20,EL,sell,36.8834,24.0,dropped out of top 10
+2010-09-20,LULU,sell,43.5412,22.1,dropped out of top 10
+2010-09-20,F,buy,147.1975,6.17,entered top 10
+2010-09-20,CMI,buy,15.4544,58.77,entered top 10
+2010-09-27,F,sell,147.1975,6.17,dropped out of top 10
+2010-09-27,CRM,buy,32.4754,29.3,entered top 10
+2010-10-04,DECK,sell,117.0753,8.32,dropped out of top 10
+2010-10-04,EW,sell,89.8311,11.13,dropped out of top 10
+2010-10-04,LVS,buy,43.3476,21.92,entered top 10
+2010-10-04,CMG,buy,273.1521,3.48,entered top 10
+2010-10-11,LVS,sell,43.3476,23.29,dropped out of top 10
+2010-10-11,DXCM,buy,279.7867,3.41,entered top 10
+2010-10-18,DXCM,sell,279.7867,3.54,dropped out of top 10
+2010-10-18,LVS,buy,40.6591,23.98,entered top 10
+2010-10-25,CMI,sell,15.4544,64.74,dropped out of top 10
+2010-10-25,SWKS,buy,60.0686,16.87,entered top 10
+2010-11-01,CRM,sell,32.4754,28.51,dropped out of top 10
+2010-11-01,CMI,buy,17.9233,60.16,entered top 10
+2010-11-08,SWKS,sell,60.0686,18.47,dropped out of top 10
+2010-11-08,DPZ,buy,92.8844,11.93,entered top 10
+2010-11-15,BKNG,sell,70.005,16.2,dropped out of top 10
+2010-11-15,DPZ,sell,92.8844,11.5,dropped out of top 10
+2010-11-15,DXCM,buy,376.5533,2.93,entered top 10
+2010-11-15,URI,buy,57.7217,19.13,entered top 10
+2010-11-22,DXCM,sell,376.5533,2.96,dropped out of top 10
+2010-11-22,DPZ,buy,97.9884,11.3,entered top 10
+2010-11-29,DPZ,sell,97.9884,11.52,dropped out of top 10
+2010-11-29,DXCM,buy,390.4487,2.95,entered top 10
+2010-12-06,DXCM,sell,390.4487,2.93,dropped out of top 10
+2010-12-06,DPZ,buy,99.1234,11.61,entered top 10
+2010-12-13,DPZ,sell,99.1234,12.07,dropped out of top 10
+2010-12-13,ILMN,buy,18.7552,62.08,entered top 10
+2010-12-20,AKAM,sell,17.7493,50.44,dropped out of top 10
+2010-12-20,DECK,buy,65.2965,14.52,entered top 10
+2010-12-27,INCY,sell,62.0114,16.83,dropped out of top 10
+2010-12-27,CRM,buy,31.403,33.21,entered top 10
+2011-01-03,CRM,sell,31.403,32.63,dropped out of top 10
+2011-01-03,AKAM,buy,21.5023,47.66,entered top 10
+2011-01-10,UAL,sell,42.003,26.05,dropped out of top 10
+2011-01-10,ILMN,sell,18.7552,63.9,dropped out of top 10
+2011-01-10,CRM,buy,32.923,34.63,entered top 10
+2011-01-10,BKNG,buy,66.5774,17.12,entered top 10
+2011-01-18,AKAM,sell,21.5023,51.51,dropped out of top 10
+2011-01-18,BKNG,sell,66.5774,17.07,dropped out of top 10
+2011-01-18,LULU,buy,31.1765,35.99,entered top 10
+2011-01-18,TMUS,buy,54.3925,20.63,entered top 10
+2011-01-31,CRM,sell,32.923,32.31,dropped out of top 10
+2011-01-31,TMUS,sell,54.3925,20.79,dropped out of top 10
+2011-01-31,AIG,buy,36.4907,30.08,entered top 10
+2011-01-31,SWKS,buy,44.5792,24.62,entered top 10
+2011-02-07,CMI,sell,17.9233,75.51,dropped out of top 10
+2011-02-07,SWKS,sell,44.5792,27.93,dropped out of top 10
+2011-02-07,TMUS,buy,60.3895,20.53,entered top 10
+2011-02-07,FTNT,buy,303.0407,4.09,entered top 10
+2011-02-14,CMG,sell,273.1521,5.38,dropped out of top 10
+2011-02-14,SWKS,buy,44.5671,28.95,entered top 10
+2011-02-22,FFIV,sell,9.2589,118.47,dropped out of top 10
+2011-02-22,AIG,sell,36.4907,30.35,dropped out of top 10
+2011-02-22,SWKS,sell,44.5671,27.61,dropped out of top 10
+2011-02-22,CMG,buy,241.5457,5.13,entered top 10
+2011-02-22,ULTA,buy,28.945,42.81,entered top 10
+2011-02-22,WYNN,buy,14.3326,86.46,entered top 10
+2011-02-28,DECK,sell,65.2965,14.71,dropped out of top 10
+2011-02-28,ULTA,sell,28.945,42.56,dropped out of top 10
+2011-02-28,SWKS,buy,38.4247,28.73,entered top 10
+2011-02-28,AIG,buy,38.5468,28.64,entered top 10
+2011-03-07,AIG,sell,38.5468,27.84,dropped out of top 10
+2011-03-07,CRM,buy,34.2439,31.67,entered top 10
+2011-03-14,WYNN,sell,14.3326,83.85,dropped out of top 10
+2011-03-14,CRM,sell,34.2439,30.79,dropped out of top 10
+2011-03-14,FFIV,buy,10.1831,110.2,entered top 10
+2011-03-14,DECK,buy,81.2068,13.82,entered top 10
+2011-03-21,TMUS,sell,60.3895,24.95,dropped out of top 10
+2011-03-21,DECK,sell,81.2068,13.06,dropped out of top 10
+2011-03-21,ULTA,buy,25.8611,46.44,entered top 10
+2011-03-21,WYNN,buy,14.8544,80.85,entered top 10
+2011-03-28,ULTA,sell,25.8611,47.87,dropped out of top 10
+2011-03-28,WYNN,sell,14.8544,87.41,dropped out of top 10
+2011-03-28,DECK,buy,90.4758,13.97,entered top 10
+2011-03-28,TMUS,buy,50.279,25.14,entered top 10
+2011-04-04,LULU,sell,31.1765,44.99,dropped out of top 10
+2011-04-04,FFIV,sell,10.1831,94.15,dropped out of top 10
+2011-04-04,ULTA,buy,26.2966,48.14,entered top 10
+2011-04-04,CIEN,buy,49.6722,25.49,entered top 10
+2011-04-11,LVS,sell,40.6591,27.64,dropped out of top 10
+2011-04-11,CIEN,sell,49.6722,26.06,dropped out of top 10
+2011-04-11,ECHO,buy,40.8933,29.58,entered top 10
+2011-04-11,BKNG,buy,60.9039,19.86,entered top 10
+2011-04-18,DECK,sell,90.4758,15.38,dropped out of top 10
+2011-04-18,LULU,buy,27.7883,46.02,entered top 10
+2011-05-09,SWKS,sell,38.4247,23.09,dropped out of top 10
+2011-05-09,ECHO,sell,40.8933,27.0,dropped out of top 10
+2011-05-09,LYB,buy,64.7151,16.28,entered top 10
+2011-05-09,LVS,buy,38.9421,27.05,entered top 10
+2011-05-16,TMUS,sell,50.279,27.95,dropped out of top 10
+2011-05-16,LVS,sell,38.9421,26.55,dropped out of top 10
+2011-05-16,DECK,buy,80.439,15.14,entered top 10
+2011-05-16,COO,buy,64.9933,18.74,entered top 10
+2011-05-23,CMG,sell,241.5457,5.54,dropped out of top 10
+2011-05-23,LVS,buy,49.8665,25.49,entered top 10
+2011-05-31,DECK,sell,80.439,15.49,dropped out of top 10
+2011-05-31,COO,sell,64.9933,18.63,dropped out of top 10
+2011-05-31,LVS,sell,49.8665,26.17,dropped out of top 10
+2011-05-31,REGN,buy,21.7157,58.58,entered top 10
+2011-05-31,BIIB,buy,13.5244,94.05,entered top 10
+2011-05-31,BKR,buy,33.7251,37.72,entered top 10
+2011-06-06,REGN,sell,21.7157,57.29,dropped out of top 10
+2011-06-06,BIIB,sell,13.5244,93.68,dropped out of top 10
+2011-06-06,BKR,sell,33.7251,37.26,dropped out of top 10
+2011-06-06,CF,buy,60.2237,20.86,entered top 10
+2011-06-06,TMUS,buy,46.4391,27.05,entered top 10
+2011-06-06,HAL,buy,32.6012,38.53,entered top 10
+2011-06-13,NFLX,sell,417.781,3.71,dropped out of top 10
+2011-06-13,HAL,sell,32.6012,36.89,dropped out of top 10
+2011-06-13,BIIB,buy,13.8582,91.32,entered top 10
+2011-06-13,COO,buy,69.3584,18.25,entered top 10
+2011-06-20,COO,sell,69.3584,18.12,dropped out of top 10
+2011-06-20,REGN,buy,23.427,53.57,entered top 10
+2011-06-27,BIIB,sell,13.8582,102.76,dropped out of top 10
+2011-06-27,NFLX,buy,362.9981,3.65,entered top 10
+2011-07-11,TMUS,sell,46.4391,27.01,dropped out of top 10
+2011-07-11,CMG,buy,223.9474,6.44,entered top 10
+2011-07-18,CF,sell,60.2237,21.34,dropped out of top 10
+2011-07-18,DPZ,buy,70.3049,19.87,entered top 10
+2011-07-25,URI,sell,57.7217,24.97,dropped out of top 10
+2011-07-25,DPZ,sell,70.3049,19.94,dropped out of top 10
+2011-07-25,COO,buy,70.3538,19.88,entered top 10
+2011-07-25,TSCO,buy,255.2599,5.48,entered top 10
+2011-08-01,TSCO,sell,255.2599,5.38,dropped out of top 10
+2011-08-01,DPZ,buy,64.9224,21.31,entered top 10
+2011-08-08,FTNT,sell,303.0407,3.7,crash filter: SPY below 200-day average
+2011-08-08,ULTA,sell,26.2966,51.93,crash filter: SPY below 200-day average
+2011-08-08,BKNG,sell,60.9039,19.92,crash filter: SPY below 200-day average
+2011-08-08,LULU,sell,27.7883,49.95,crash filter: SPY below 200-day average
+2011-08-08,LYB,sell,64.7151,12.45,crash filter: SPY below 200-day average
+2011-08-08,REGN,sell,23.427,44.88,crash filter: SPY below 200-day average
+2011-08-08,NFLX,sell,362.9981,3.28,crash filter: SPY below 200-day average
+2011-08-08,CMG,sell,223.9474,6.06,crash filter: SPY below 200-day average
+2011-08-08,COO,sell,70.3538,16.91,crash filter: SPY below 200-day average
+2011-08-08,DPZ,sell,64.9224,19.19,crash filter: SPY below 200-day average
+2011-10-31,LULU,buy,20.6059,57.77,entered top 10
+2011-10-31,REGN,buy,22.0053,54.09,entered top 10
+2011-10-31,ULTA,buy,18.0146,66.08,entered top 10
+2011-10-31,DPZ,buy,47.6482,24.98,entered top 10
+2011-10-31,MNST,buy,330.4777,3.6,entered top 10
+2011-10-31,TSCO,buy,207.2862,5.74,entered top 10
+2011-10-31,DECK,buy,61.4187,19.38,entered top 10
+2011-10-31,COO,buy,68.3496,17.42,entered top 10
+2011-10-31,IRM,buy,103.4996,11.5,entered top 10
+2011-10-31,EQT,buy,37.6869,31.59,entered top 10
+2011-11-07,LULU,sell,20.6059,55.93,crash filter: SPY below 200-day average
+2011-11-07,REGN,sell,22.0053,55.63,crash filter: SPY below 200-day average
+2011-11-07,ULTA,sell,18.0146,74.06,crash filter: SPY below 200-day average
+2011-11-07,DPZ,sell,47.6482,25.1,crash filter: SPY below 200-day average
+2011-11-07,MNST,sell,330.4777,3.99,crash filter: SPY below 200-day average
+2011-11-07,TSCO,sell,207.2862,5.93,crash filter: SPY below 200-day average
+2011-11-07,DECK,sell,61.4187,19.21,crash filter: SPY below 200-day average
+2011-11-07,COO,sell,68.3496,16.42,crash filter: SPY below 200-day average
+2011-11-07,IRM,sell,103.4996,11.24,crash filter: SPY below 200-day average
+2011-11-07,EQT,sell,37.6869,30.7,crash filter: SPY below 200-day average
+2011-11-14,REGN,buy,22.8746,52.79,entered top 10
+2011-11-14,LULU,buy,22.3791,53.95,entered top 10
+2011-11-14,ULTA,buy,16.7614,72.04,entered top 10
+2011-11-14,DPZ,buy,47.5401,25.4,entered top 10
+2011-11-14,MNST,buy,309.2906,3.9,entered top 10
+2011-11-14,DECK,buy,67.0813,18.0,entered top 10
+2011-11-14,TSCO,buy,198.6813,6.08,entered top 10
+2011-11-14,BIIB,buy,10.7154,112.68,entered top 10
+2011-11-14,COO,buy,72.6908,16.61,entered top 10
+2011-11-14,EQT,buy,39.0527,30.92,entered top 10
+2011-11-21,REGN,sell,22.8746,52.08,crash filter: SPY below 200-day average
+2011-11-21,LULU,sell,22.3791,47.58,crash filter: SPY below 200-day average
+2011-11-21,ULTA,sell,16.7614,65.39,crash filter: SPY below 200-day average
+2011-11-21,DPZ,sell,47.5401,25.03,crash filter: SPY below 200-day average
+2011-11-21,MNST,sell,309.2906,3.73,crash filter: SPY below 200-day average
+2011-11-21,DECK,sell,67.0813,16.44,crash filter: SPY below 200-day average
+2011-11-21,TSCO,sell,198.6813,5.79,crash filter: SPY below 200-day average
+2011-11-21,BIIB,sell,10.7154,107.07,crash filter: SPY below 200-day average
+2011-11-21,COO,sell,72.6908,14.19,crash filter: SPY below 200-day average
+2011-11-21,EQT,sell,39.0527,27.99,crash filter: SPY below 200-day average
+2011-12-12,DPZ,buy,41.5557,27.02,entered top 10
+2011-12-12,ULTA,buy,15.47,72.59,entered top 10
+2011-12-12,MNST,buy,279.1275,4.02,entered top 10
+2011-12-12,REGN,buy,21.4397,52.38,entered top 10
+2011-12-12,BIIB,buy,10.0417,111.83,entered top 10
+2011-12-12,ISRG,buy,23.0335,48.75,entered top 10
+2011-12-12,LULU,buy,23.7682,47.25,entered top 10
+2011-12-12,GNRC,buy,61.3754,18.3,entered top 10
+2011-12-12,HUM,buy,14.8301,75.72,entered top 10
+2011-12-12,TSCO,buy,184.0187,6.1,entered top 10
+2011-12-19,DPZ,sell,41.5557,26.36,crash filter: SPY below 200-day average
+2011-12-19,ULTA,sell,15.47,66.81,crash filter: SPY below 200-day average
+2011-12-19,MNST,sell,279.1275,4.01,crash filter: SPY below 200-day average
+2011-12-19,REGN,sell,21.4397,52.54,crash filter: SPY below 200-day average
+2011-12-19,BIIB,sell,10.0417,110.77,crash filter: SPY below 200-day average
+2011-12-19,ISRG,sell,23.0335,48.28,crash filter: SPY below 200-day average
+2011-12-19,LULU,sell,23.7682,45.35,crash filter: SPY below 200-day average
+2011-12-19,GNRC,sell,61.3754,18.8,crash filter: SPY below 200-day average
+2011-12-19,HUM,sell,14.8301,74.02,crash filter: SPY below 200-day average
+2011-12-19,TSCO,sell,184.0187,5.95,crash filter: SPY below 200-day average
+2011-12-27,ULTA,buy,17.0462,64.67,entered top 10
+2011-12-27,DPZ,buy,41.4446,26.6,entered top 10
+2011-12-27,BIIB,buy,9.9747,110.52,entered top 10
+2011-12-27,REGN,buy,20.0849,54.89,entered top 10
+2011-12-27,MNST,buy,278.5179,3.96,entered top 10
+2011-12-27,ISRG,buy,21.6178,51.0,entered top 10
+2011-12-27,MA,buy,31.6693,34.81,entered top 10
+2011-12-27,HUM,buy,14.0375,78.53,entered top 10
+2011-12-27,TSCO,buy,190.4966,5.79,entered top 10
+2011-12-27,OKE,buy,66.5094,16.58,entered top 10
+2012-01-03,TSCO,sell,190.4966,5.76,dropped out of top 10
+2012-01-03,OKE,sell,66.5094,16.89,dropped out of top 10
+2012-01-03,FICO,buy,30.1879,36.79,entered top 10
+2012-01-03,GNRC,buy,58.8778,18.86,entered top 10
+2012-01-09,HUM,sell,14.0375,81.47,dropped out of top 10
+2012-01-09,GNRC,sell,58.8778,18.34,dropped out of top 10
+2012-01-09,DLTR,buy,27.069,41.54,entered top 10
+2012-01-09,TSCO,buy,197.6296,5.69,entered top 10
+2012-01-17,ISRG,sell,21.6178,51.54,dropped out of top 10
+2012-01-17,GNRC,buy,60.2863,19.68,entered top 10
+2012-01-30,FICO,sell,30.1879,35.38,dropped out of top 10
+2012-01-30,TSCO,sell,197.6296,6.54,dropped out of top 10
+2012-01-30,HUM,buy,15.3223,76.71,entered top 10
+2012-01-30,CMG,buy,160.8864,7.31,entered top 10
+2012-02-06,MA,sell,31.6693,36.06,dropped out of top 10
+2012-02-06,HUM,sell,15.3223,76.54,dropped out of top 10
+2012-02-06,CMG,sell,160.8864,7.39,dropped out of top 10
+2012-02-06,OKE,buy,74.007,15.73,entered top 10
+2012-02-06,DG,buy,32.4274,35.9,entered top 10
+2012-02-06,FAST,buy,140.6608,8.28,entered top 10
+2012-02-13,DG,sell,32.4274,36.64,dropped out of top 10
+2012-02-13,FAST,sell,140.6608,8.38,dropped out of top 10
+2012-02-13,HUM,buy,15.7458,75.52,entered top 10
+2012-02-13,TYL,buy,32.0984,37.05,entered top 10
+2012-02-21,OKE,sell,74.007,15.93,dropped out of top 10
+2012-02-21,ORLY,buy,211.2829,5.64,entered top 10
+2012-02-27,HUM,sell,15.7458,78.19,dropped out of top 10
+2012-02-27,TYL,sell,32.0984,37.18,dropped out of top 10
+2012-02-27,ORLY,sell,211.2829,5.67,dropped out of top 10
+2012-02-27,LULU,buy,18.2041,65.91,entered top 10
+2012-02-27,STX,buy,81.4812,14.72,entered top 10
+2012-02-27,TSCO,buy,174.4342,6.88,entered top 10
+2012-03-05,TSCO,sell,174.4342,7.06,dropped out of top 10
+2012-03-05,TYL,buy,33.7303,37.21,entered top 10
+2012-03-19,DLTR,sell,27.069,46.68,dropped out of top 10
+2012-03-19,GNRC,sell,60.2863,16.71,dropped out of top 10
+2012-03-19,FAST,buy,126.5706,8.93,entered top 10
+2012-03-19,CNC,buy,99.837,11.32,entered top 10
+2012-03-26,CNC,sell,99.837,11.27,dropped out of top 10
+2012-03-26,V,buy,42.2948,26.86,entered top 10
+2012-04-02,LULU,sell,18.2041,74.51,dropped out of top 10
+2012-04-02,TYL,sell,33.7303,38.39,dropped out of top 10
+2012-04-02,MA,buy,33.9858,38.78,entered top 10
+2012-04-02,DLTR,buy,27.8439,47.34,entered top 10
+2012-04-09,V,sell,42.2948,26.88,dropped out of top 10
+2012-04-09,MA,sell,33.9858,39.75,dropped out of top 10
+2012-04-09,AAPL,buy,66.4423,18.73,entered top 10
+2012-04-09,ORLY,buy,202.4544,6.15,entered top 10
+2012-04-16,BIIB,sell,9.9747,125.95,dropped out of top 10
+2012-04-16,TYL,buy,32.8345,38.64,entered top 10
+2012-04-23,STX,sell,81.4812,15.64,dropped out of top 10
+2012-04-23,ORLY,sell,202.4544,6.39,dropped out of top 10
+2012-04-23,ROST,buy,49.1547,25.98,entered top 10
+2012-04-23,EQIX,buy,11.5907,110.19,entered top 10
+2012-04-30,TYL,sell,32.8345,40.66,dropped out of top 10
+2012-04-30,EQIX,sell,11.5907,122.58,dropped out of top 10
+2012-04-30,STX,buy,85.504,16.1,entered top 10
+2012-04-30,CMG,buy,164.3502,8.38,entered top 10
+2012-05-07,ROST,sell,49.1547,27.03,dropped out of top 10
+2012-05-07,CMG,sell,164.3502,8.1,dropped out of top 10
+2012-05-07,TYL,buy,34.9938,38.03,entered top 10
+2012-05-07,LULU,buy,17.2719,77.05,entered top 10
+2012-05-14,FAST,sell,126.5706,7.43,dropped out of top 10
+2012-05-14,DLTR,sell,27.8439,50.93,dropped out of top 10
+2012-05-14,LULU,sell,17.2719,72.44,dropped out of top 10
+2012-05-14,SBUX,buy,58.2451,20.61,entered top 10
+2012-05-14,CMG,buy,147.7382,8.12,entered top 10
+2012-05-14,TSCO,buy,149.4999,8.03,entered top 10
+2012-05-21,DPZ,sell,41.4446,25.38,dropped out of top 10
+2012-05-21,TYL,sell,34.9938,36.75,dropped out of top 10
+2012-05-21,CMG,sell,147.7382,7.82,dropped out of top 10
+2012-05-21,URI,buy,36.5974,31.83,entered top 10
+2012-05-21,ISRG,buy,20.4913,56.85,entered top 10
+2012-05-21,ORLY,buy,186.5415,6.24,entered top 10
+2012-05-29,TSCO,sell,149.4999,8.07,dropped out of top 10
+2012-05-29,EQIX,buy,10.5669,116.38,entered top 10
+2012-06-04,SBUX,sell,58.2451,19.62,dropped out of top 10
+2012-06-04,EQIX,sell,10.5669,112.86,dropped out of top 10
+2012-06-04,LULU,buy,16.7916,69.21,entered top 10
+2012-06-04,DLTR,buy,23.2869,49.9,entered top 10
+2012-06-11,ULTA,sell,17.0462,94.9,dropped out of top 10
+2012-06-11,ISRG,sell,20.4913,60.0,dropped out of top 10
+2012-06-11,LEN,buy,63.0933,22.41,entered top 10
+2012-06-11,TJX,buy,81.8462,17.27,entered top 10
+2012-06-18,LULU,sell,16.7916,61.65,dropped out of top 10
+2012-06-18,DLTR,sell,23.2869,55.22,dropped out of top 10
+2012-06-18,EQIX,buy,9.159,127.77,entered top 10
+2012-06-18,ROST,buy,40.2071,29.11,entered top 10
+2012-06-25,ORLY,sell,186.5415,6.46,dropped out of top 10
+2012-06-25,V,buy,43.8936,27.7,entered top 10
+2012-07-02,URI,sell,36.5974,32.87,dropped out of top 10
+2012-07-02,V,sell,43.8936,27.96,dropped out of top 10
+2012-07-02,SHW,buy,31.4858,38.4,entered top 10
+2012-07-02,DLTR,buy,22.6072,53.48,entered top 10
+2012-07-09,LEN,sell,63.0933,26.39,dropped out of top 10
+2012-07-09,ORLY,buy,246.5403,5.77,entered top 10
+2012-07-16,STX,sell,85.504,14.04,dropped out of top 10
+2012-07-16,DG,buy,30.6366,46.55,entered top 10
+2012-07-23,AAPL,sell,66.4423,17.75,dropped out of top 10
+2012-07-23,STX,buy,84.5346,14.29,entered top 10
+2012-07-30,ORLY,sell,246.5403,5.62,dropped out of top 10
+2012-07-30,LEN,buy,54.6183,25.34,entered top 10
+2012-08-06,TJX,sell,81.8462,18.66,dropped out of top 10
+2012-08-06,DLTR,sell,22.6072,51.05,dropped out of top 10
+2012-08-06,DG,sell,30.6366,44.29,dropped out of top 10
+2012-08-06,URI,buy,45.7455,29.23,entered top 10
+2012-08-06,PHM,buy,135.9567,9.84,entered top 10
+2012-08-06,ALGN,buy,38.0621,35.14,entered top 10
+2012-08-13,MNST,sell,278.5179,4.44,dropped out of top 10
+2012-08-13,ALGN,sell,38.0621,34.47,dropped out of top 10
+2012-08-13,DHI,buy,82.6304,15.5,entered top 10
+2012-08-13,INCY,buy,70.6271,18.14,entered top 10
+2012-08-20,INCY,sell,70.6271,18.84,dropped out of top 10
+2012-08-20,MAS,buy,136.8454,9.81,entered top 10
+2012-08-27,MAS,sell,136.8454,10.0,dropped out of top 10
+2012-08-27,ALGN,buy,41.5041,32.96,entered top 10
+2012-09-04,URI,sell,45.7455,31.65,dropped out of top 10
+2012-09-04,FICO,buy,34.2571,42.24,entered top 10
+2012-09-10,ROST,sell,40.2071,29.57,dropped out of top 10
+2012-09-10,URI,buy,32.9494,36.16,entered top 10
+2012-09-17,FICO,sell,34.2571,45.1,dropped out of top 10
+2012-09-17,RF,buy,314.5282,4.9,entered top 10
+2012-09-24,SHW,sell,31.4858,43.59,dropped out of top 10
+2012-09-24,FICO,buy,30.2368,45.45,entered top 10
+2012-10-01,URI,sell,32.9494,31.59,dropped out of top 10
+2012-10-01,FICO,sell,30.2368,44.13,dropped out of top 10
+2012-10-01,LYB,buy,47.9311,24.67,entered top 10
+2012-10-01,MPWR,buy,70.1522,16.86,entered top 10
+2012-10-15,MPWR,sell,70.1522,15.59,dropped out of top 10
+2012-10-15,MAS,buy,108.6368,10.18,entered top 10
+2012-10-31,RF,sell,314.5282,4.27,dropped out of top 10
+2012-10-31,MAS,sell,108.6368,10.48,dropped out of top 10
+2012-10-31,SHW,buy,29.8498,41.36,entered top 10
+2012-10-31,SW,buy,173.7055,7.11,entered top 10
+2012-11-05,ALGN,sell,41.5041,26.29,dropped out of top 10
+2012-11-05,SW,sell,173.7055,7.09,dropped out of top 10
+2012-11-05,RF,buy,273.542,4.25,entered top 10
+2012-11-05,TMUS,buy,72.6162,16.01,entered top 10
+2012-11-12,STX,sell,84.5346,16.17,dropped out of top 10
+2012-11-12,TMUS,sell,72.6162,16.02,dropped out of top 10
+2012-11-12,VRTX,buy,29.5793,42.74,entered top 10
+2012-11-12,DXCM,buy,395.007,3.2,entered top 10
+2012-11-19,REGN,sell,20.0849,156.05,crash filter: SPY below 200-day average
+2012-11-19,EQIX,sell,9.159,130.24,crash filter: SPY below 200-day average
+2012-11-19,LEN,sell,54.6183,30.75,crash filter: SPY below 200-day average
+2012-11-19,PHM,sell,135.9567,13.54,crash filter: SPY below 200-day average
+2012-11-19,DHI,sell,82.6304,16.58,crash filter: SPY below 200-day average
+2012-11-19,LYB,sell,47.9311,24.14,crash filter: SPY below 200-day average
+2012-11-19,SHW,sell,29.8498,44.37,crash filter: SPY below 200-day average
+2012-11-19,RF,sell,273.542,4.14,crash filter: SPY below 200-day average
+2012-11-19,VRTX,sell,29.5793,41.59,crash filter: SPY below 200-day average
+2012-11-19,DXCM,sell,395.007,3.17,crash filter: SPY below 200-day average
+2012-11-26,PHM,buy,105.5681,14.39,entered top 10
+2012-11-26,REGN,buy,8.757,173.42,entered top 10
+2012-11-26,LEN,buy,47.292,32.11,entered top 10
+2012-11-26,DHI,buy,90.664,16.75,entered top 10
+2012-11-26,DXCM,buy,491.3724,3.09,entered top 10
+2012-11-26,LYB,buy,62.0296,24.48,entered top 10
+2012-11-26,STZ,buy,52.3583,29.0,entered top 10
+2012-11-26,EQIX,buy,11.1888,135.73,entered top 10
+2012-11-26,GILD,buy,58.7774,25.84,entered top 10
+2012-11-26,WY,buy,95.6559,15.88,entered top 10
+2012-12-03,DXCM,sell,491.3724,3.25,dropped out of top 10
+2012-12-03,GILD,sell,58.7774,25.56,dropped out of top 10
+2012-12-03,WY,sell,95.6559,16.49,dropped out of top 10
+2012-12-03,GNRC,buy,53.4771,28.88,entered top 10
+2012-12-03,BAC,buy,201.2232,7.68,entered top 10
+2012-12-03,RF,buy,358.0367,4.31,entered top 10
+2012-12-10,DHI,sell,90.664,16.03,dropped out of top 10
+2012-12-10,LYB,sell,62.0296,27.09,dropped out of top 10
+2012-12-10,BAC,sell,201.2232,8.19,dropped out of top 10
+2012-12-10,RF,sell,358.0367,4.26,dropped out of top 10
+2012-12-10,STX,buy,98.3471,15.75,entered top 10
+2012-12-10,MAS,buy,136.4099,11.36,entered top 10
+2012-12-10,SW,buy,204.6698,7.57,entered top 10
+2012-12-10,HCA,buy,52.9347,29.27,entered top 10
+2012-12-17,GNRC,sell,53.4771,28.72,dropped out of top 10
+2012-12-17,MAS,sell,136.4099,11.52,dropped out of top 10
+2012-12-17,SW,sell,204.6698,7.83,dropped out of top 10
+2012-12-17,GILD,buy,61.4192,25.44,entered top 10
+2012-12-17,ILMN,buy,31.1633,50.15,entered top 10
+2012-12-17,SHW,buy,35.8047,43.65,entered top 10
+2012-12-24,STZ,sell,52.3583,29.08,dropped out of top 10
+2012-12-24,HCA,sell,52.9347,28.76,dropped out of top 10
+2012-12-24,BAC,buy,183.4604,8.72,entered top 10
+2012-12-24,MPC,buy,76.4848,20.92,entered top 10
+2012-12-31,STX,sell,98.3471,16.83,dropped out of top 10
+2012-12-31,ILMN,sell,31.1633,53.17,dropped out of top 10
+2012-12-31,SHW,sell,35.8047,43.8,dropped out of top 10
+2012-12-31,EXPE,buy,28.926,54.51,entered top 10
+2012-12-31,SW,buy,209.5614,7.52,entered top 10
+2012-12-31,CPAY,buy,29.9192,52.7,entered top 10
+2013-01-07,BAC,sell,183.4604,9.38,dropped out of top 10
+2013-01-07,CPAY,sell,29.9192,54.95,dropped out of top 10
+2013-01-07,HCA,buy,56.5358,29.6,entered top 10
+2013-01-07,STZ,buy,55.0399,30.4,entered top 10
+2013-01-22,GILD,sell,61.4192,26.79,dropped out of top 10
+2013-01-22,HCA,sell,56.5358,34.17,dropped out of top 10
+2013-01-22,EBAY,buy,86.5756,20.12,entered top 10
+2013-01-22,BAC,buy,202.4185,8.6,entered top 10
+2013-01-28,EBAY,sell,86.5756,20.83,dropped out of top 10
+2013-01-28,BAC,sell,202.4185,8.99,dropped out of top 10
+2013-01-28,AXON,buy,196.8207,9.19,entered top 10
+2013-01-28,SHW,buy,37.5217,48.2,entered top 10
+2013-02-04,SW,sell,209.5614,9.38,dropped out of top 10
+2013-02-04,SHW,sell,37.5217,47.4,dropped out of top 10
+2013-02-04,EBAY,buy,83.2955,21.05,entered top 10
+2013-02-04,BAC,buy,195.6474,8.96,entered top 10
+2013-02-11,MPC,sell,76.4848,27.58,dropped out of top 10
+2013-02-11,BAC,sell,195.6474,9.06,dropped out of top 10
+2013-02-11,SHW,buy,36.9237,47.69,entered top 10
+2013-02-11,GNRC,buy,49.5943,35.51,entered top 10
+2013-02-19,REGN,sell,8.757,162.77,dropped out of top 10
+2013-02-19,HCA,buy,53.8952,33.58,entered top 10
+2013-02-25,EQIX,sell,11.1888,156.64,dropped out of top 10
+2013-02-25,EBAY,sell,83.2955,20.55,dropped out of top 10
+2013-02-25,REGN,buy,10.815,160.16,entered top 10
+2013-02-25,GILD,buy,59.2821,29.22,entered top 10
+2013-03-04,SHW,sell,36.9237,47.31,dropped out of top 10
+2013-03-04,HCA,sell,53.8952,33.93,dropped out of top 10
+2013-03-04,REGN,sell,10.815,169.58,dropped out of top 10
+2013-03-04,VLO,buy,66.6795,26.31,entered top 10
+2013-03-04,MPC,buy,60.9001,28.8,entered top 10
+2013-03-04,DHI,buy,90.1919,19.45,entered top 10
+2013-03-11,STZ,sell,55.0399,36.25,dropped out of top 10
+2013-03-11,NFLX,buy,687.1595,2.63,entered top 10
+2013-03-18,LEN,sell,47.292,34.52,dropped out of top 10
+2013-03-18,VLO,sell,66.6795,24.64,dropped out of top 10
+2013-03-18,DHI,sell,90.1919,20.85,dropped out of top 10
+2013-03-18,CPAY,buy,25.9794,69.13,entered top 10
+2013-03-18,SW,buy,171.2277,10.49,entered top 10
+2013-03-18,HCA,buy,51.429,34.92,entered top 10
+2013-03-25,NFLX,sell,687.1595,2.6,dropped out of top 10
+2013-03-25,HCA,sell,51.429,36.32,dropped out of top 10
+2013-03-25,STZ,buy,47.3217,38.91,entered top 10
+2013-03-25,VLO,buy,73.0954,25.19,entered top 10
+2013-04-01,AXON,sell,196.8207,7.92,dropped out of top 10
+2013-04-01,SW,sell,171.2277,10.57,dropped out of top 10
+2013-04-01,APO,buy,180.3089,10.23,entered top 10
+2013-04-01,HCA,buy,49.2133,37.48,entered top 10
+2013-04-08,HCA,sell,49.2133,34.64,dropped out of top 10
+2013-04-08,AXON,buy,235.1882,7.68,entered top 10
+2013-04-15,CPAY,sell,25.9794,76.58,dropped out of top 10
+2013-04-15,NFLX,buy,731.1638,2.51,entered top 10
+2013-04-22,NFLX,sell,731.1638,2.37,dropped out of top 10
+2013-04-22,PSX,buy,49.7159,36.4,entered top 10
+2013-04-29,GILD,sell,59.2821,35.02,dropped out of top 10
+2013-04-29,APO,sell,180.3089,12.16,dropped out of top 10
+2013-04-29,NFLX,buy,605.9138,3.1,entered top 10
+2013-04-29,CPAY,buy,24.703,75.98,entered top 10
+2013-05-06,EXPE,sell,28.926,54.23,dropped out of top 10
+2013-05-06,VLO,sell,73.0954,23.48,dropped out of top 10
+2013-05-06,AXON,sell,235.1882,8.79,dropped out of top 10
+2013-05-06,APO,buy,147.5645,12.93,entered top 10
+2013-05-06,GILD,buy,50.6184,37.7,entered top 10
+2013-05-06,SW,buy,198.5767,9.61,entered top 10
+2013-05-13,GNRC,sell,49.5943,31.6,dropped out of top 10
+2013-05-13,SW,sell,198.5767,10.29,dropped out of top 10
+2013-05-13,FSLR,buy,37.7161,50.05,entered top 10
+2013-05-13,VLO,buy,79.0233,23.89,entered top 10
+2013-05-20,PHM,sell,105.5681,20.18,dropped out of top 10
+2013-05-20,SW,buy,186.478,10.68,entered top 10
+2013-05-28,VLO,sell,79.0233,25.29,dropped out of top 10
+2013-05-28,SW,sell,186.478,10.7,dropped out of top 10
+2013-05-28,PHM,buy,101.9288,19.66,entered top 10
+2013-05-28,KKR,buy,143.0575,14.0,entered top 10
+2013-06-03,KKR,sell,143.0575,13.33,dropped out of top 10
+2013-06-03,GNRC,buy,54.6363,36.1,entered top 10
+2013-06-10,GNRC,sell,54.6363,36.29,dropped out of top 10
+2013-06-10,REGN,buy,7.6566,255.98,entered top 10
+2013-06-17,MPC,sell,60.9001,27.28,dropped out of top 10
+2013-06-17,PSX,sell,49.7159,40.32,dropped out of top 10
+2013-06-17,TSLA,buy,274.2042,6.91,entered top 10
+2013-06-17,SW,buy,186.0588,10.19,entered top 10
+2013-07-01,APO,sell,147.5645,11.57,dropped out of top 10
+2013-07-01,REGN,sell,7.6566,229.21,dropped out of top 10
+2013-07-01,TMUS,buy,78.4849,23.56,entered top 10
+2013-07-01,WDC,buy,48.1732,38.38,entered top 10
+2013-07-08,STZ,sell,47.3217,42.1,dropped out of top 10
+2013-07-08,PHM,sell,101.9288,15.81,dropped out of top 10
+2013-07-08,APO,buy,162.534,11.21,entered top 10
+2013-07-08,GNRC,buy,45.6352,39.94,entered top 10
+2013-07-15,GILD,sell,50.6184,39.0,dropped out of top 10
+2013-07-15,GNRC,sell,45.6352,40.79,dropped out of top 10
+2013-07-15,REGN,buy,7.1458,268.24,entered top 10
+2013-07-15,MU,buy,153.9182,12.45,entered top 10
+2013-07-22,REGN,sell,7.1458,275.23,dropped out of top 10
+2013-07-22,APTV,buy,46.5732,42.63,entered top 10
+2013-07-29,WDC,sell,48.1732,38.81,dropped out of top 10
+2013-07-29,APO,sell,162.534,12.81,dropped out of top 10
+2013-07-29,APTV,sell,46.5732,42.75,dropped out of top 10
+2013-07-29,GILD,buy,46.0088,42.77,entered top 10
+2013-07-29,MS,buy,99.5,19.77,entered top 10
+2013-07-29,DAL,buy,105.3639,18.67,entered top 10
+2013-08-05,TMUS,sell,78.4849,23.42,dropped out of top 10
+2013-08-05,MS,sell,99.5,19.86,dropped out of top 10
+2013-08-05,DXCM,buy,340.2493,5.64,entered top 10
+2013-08-05,GNRC,buy,45.2861,42.34,entered top 10
+2013-08-12,MU,sell,153.9182,13.59,dropped out of top 10
+2013-08-12,APO,buy,159.1911,13.25,entered top 10
+2013-08-19,DXCM,sell,340.2493,6.49,dropped out of top 10
+2013-08-19,MU,buy,152.7186,13.66,entered top 10
+2013-08-26,FSLR,sell,37.7161,39.09,dropped out of top 10
+2013-08-26,REGN,buy,6.7497,237.0,entered top 10
+2013-09-03,REGN,sell,6.7497,243.45,dropped out of top 10
+2013-09-03,BSX,buy,152.3789,10.78,entered top 10
+2013-09-09,GILD,sell,46.0088,41.64,dropped out of top 10
+2013-09-09,BSX,sell,152.3789,11.5,dropped out of top 10
+2013-09-09,META,buy,41.4688,43.98,entered top 10
+2013-09-09,FSLR,buy,48.6934,37.46,entered top 10
+2013-09-16,META,sell,41.4688,44.38,dropped out of top 10
+2013-09-16,FSLR,sell,48.6934,38.59,dropped out of top 10
+2013-09-16,BSX,buy,155.0544,11.99,entered top 10
+2013-09-16,TSN,buy,81.2787,22.88,entered top 10
+2013-09-23,BSX,sell,155.0544,11.55,dropped out of top 10
+2013-09-23,TSN,sell,81.2787,22.64,dropped out of top 10
+2013-09-23,INCY,buy,51.0175,35.6,entered top 10
+2013-09-23,BBY,buy,75.2184,24.14,entered top 10
+2013-09-30,SW,sell,186.0588,14.45,dropped out of top 10
+2013-09-30,INCY,sell,51.0175,37.04,dropped out of top 10
+2013-09-30,LYV,buy,125.1709,18.25,entered top 10
+2013-09-30,META,buy,45.9458,49.71,entered top 10
+2013-10-07,GNRC,sell,45.2861,41.53,dropped out of top 10
+2013-10-07,META,sell,45.9458,50.2,dropped out of top 10
+2013-10-07,BSX,buy,180.1504,11.63,entered top 10
+2013-10-07,AXON,buy,147.9398,14.16,entered top 10
+2013-10-14,LYV,sell,125.1709,18.68,dropped out of top 10
+2013-10-14,AXON,sell,147.9398,14.96,dropped out of top 10
+2013-10-14,META,buy,47.466,47.9,entered top 10
+2013-10-14,SW,buy,152.0694,14.95,entered top 10
+2013-10-21,BSX,sell,180.1504,12.24,dropped out of top 10
+2013-10-21,SW,sell,152.0694,14.92,dropped out of top 10
+2013-10-21,FANG,buy,57.1325,39.16,entered top 10
+2013-10-21,AXON,buy,140.7418,15.9,entered top 10
+2013-10-28,APO,sell,159.1911,16.81,dropped out of top 10
+2013-10-28,INCY,buy,61.0069,40.71,entered top 10
+2013-11-04,AXON,sell,140.7418,16.85,dropped out of top 10
+2013-11-04,DECK,buy,218.931,11.49,entered top 10
+2013-11-11,INCY,sell,61.0069,37.96,dropped out of top 10
+2013-11-11,DECK,sell,218.931,11.42,dropped out of top 10
+2013-11-11,APO,buy,155.0437,15.68,entered top 10
+2013-11-11,BSX,buy,204.0435,11.91,entered top 10
+2013-11-18,CPAY,sell,24.703,118.43,dropped out of top 10
+2013-11-18,META,sell,47.466,47.96,dropped out of top 10
+2013-11-18,DXCM,buy,313.7919,8.01,entered top 10
+2013-11-18,INCY,buy,52.3532,48.0,entered top 10
+2013-11-25,BSX,sell,204.0435,12.09,dropped out of top 10
+2013-11-25,INCY,sell,52.3532,48.58,dropped out of top 10
+2013-11-25,FSLR,buy,41.1943,60.71,entered top 10
+2013-11-25,LYV,buy,141.2342,17.71,entered top 10
+2013-12-02,FSLR,sell,41.1943,59.71,dropped out of top 10
+2013-12-02,LYV,sell,141.2342,18.35,dropped out of top 10
+2013-12-02,WDC,buy,54.8246,46.19,entered top 10
+2013-12-02,AXON,buy,146.6695,17.27,entered top 10
+2013-12-09,DXCM,sell,313.7919,8.68,dropped out of top 10
+2013-12-09,WDC,sell,54.8246,48.82,dropped out of top 10
+2013-12-09,AXON,sell,146.6695,16.82,dropped out of top 10
+2013-12-09,ALGN,buy,46.0812,55.8,entered top 10
+2013-12-09,CPAY,buy,21.5846,119.12,entered top 10
+2013-12-09,SW,buy,170.4107,15.09,entered top 10
+2013-12-16,APO,sell,155.0437,15.59,dropped out of top 10
+2013-12-16,ALGN,sell,46.0812,54.54,dropped out of top 10
+2013-12-16,SW,sell,170.4107,14.3,dropped out of top 10
+2013-12-16,INCY,buy,51.9871,49.14,entered top 10
+2013-12-16,DXCM,buy,295.7181,8.64,entered top 10
+2013-12-16,AXON,buy,159.0061,16.07,entered top 10
+2013-12-23,AXON,sell,159.0061,16.25,dropped out of top 10
+2013-12-23,DECK,buy,182.1844,14.22,entered top 10
+2014-01-21,DAL,sell,105.3639,27.81,dropped out of top 10
+2014-01-21,ALGN,buy,40.0706,65.06,entered top 10
+2014-01-27,CPAY,sell,21.5846,105.23,dropped out of top 10
+2014-01-27,ILMN,buy,19.8756,132.43,entered top 10
+2014-02-03,ALGN,sell,40.0706,59.02,dropped out of top 10
+2014-02-03,STZ,buy,37.3797,63.52,entered top 10
+2014-02-10,NFLX,sell,605.9138,6.13,dropped out of top 10
+2014-02-10,DECK,sell,182.1844,13.57,dropped out of top 10
+2014-02-10,AXON,buy,168.2493,16.86,entered top 10
+2014-02-10,TMUS,buy,98.3469,28.84,entered top 10
+2014-02-18,STZ,sell,37.3797,66.22,dropped out of top 10
+2014-02-18,AXON,sell,168.2493,17.09,dropped out of top 10
+2014-02-18,TMUS,sell,98.3469,29.82,dropped out of top 10
+2014-02-18,TKO,buy,153.5252,18.96,entered top 10
+2014-02-18,DAL,buy,107.913,26.98,entered top 10
+2014-02-18,HII,buy,37.8122,76.99,entered top 10
+2014-02-24,BBY,sell,75.2184,15.54,dropped out of top 10
+2014-02-24,AXON,buy,65.8024,18.92,entered top 10
+2014-03-03,HII,sell,37.8122,79.86,dropped out of top 10
+2014-03-03,NFLX,buy,475.7955,6.31,entered top 10
+2014-03-10,DAL,sell,107.913,30.4,dropped out of top 10
+2014-03-10,META,buy,45.3901,70.17,entered top 10
+2014-04-21,AXON,sell,65.8024,17.84,dropped out of top 10
+2014-04-21,NXPI,buy,24.7358,52.02,entered top 10
+2014-04-28,NFLX,sell,475.7955,4.54,dropped out of top 10
+2014-04-28,AXON,buy,120.3794,17.87,entered top 10
+2014-05-12,AXON,sell,120.3794,13.59,dropped out of top 10
+2014-05-12,DAL,buy,50.3189,32.61,entered top 10
+2014-05-19,DAL,sell,50.3189,32.46,dropped out of top 10
+2014-05-19,AXON,buy,123.6315,13.21,entered top 10
+2014-05-27,DXCM,sell,295.7181,8.36,dropped out of top 10
+2014-05-27,DAL,buy,72.1163,34.15,entered top 10
+2014-06-02,AXON,sell,123.6315,13.27,dropped out of top 10
+2014-06-02,SMCI,buy,765.9371,2.15,entered top 10
+2014-06-09,SMCI,sell,765.9371,2.18,dropped out of top 10
+2014-06-09,HII,buy,20.318,82.31,entered top 10
+2014-06-16,HII,sell,20.318,78.91,dropped out of top 10
+2014-06-16,URI,buy,15.9265,100.71,entered top 10
+2014-06-23,TKO,sell,153.5252,9.49,dropped out of top 10
+2014-06-23,SWKS,buy,37.9935,38.38,entered top 10
+2014-06-30,TSLA,sell,274.2042,15.95,dropped out of top 10
+2014-06-30,SWKS,sell,37.9935,36.29,dropped out of top 10
+2014-06-30,SMCI,buy,1155.2535,2.47,entered top 10
+2014-06-30,LUV,buy,120.9687,23.6,entered top 10
+2014-07-07,SMCI,sell,1155.2535,2.59,dropped out of top 10
+2014-07-07,SWKS,buy,78.0012,37.7,entered top 10
+2014-07-21,NXPI,sell,24.7358,58.31,dropped out of top 10
+2014-07-21,URI,sell,15.9265,106.64,dropped out of top 10
+2014-07-21,SMCI,buy,635.1494,2.53,entered top 10
+2014-07-21,TPL,buy,101.4631,15.83,entered top 10
+2014-07-28,DAL,sell,72.1163,33.06,dropped out of top 10
+2014-07-28,SWKS,sell,78.0012,40.5,dropped out of top 10
+2014-07-28,AVGO,buy,528.0038,5.23,entered top 10
+2014-07-28,TRGP,buy,36.1742,76.3,entered top 10
+2014-08-04,META,sell,45.3901,71.6,dropped out of top 10
+2014-08-04,TPL,sell,101.4631,16.86,dropped out of top 10
+2014-08-04,SWKS,buy,60.3624,41.13,entered top 10
+2014-08-04,NXPI,buy,44.8741,55.33,entered top 10
+2014-08-11,SMCI,sell,635.1494,2.43,dropped out of top 10
+2014-08-11,NXPI,sell,44.8741,53.91,dropped out of top 10
+2014-08-11,TPL,buy,113.0582,17.58,entered top 10
+2014-08-11,URI,buy,19.0564,104.3,entered top 10
+2014-08-18,INCY,sell,51.9871,51.95,dropped out of top 10
+2014-08-18,DAL,buy,80.5585,33.68,entered top 10
+2014-08-25,DAL,sell,80.5585,35.16,dropped out of top 10
+2014-08-25,SMCI,buy,1139.596,2.48,entered top 10
+2014-09-02,AVGO,sell,528.0038,6.18,dropped out of top 10
+2014-09-02,DAL,buy,90.7508,34.44,entered top 10
+2014-09-08,DAL,sell,90.7508,34.05,dropped out of top 10
+2014-09-08,AVGO,buy,476.2578,6.57,entered top 10
+2014-09-15,FANG,sell,57.1325,57.56,dropped out of top 10
+2014-09-15,FSLR,buy,42.0437,72.71,entered top 10
+2014-09-22,FSLR,sell,42.0437,70.37,dropped out of top 10
+2014-09-22,FANG,buy,54.3174,57.09,entered top 10
+2014-10-06,MU,sell,152.7186,32.33,dropped out of top 10
+2014-10-06,FANG,sell,54.3174,55.18,dropped out of top 10
+2014-10-06,PANW,buy,173.2738,17.46,entered top 10
+2014-10-06,NXPI,buy,50.9718,59.36,entered top 10
+2014-10-13,SMCI,sell,1139.596,2.28,dropped out of top 10
+2014-10-13,RCL,buy,53.699,49.71,entered top 10
+2014-10-20,ILMN,sell,19.8756,160.91,crash filter: SPY below 200-day average
+2014-10-20,LUV,sell,120.9687,27.28,crash filter: SPY below 200-day average
+2014-10-20,TRGP,sell,36.1742,70.53,crash filter: SPY below 200-day average
+2014-10-20,SWKS,sell,60.3624,39.98,crash filter: SPY below 200-day average
+2014-10-20,TPL,sell,113.0582,16.57,crash filter: SPY below 200-day average
+2014-10-20,URI,sell,19.0564,98.4,crash filter: SPY below 200-day average
+2014-10-20,AVGO,sell,476.2578,5.73,crash filter: SPY below 200-day average
+2014-10-20,PANW,sell,173.2738,16.55,crash filter: SPY below 200-day average
+2014-10-20,NXPI,sell,50.9718,52.71,crash filter: SPY below 200-day average
+2014-10-20,RCL,sell,53.699,50.36,crash filter: SPY below 200-day average
+2014-10-27,SWKS,buy,64.9802,43.01,entered top 10
+2014-10-27,TPL,buy,175.5175,15.92,entered top 10
+2014-10-27,PANW,buy,165.8546,16.85,entered top 10
+2014-10-27,SMCI,buy,924.4652,3.02,entered top 10
+2014-10-27,LUV,buy,94.7844,29.48,entered top 10
+2014-10-27,AVGO,buy,457.6014,6.11,entered top 10
+2014-10-27,MU,buy,89.597,31.19,entered top 10
+2014-10-27,ILMN,buy,15.1183,184.85,entered top 10
+2014-10-27,NXPI,buy,48.6918,57.4,entered top 10
+2014-10-27,TRGP,buy,37.9124,73.71,entered top 10
+2014-11-03,NXPI,sell,48.6918,59.96,dropped out of top 10
+2014-11-03,URI,buy,27.3767,105.74,entered top 10
+2014-11-10,SMCI,sell,924.4652,3.39,dropped out of top 10
+2014-11-10,URI,sell,27.3767,109.17,dropped out of top 10
+2014-11-10,TSLA,buy,182.9753,15.96,entered top 10
+2014-11-10,VRTX,buy,25.1097,116.28,entered top 10
+2014-11-17,MU,sell,89.597,31.07,dropped out of top 10
+2014-11-17,TRGP,sell,37.9124,66.56,dropped out of top 10
+2014-11-17,SMCI,buy,841.1226,3.47,entered top 10
+2014-11-17,MNST,buy,324.1091,9.01,entered top 10
+2014-11-24,VRTX,sell,25.1097,111.44,dropped out of top 10
+2014-11-24,META,buy,38.7929,72.92,entered top 10
+2014-12-01,TPL,sell,175.5175,14.13,dropped out of top 10
+2014-12-01,META,sell,38.7929,76.45,dropped out of top 10
+2014-12-01,EW,buy,125.3554,21.62,entered top 10
+2014-12-01,WMB,buy,101.6452,26.66,entered top 10
+2014-12-08,TSLA,sell,182.9753,14.75,dropped out of top 10
+2014-12-08,MNST,sell,324.1091,8.89,dropped out of top 10
+2014-12-08,WMB,sell,101.6452,25.57,dropped out of top 10
+2014-12-08,VRTX,buy,22.9609,118.35,entered top 10
+2014-12-08,NXPI,buy,40.1941,67.61,entered top 10
+2014-12-08,MAR,buy,38.4996,70.58,entered top 10
+2014-12-15,NXPI,sell,40.1941,65.07,dropped out of top 10
+2014-12-15,MAR,sell,38.4996,69.09,dropped out of top 10
+2014-12-15,CNC,buy,100.5129,26.39,entered top 10
+2014-12-15,MNST,buy,299.9175,8.84,entered top 10
+2014-12-22,VRTX,sell,22.9609,118.8,dropped out of top 10
+2014-12-22,MNST,sell,299.9175,9.3,dropped out of top 10
+2014-12-22,TSLA,buy,187.7845,14.68,entered top 10
+2014-12-22,NXPI,buy,41.0027,67.24,entered top 10
+2014-12-29,TSLA,sell,187.7845,15.11,dropped out of top 10
+2014-12-29,MNST,buy,308.6407,9.28,entered top 10
+2015-01-05,MNST,sell,308.6407,9.01,dropped out of top 10
+2015-01-05,RCL,buy,38.8369,71.59,entered top 10
+2015-01-12,CNC,sell,100.5129,26.52,dropped out of top 10
+2015-01-12,MAR,buy,37.8424,70.47,entered top 10
+2015-01-20,ILMN,sell,15.1183,179.78,dropped out of top 10
+2015-01-20,RCL,sell,38.8369,72.19,dropped out of top 10
+2015-01-20,MAR,sell,37.8424,68.39,dropped out of top 10
+2015-01-20,KR,buy,100.9363,26.6,entered top 10
+2015-01-20,CNC,buy,98.429,27.28,entered top 10
+2015-01-20,TTWO,buy,90.7762,29.58,entered top 10
+2015-01-26,NXPI,sell,41.0027,70.06,dropped out of top 10
+2015-01-26,TTWO,sell,90.7762,29.88,dropped out of top 10
+2015-01-26,RCL,buy,38.6219,72.62,entered top 10
+2015-01-26,IRM,buy,131.4098,21.34,entered top 10
+2015-02-02,SMCI,sell,841.1226,3.7,dropped out of top 10
+2015-02-02,BBY,buy,137.6652,22.64,entered top 10
+2015-02-09,BBY,sell,137.6652,23.83,dropped out of top 10
+2015-02-09,MNST,buy,324.0909,9.72,entered top 10
+2015-02-17,RCL,sell,38.6219,65.02,dropped out of top 10
+2015-02-17,BBY,buy,105.7502,25.17,entered top 10
+2015-02-23,MNST,sell,324.0909,10.12,dropped out of top 10
+2015-02-23,BBY,sell,105.7502,25.3,dropped out of top 10
+2015-02-23,RCL,buy,44.5964,66.42,entered top 10
+2015-02-23,ELV,buy,24.104,122.89,entered top 10
+2015-03-02,RCL,sell,44.5964,66.06,dropped out of top 10
+2015-03-02,ELV,sell,24.104,123.44,dropped out of top 10
+2015-03-02,SMCI,buy,735.5968,4.03,entered top 10
+2015-03-02,MNST,buy,249.6414,11.86,entered top 10
+2015-03-16,KR,sell,100.9363,30.39,dropped out of top 10
+2015-03-16,AAPL,buy,112.5565,27.5,entered top 10
+2015-03-23,IRM,sell,131.4098,20.51,dropped out of top 10
+2015-03-23,KR,buy,88.7607,30.41,entered top 10
+2015-03-30,KR,sell,88.7607,30.34,dropped out of top 10
+2015-03-30,VRTX,buy,22.1889,121.35,entered top 10
+2015-04-13,AAPL,sell,112.5565,28.44,dropped out of top 10
+2015-04-13,INCY,buy,33.9196,94.23,entered top 10
+2015-04-27,SMCI,sell,735.5968,3.04,dropped out of top 10
+2015-04-27,COR,buy,26.5238,84.67,entered top 10
+2015-05-04,EW,sell,125.3554,21.25,dropped out of top 10
+2015-05-04,VRTX,sell,22.1889,125.94,dropped out of top 10
+2015-05-04,DXCM,buy,162.4533,16.7,entered top 10
+2015-05-04,ULTA,buy,17.5416,154.67,entered top 10
+2015-05-11,LUV,sell,94.7844,37.44,dropped out of top 10
+2015-05-11,COR,sell,26.5238,83.96,dropped out of top 10
+2015-05-11,ULTA,sell,17.5416,153.85,dropped out of top 10
+2015-05-11,AXON,buy,87.8702,32.03,entered top 10
+2015-05-11,VRTX,buy,21.7973,129.13,entered top 10
+2015-05-11,SMCI,buy,909.6879,3.09,entered top 10
+2015-05-26,SMCI,sell,909.6879,3.33,dropped out of top 10
+2015-05-26,ULTA,buy,20.423,151.05,entered top 10
+2015-06-01,AVGO,sell,457.6014,11.16,dropped out of top 10
+2015-06-01,FTNT,buy,458.1036,8.06,entered top 10
+2015-06-15,ULTA,sell,20.423,154.32,dropped out of top 10
+2015-06-15,FTNT,sell,458.1036,8.16,dropped out of top 10
+2015-06-15,AVGO,buy,348.9732,10.5,entered top 10
+2015-06-15,LULU,buy,55.1953,66.36,entered top 10
+2015-06-22,LULU,sell,55.1953,66.3,dropped out of top 10
+2015-06-22,REGN,buy,7.3423,522.45,entered top 10
+2015-06-29,VRTX,sell,21.7973,125.67,dropped out of top 10
+2015-06-29,NXPI,buy,40.9725,86.29,entered top 10
+2015-07-06,NXPI,sell,40.9725,84.74,dropped out of top 10
+2015-07-06,NCLH,buy,62.69,55.4,entered top 10
+2015-07-13,REGN,sell,7.3423,526.78,dropped out of top 10
+2015-07-13,NCLH,sell,62.69,58.32,dropped out of top 10
+2015-07-13,IBKR,buy,359.1461,10.42,entered top 10
+2015-07-13,FTNT,buy,445.4213,8.4,entered top 10
+2015-07-27,FTNT,sell,445.4213,9.51,dropped out of top 10
+2015-07-27,NCLH,buy,64.0068,58.26,entered top 10
+2015-08-03,NCLH,sell,64.0068,62.91,dropped out of top 10
+2015-08-03,CI,buy,28.5381,129.66,entered top 10
+2015-08-17,CI,sell,28.5381,128.71,dropped out of top 10
+2015-08-17,NCLH,buy,61.3423,59.29,entered top 10
+2015-08-24,SWKS,sell,64.9802,56.22,crash filter: SPY below 200-day average
+2015-08-24,PANW,sell,165.8546,24.33,crash filter: SPY below 200-day average
+2015-08-24,CNC,sell,98.429,30.49,crash filter: SPY below 200-day average
+2015-08-24,MNST,sell,249.6414,10.7,crash filter: SPY below 200-day average
+2015-08-24,INCY,sell,33.9196,92.09,crash filter: SPY below 200-day average
+2015-08-24,DXCM,sell,162.4533,19.63,crash filter: SPY below 200-day average
+2015-08-24,AXON,sell,87.8702,18.99,crash filter: SPY below 200-day average
+2015-08-24,AVGO,sell,348.9732,7.63,crash filter: SPY below 200-day average
+2015-08-24,IBKR,sell,359.1461,8.54,crash filter: SPY below 200-day average
+2015-08-24,NCLH,sell,61.3423,52.01,crash filter: SPY below 200-day average
+2015-10-26,DXCM,buy,150.3192,20.55,entered top 10
+2015-10-26,INCY,buy,28.1095,109.91,entered top 10
+2015-10-26,NFLX,buy,308.4885,10.02,entered top 10
+2015-10-26,FIX,buy,110.1391,28.05,entered top 10
+2015-10-26,FTNT,buy,440.415,7.02,entered top 10
+2015-10-26,NCLH,buy,49.4303,62.5,entered top 10
+2015-10-26,AMZN,buy,102.4881,30.15,entered top 10
+2015-10-26,PANW,buy,117.0654,26.39,entered top 10
+2015-10-26,SBUX,buy,61.9829,49.84,entered top 10
+2015-10-26,AXON,buy,132.9211,23.24,entered top 10
+2015-11-02,NCLH,sell,49.4303,63.48,dropped out of top 10
+2015-11-02,AXON,sell,132.9211,23.38,dropped out of top 10
+2015-11-02,IBKR,buy,331.7657,9.63,entered top 10
+2015-11-02,VMC,buy,36.3047,87.96,entered top 10
+2015-11-09,IBKR,sell,331.7657,10.18,dropped out of top 10
+2015-11-09,VMC,sell,36.3047,93.02,dropped out of top 10
+2015-11-09,GPN,buy,48.84,65.29,entered top 10
+2015-11-09,TKO,buy,214.251,14.88,entered top 10
+2015-11-16,DXCM,sell,150.3192,21.11,crash filter: SPY below 200-day average
+2015-11-16,INCY,sell,28.1095,107.02,crash filter: SPY below 200-day average
+2015-11-16,NFLX,sell,308.4885,10.29,crash filter: SPY below 200-day average
+2015-11-16,FIX,sell,110.1391,27.9,crash filter: SPY below 200-day average
+2015-11-16,FTNT,sell,440.415,6.63,crash filter: SPY below 200-day average
+2015-11-16,AMZN,sell,102.4881,32.01,crash filter: SPY below 200-day average
+2015-11-16,PANW,sell,117.0654,25.99,crash filter: SPY below 200-day average
+2015-11-16,SBUX,sell,61.9829,47.15,crash filter: SPY below 200-day average
+2015-11-16,GPN,sell,48.84,64.65,crash filter: SPY below 200-day average
+2015-11-16,TKO,sell,214.251,13.89,crash filter: SPY below 200-day average
+2015-11-23,FIX,buy,106.4953,29.07,entered top 10
+2015-11-23,NFLX,buy,248.8239,12.44,entered top 10
+2015-11-23,AMZN,buy,92.1186,33.61,entered top 10
+2015-11-23,TKO,buy,210.5584,14.7,entered top 10
+2015-11-23,TYL,buy,17.7578,174.34,entered top 10
+2015-11-23,GPN,buy,46.0328,67.26,entered top 10
+2015-11-23,FTNT,buy,443.9967,6.97,entered top 10
+2015-11-23,SBUX,buy,62.749,49.34,entered top 10
+2015-11-23,DXCM,buy,144.1399,21.48,entered top 10
+2015-11-23,PANW,buy,108.7638,28.47,entered top 10
+2015-11-30,FTNT,sell,443.9967,7.34,dropped out of top 10
+2015-11-30,PANW,sell,108.7638,30.97,dropped out of top 10
+2015-11-30,INCY,buy,27.1523,116.73,entered top 10
+2015-11-30,IBKR,buy,311.752,10.17,entered top 10
+2015-12-14,FIX,sell,106.4953,29.17,crash filter: SPY below 200-day average
+2015-12-14,NFLX,sell,248.8239,11.97,crash filter: SPY below 200-day average
+2015-12-14,AMZN,sell,92.1186,32.06,crash filter: SPY below 200-day average
+2015-12-14,TKO,sell,210.5584,13.57,crash filter: SPY below 200-day average
+2015-12-14,TYL,sell,17.7578,173.81,crash filter: SPY below 200-day average
+2015-12-14,GPN,sell,46.0328,65.65,crash filter: SPY below 200-day average
+2015-12-14,SBUX,sell,62.749,47.58,crash filter: SPY below 200-day average
+2015-12-14,DXCM,sell,144.1399,20.4,crash filter: SPY below 200-day average
+2015-12-14,INCY,sell,27.1523,107.14,crash filter: SPY below 200-day average
+2015-12-14,IBKR,sell,311.752,9.68,crash filter: SPY below 200-day average
+2015-12-28,NFLX,buy,256.8519,11.74,entered top 10
+2015-12-28,AMZN,buy,90.5056,33.31,entered top 10
+2015-12-28,FIX,buy,113.2089,26.63,entered top 10
+2015-12-28,GPN,buy,48.9929,61.54,entered top 10
+2015-12-28,VMC,buy,34.3655,87.73,entered top 10
+2015-12-28,DXCM,buy,148.623,20.29,entered top 10
+2015-12-28,INCY,buy,27.6367,109.09,entered top 10
+2015-12-28,TYL,buy,16.9433,177.94,entered top 10
+2015-12-28,SBUX,buy,63.2632,47.66,entered top 10
+2015-12-28,NVDA,buy,3770.9552,0.8,entered top 10
+2016-01-04,NFLX,sell,256.8519,10.89,crash filter: SPY below 200-day average
+2016-01-04,AMZN,sell,90.5056,32.78,crash filter: SPY below 200-day average
+2016-01-04,FIX,sell,113.2089,26.11,crash filter: SPY below 200-day average
+2016-01-04,GPN,sell,48.9929,59.72,crash filter: SPY below 200-day average
+2016-01-04,VMC,sell,34.3655,85.07,crash filter: SPY below 200-day average
+2016-01-04,DXCM,sell,148.623,20.05,crash filter: SPY below 200-day average
+2016-01-04,INCY,sell,27.6367,106.39,crash filter: SPY below 200-day average
+2016-01-04,TYL,sell,16.9433,172.33,crash filter: SPY below 200-day average
+2016-01-04,SBUX,sell,63.2632,46.57,crash filter: SPY below 200-day average
+2016-01-04,NVDA,sell,3770.9552,0.79,crash filter: SPY below 200-day average
+2016-03-14,TSN,buy,56.8074,51.62,entered top 10
+2016-03-14,HRL,buy,90.602,32.37,entered top 10
+2016-03-14,TTWO,buy,82.7067,35.46,entered top 10
+2016-03-14,NFLX,buy,301.3858,9.73,entered top 10
+2016-03-14,ATO,buy,52.8253,55.51,entered top 10
+2016-03-14,NI,buy,181.3157,16.17,entered top 10
+2016-03-14,AMZN,buy,103.3323,28.38,entered top 10
+2016-03-14,FIX,buy,105.9339,27.68,entered top 10
+2016-03-14,AWK,buy,53.4009,54.91,entered top 10
+2016-03-14,PSA,buy,17.4387,168.15,entered top 10
+2016-03-21,AWK,sell,53.4009,54.84,dropped out of top 10
+2016-03-21,PSA,sell,17.4387,176.19,dropped out of top 10
+2016-03-21,NVDA,buy,3602.1607,0.82,entered top 10
+2016-03-21,EQIX,buy,11.5328,255.89,entered top 10
+2016-03-28,NI,sell,181.3157,16.38,dropped out of top 10
+2016-03-28,GPN,buy,52.6285,56.72,entered top 10
+2016-04-04,ATO,sell,52.8253,58.32,dropped out of top 10
+2016-04-04,META,buy,27.6493,113.1,entered top 10
+2016-04-11,EQIX,sell,11.5328,266.09,dropped out of top 10
+2016-04-11,GPN,sell,52.6285,68.58,dropped out of top 10
+2016-04-11,META,sell,27.6493,109.54,dropped out of top 10
+2016-04-11,DLR,buy,49.1389,63.41,entered top 10
+2016-04-11,DPZ,buy,25.5741,121.84,entered top 10
+2016-04-11,NI,buy,185.0742,16.84,entered top 10
+2016-04-18,NFLX,sell,301.3858,10.98,dropped out of top 10
+2016-04-18,DPZ,sell,25.5741,121.76,dropped out of top 10
+2016-04-18,PSA,buy,17.6445,176.47,entered top 10
+2016-04-18,EXR,buy,51.4777,60.49,entered top 10
+2016-04-25,NI,sell,185.0742,15.83,dropped out of top 10
+2016-04-25,EXR,sell,51.4777,57.42,dropped out of top 10
+2016-04-25,AVY,buy,50.3415,60.36,entered top 10
+2016-04-25,EQIX,buy,11.6248,261.4,entered top 10
+2016-05-02,AMZN,sell,103.3323,33.16,dropped out of top 10
+2016-05-02,AVY,sell,50.3415,59.74,dropped out of top 10
+2016-05-02,EQIX,sell,11.6248,268.64,dropped out of top 10
+2016-05-02,EXR,buy,53.0374,57.03,entered top 10
+2016-05-02,META,buy,25.89,116.83,entered top 10
+2016-05-02,NI,buy,185.4764,16.31,entered top 10
+2016-05-09,EXR,sell,53.0374,62.0,dropped out of top 10
+2016-05-09,NI,sell,185.4764,16.83,dropped out of top 10
+2016-05-09,EW,buy,88.7159,35.29,entered top 10
+2016-05-09,EVRG,buy,88.403,35.41,entered top 10
+2016-05-16,HRL,sell,90.602,29.79,dropped out of top 10
+2016-05-16,DLR,sell,49.1389,68.11,dropped out of top 10
+2016-05-16,PSA,sell,17.6445,172.14,dropped out of top 10
+2016-05-16,META,sell,25.89,118.13,dropped out of top 10
+2016-05-16,GPN,buy,45.9457,69.83,entered top 10
+2016-05-16,AMZN,buy,90.273,35.54,entered top 10
+2016-05-16,GOOGL,buy,89.3466,35.91,entered top 10
+2016-05-16,ATO,buy,55.2125,58.11,entered top 10
+2016-05-23,TTWO,sell,82.7067,36.43,dropped out of top 10
+2016-05-23,ATO,sell,55.2125,56.57,dropped out of top 10
+2016-05-23,META,buy,27.5318,116.42,entered top 10
+2016-05-23,GOOG,buy,91.5021,35.03,entered top 10
+2016-05-31,FIX,sell,105.9339,29.62,dropped out of top 10
+2016-05-31,GOOGL,sell,89.3466,37.05,dropped out of top 10
+2016-05-31,GOOG,sell,91.5021,36.21,dropped out of top 10
+2016-05-31,AMD,buy,704.3376,4.67,entered top 10
+2016-05-31,VRSN,buy,39.4754,83.41,entered top 10
+2016-05-31,DLR,buy,49.6074,66.37,entered top 10
+2016-06-06,GPN,sell,45.9457,71.92,dropped out of top 10
+2016-06-06,VRSN,sell,39.4754,82.93,dropped out of top 10
+2016-06-06,AWK,buy,52.7769,61.75,entered top 10
+2016-06-06,ATO,buy,55.3319,58.9,entered top 10
+2016-06-20,EW,sell,88.7159,33.15,dropped out of top 10
+2016-06-20,ATO,sell,55.3319,59.56,dropped out of top 10
+2016-06-20,EQIX,buy,10.4584,309.51,entered top 10
+2016-06-20,GPN,buy,45.7789,70.71,entered top 10
+2016-06-27,META,sell,27.5318,110.4,dropped out of top 10
+2016-06-27,EXR,buy,52.4079,58.65,entered top 10
+2016-07-05,DLR,sell,49.6074,76.77,dropped out of top 10
+2016-07-05,EXR,sell,52.4079,60.96,dropped out of top 10
+2016-07-05,ULTA,buy,13.9061,243.68,entered top 10
+2016-07-05,ALB,buy,48.4792,69.9,entered top 10
+2016-07-11,TSN,sell,56.8074,52.79,dropped out of top 10
+2016-07-11,GPN,sell,45.7789,69.43,dropped out of top 10
+2016-07-11,ULTA,sell,13.9061,251.75,dropped out of top 10
+2016-07-11,NEM,buy,103.1731,31.78,entered top 10
+2016-07-11,DLR,buy,42.115,77.85,entered top 10
+2016-07-11,NI,buy,175.1188,18.72,entered top 10
+2016-08-01,AMZN,sell,90.273,37.96,dropped out of top 10
+2016-08-01,EQIX,sell,10.4584,304.94,dropped out of top 10
+2016-08-01,O,buy,78.1074,42.55,entered top 10
+2016-08-01,ATO,buy,53.1226,62.57,entered top 10
+2016-08-08,O,sell,78.1074,40.67,dropped out of top 10
+2016-08-08,ATO,sell,53.1226,61.12,dropped out of top 10
+2016-08-08,DHR,buy,46.7419,68.74,entered top 10
+2016-08-08,TSN,buy,55.7852,57.59,entered top 10
+2016-08-15,EVRG,sell,88.403,37.13,dropped out of top 10
+2016-08-15,NI,sell,175.1188,18.06,dropped out of top 10
+2016-08-15,AMAT,buy,131.1789,24.57,entered top 10
+2016-08-15,O,buy,78.7267,40.94,entered top 10
+2016-08-22,AWK,sell,52.7769,62.3,dropped out of top 10
+2016-08-22,O,sell,78.7267,39.78,dropped out of top 10
+2016-08-22,KLAC,buy,531.3898,6.04,entered top 10
+2016-08-22,MPWR,buy,46.5572,68.95,entered top 10
+2016-08-29,MPWR,sell,46.5572,70.44,dropped out of top 10
+2016-08-29,ULTA,buy,12.9912,254.85,entered top 10
+2016-09-06,KLAC,sell,531.3898,6.0,dropped out of top 10
+2016-09-06,ULTA,sell,12.9912,246.57,dropped out of top 10
+2016-09-06,ALGN,buy,33.017,96.33,entered top 10
+2016-09-06,EW,buy,82.3686,38.61,entered top 10
+2016-09-12,EW,sell,82.3686,38.23,dropped out of top 10
+2016-09-12,LITE,buy,88.3277,36.02,entered top 10
+2016-09-19,ALGN,sell,33.017,93.8,dropped out of top 10
+2016-09-19,EW,buy,79.6078,38.91,entered top 10
+2016-09-26,DLR,sell,42.115,69.16,dropped out of top 10
+2016-09-26,EW,sell,79.6078,39.71,dropped out of top 10
+2016-09-26,TRMB,buy,108.2867,27.91,entered top 10
+2016-09-26,NDSN,buy,34.335,88.02,entered top 10
+2016-10-03,TRMB,sell,108.2867,28.48,dropped out of top 10
+2016-10-03,NDSN,sell,34.335,89.76,dropped out of top 10
+2016-10-03,WYNN,buy,34.6499,88.96,entered top 10
+2016-10-03,VEEV,buy,74.2387,41.52,entered top 10
+2016-10-10,WYNN,sell,34.6499,86.04,dropped out of top 10
+2016-10-10,ALGN,buy,33.5534,89.8,entered top 10
+2016-10-17,ALB,sell,48.4792,70.67,dropped out of top 10
+2016-10-17,ALGN,sell,33.5534,90.63,dropped out of top 10
+2016-10-17,EW,buy,83.1835,38.67,entered top 10
+2016-10-17,GRMN,buy,85.7447,37.51,entered top 10
+2016-10-24,GRMN,sell,85.7447,37.95,dropped out of top 10
+2016-10-24,WYNN,buy,38.2562,85.88,entered top 10
+2016-10-31,EW,sell,83.1835,31.46,dropped out of top 10
+2016-10-31,WYNN,sell,38.2562,83.8,dropped out of top 10
+2016-10-31,MRVL,buy,236.0656,12.28,entered top 10
+2016-10-31,OKE,buy,110.2764,26.28,entered top 10
+2016-11-07,TSN,sell,55.7852,52.17,dropped out of top 10
+2016-11-07,VEEV,sell,74.2387,37.89,dropped out of top 10
+2016-11-07,MRVL,sell,236.0656,11.83,dropped out of top 10
+2016-11-07,HPE,buy,287.249,9.85,entered top 10
+2016-11-07,ALB,buy,37.9828,74.51,entered top 10
+2016-11-07,TPL,buy,113.8269,24.86,entered top 10
+2016-11-14,HPE,sell,287.249,10.26,dropped out of top 10
+2016-11-14,TSN,buy,58.3693,51.43,entered top 10
+2016-11-21,AMAT,sell,131.1789,27.73,dropped out of top 10
+2016-11-21,TSN,sell,58.3693,51.81,dropped out of top 10
+2016-11-21,IDXX,buy,27.6598,119.76,entered top 10
+2016-11-21,HPE,buy,321.3052,10.31,entered top 10
+2016-11-28,ALB,sell,37.9828,73.55,dropped out of top 10
+2016-11-28,IDXX,sell,27.6598,120.03,dropped out of top 10
+2016-11-28,HPE,sell,321.3052,10.09,dropped out of top 10
+2016-11-28,MRVL,buy,229.0291,13.58,entered top 10
+2016-11-28,GEN,buy,261.508,11.89,entered top 10
+2016-11-28,AMAT,buy,108.2034,28.74,entered top 10
+2016-12-05,MRVL,sell,229.0291,12.73,dropped out of top 10
+2016-12-05,AMAT,sell,108.2034,28.55,dropped out of top 10
+2016-12-05,STLD,buy,98.6685,30.6,entered top 10
+2016-12-05,ALB,buy,40.2656,74.98,entered top 10
+2016-12-12,GEN,sell,261.508,11.89,dropped out of top 10
+2016-12-12,ALB,sell,40.2656,79.5,dropped out of top 10
+2016-12-12,FCX,buy,219.9077,14.34,entered top 10
+2016-12-12,TRGP,buy,85.6838,36.8,entered top 10
+2017-01-03,DHR,sell,46.7419,66.1,dropped out of top 10
+2017-01-03,AMAT,buy,106.8902,29.21,entered top 10
+2017-01-09,NEM,sell,103.1731,28.21,dropped out of top 10
+2017-01-09,NDSN,buy,29.0072,100.41,entered top 10
+2017-01-17,AMAT,sell,106.8902,30.44,dropped out of top 10
+2017-01-17,NDSN,sell,29.0072,101.32,dropped out of top 10
+2017-01-17,NEM,buy,110.3083,27.92,entered top 10
+2017-01-17,PWR,buy,90.1577,34.16,entered top 10
+2017-01-23,NEM,sell,110.3083,27.67,dropped out of top 10
+2017-01-23,PWR,sell,90.1577,33.95,dropped out of top 10
+2017-01-23,WMB,buy,177.4188,17.23,entered top 10
+2017-01-23,NDSN,buy,30.4418,100.41,entered top 10
+2017-01-30,WMB,sell,177.4188,17.16,dropped out of top 10
+2017-01-30,NDSN,sell,30.4418,102.8,dropped out of top 10
+2017-01-30,URI,buy,24.9268,123.84,entered top 10
+2017-01-30,MU,buy,132.7886,23.25,entered top 10
+2017-02-06,LITE,sell,88.3277,38.71,dropped out of top 10
+2017-02-06,NDSN,buy,33.2897,103.54,entered top 10
+2017-02-13,STLD,sell,98.6685,31.05,dropped out of top 10
+2017-02-13,NDSN,sell,33.2897,105.43,dropped out of top 10
+2017-02-13,WMB,buy,190.3359,17.19,entered top 10
+2017-02-13,DVN,buy,104.6732,31.25,entered top 10
+2017-02-21,MU,sell,132.7886,23.01,dropped out of top 10
+2017-02-21,STLD,buy,98.5832,31.34,entered top 10
+2017-02-27,WMB,sell,190.3359,16.95,dropped out of top 10
+2017-02-27,STLD,sell,98.5832,29.43,dropped out of top 10
+2017-02-27,MU,buy,133.7039,22.8,entered top 10
+2017-02-27,PKG,buy,43.1959,70.57,entered top 10
+2017-03-06,FCX,sell,219.9077,11.6,dropped out of top 10
+2017-03-06,PKG,sell,43.1959,70.57,dropped out of top 10
+2017-03-06,CSX,buy,194.3428,14.42,entered top 10
+2017-03-06,DHR,buy,38.4999,72.78,entered top 10
+2017-03-20,DVN,sell,104.6732,27.73,dropped out of top 10
+2017-03-20,CSX,sell,194.3428,13.76,dropped out of top 10
+2017-03-20,DHR,sell,38.4999,73.14,dropped out of top 10
+2017-03-20,RF,buy,265.7772,10.49,entered top 10
+2017-03-20,INCY,buy,18.8701,147.76,entered top 10
+2017-03-20,COHR,buy,79.5832,35.03,entered top 10
+2017-03-27,INCY,sell,18.8701,139.01,dropped out of top 10
+2017-03-27,COHR,sell,79.5832,37.41,dropped out of top 10
+2017-03-27,ANET,buy,342.4485,8.22,entered top 10
+2017-03-27,WMB,buy,161.9633,17.37,entered top 10
+2017-04-03,ANET,sell,342.4485,8.22,dropped out of top 10
+2017-04-03,CSX,buy,207.7032,13.7,entered top 10
+2017-04-10,OKE,sell,110.2764,31.25,dropped out of top 10
+2017-04-10,TPL,sell,113.8269,27.81,dropped out of top 10
+2017-04-10,WMB,sell,161.9633,18.64,dropped out of top 10
+2017-04-10,MS,buy,100.2421,31.8,entered top 10
+2017-04-10,BAC,buy,170.9473,18.65,entered top 10
+2017-04-10,DHR,buy,43.7294,72.89,entered top 10
+2017-04-17,RF,sell,265.7772,9.59,dropped out of top 10
+2017-04-17,CSX,sell,207.7032,13.67,dropped out of top 10
+2017-04-17,MS,sell,100.2421,30.89,dropped out of top 10
+2017-04-17,BAC,sell,170.9473,17.99,dropped out of top 10
+2017-04-17,ANET,buy,350.8849,8.22,entered top 10
+2017-04-17,INCY,buy,23.0604,125.09,entered top 10
+2017-04-17,IDXX,buy,18.6794,154.43,entered top 10
+2017-04-17,WDC,buy,50.8463,56.73,entered top 10
+2017-04-24,TRGP,sell,85.6838,38.06,dropped out of top 10
+2017-04-24,DHR,sell,43.7294,69.77,dropped out of top 10
+2017-04-24,INCY,sell,23.0604,123.94,dropped out of top 10
+2017-04-24,WDC,sell,50.8463,57.29,dropped out of top 10
+2017-04-24,LITE,buy,65.3606,46.2,entered top 10
+2017-04-24,STX,buy,88.9463,33.95,entered top 10
+2017-04-24,AMAT,buy,82.6299,36.54,entered top 10
+2017-04-24,TPL,buy,106.1464,28.45,entered top 10
+2017-05-01,URI,sell,24.9268,105.42,dropped out of top 10
+2017-05-01,STX,sell,88.9463,29.05,dropped out of top 10
+2017-05-01,TPL,sell,106.1464,30.17,dropped out of top 10
+2017-05-01,INCY,buy,22.5514,124.9,entered top 10
+2017-05-01,VEEV,buy,52.12,54.04,entered top 10
+2017-05-01,GEN,buy,184.921,15.23,entered top 10
+2017-05-08,IDXX,sell,18.6794,161.73,dropped out of top 10
+2017-05-08,VEEV,sell,52.12,54.45,dropped out of top 10
+2017-05-08,GEN,sell,184.921,15.52,dropped out of top 10
+2017-05-08,STX,buy,96.4372,30.16,entered top 10
+2017-05-08,WDC,buy,47.4345,61.32,entered top 10
+2017-05-08,URI,buy,27.3062,106.53,entered top 10
+2017-05-15,LITE,sell,65.3606,53.8,dropped out of top 10
+2017-05-15,XYZ,buy,176.5572,20.21,entered top 10
+2017-05-22,INCY,sell,22.5514,131.07,dropped out of top 10
+2017-05-22,URI,sell,27.3062,106.26,dropped out of top 10
+2017-05-22,XYZ,sell,176.5572,19.96,dropped out of top 10
+2017-05-22,LITE,buy,57.5998,53.95,entered top 10
+2017-05-22,CSX,buy,209.1144,14.86,entered top 10
+2017-05-22,LRCX,buy,230.3244,13.49,entered top 10
+2017-05-30,AMAT,sell,82.6299,41.17,dropped out of top 10
+2017-05-30,LITE,sell,57.5998,58.44,dropped out of top 10
+2017-05-30,LRCX,sell,230.3244,13.7,dropped out of top 10
+2017-05-30,TER,buy,97.6421,33.86,entered top 10
+2017-05-30,XYZ,buy,147.6428,22.39,entered top 10
+2017-05-30,GEN,buy,226.9351,14.57,entered top 10
+2017-06-05,TER,sell,97.6421,33.53,dropped out of top 10
+2017-06-05,LRCX,buy,237.3528,14.08,entered top 10
+2017-06-12,LRCX,sell,237.3528,13.75,dropped out of top 10
+2017-06-12,LITE,buy,53.4538,61.06,entered top 10
+2017-06-19,GEN,sell,226.9351,13.76,dropped out of top 10
+2017-06-19,APO,buy,157.1558,19.88,entered top 10
+2017-06-26,STX,sell,96.4372,30.1,dropped out of top 10
+2017-06-26,WDC,sell,47.4345,63.68,dropped out of top 10
+2017-06-26,TTWO,buy,40.1129,73.48,entered top 10
+2017-06-26,ADSK,buy,27.3263,107.87,entered top 10
+2017-07-03,APO,sell,157.1558,19.08,dropped out of top 10
+2017-07-03,ZBRA,buy,29.9671,101.01,entered top 10
+2017-07-10,TTWO,sell,40.1129,74.64,dropped out of top 10
+2017-07-10,UAL,buy,38.109,78.57,entered top 10
+2017-07-17,ADSK,sell,27.3263,108.79,dropped out of top 10
+2017-07-17,UAL,sell,38.109,79.58,dropped out of top 10
+2017-07-17,APO,buy,153.0339,19.52,entered top 10
+2017-07-17,TTWO,buy,39.0572,76.5,entered top 10
+2017-07-24,APO,sell,153.0339,20.05,dropped out of top 10
+2017-07-24,ADSK,buy,28.2343,109.7,entered top 10
+2017-07-31,ADSK,sell,28.2343,111.54,dropped out of top 10
+2017-07-31,TPL,buy,95.6484,32.92,entered top 10
+2017-08-07,ZBRA,sell,29.9671,96.18,dropped out of top 10
+2017-08-07,TPL,sell,95.6484,35.89,dropped out of top 10
+2017-08-07,WDC,buy,56.7142,55.39,entered top 10
+2017-08-07,BBY,buy,73.1811,42.93,entered top 10
+2017-08-14,BBY,sell,73.1811,42.91,dropped out of top 10
+2017-08-14,LRCX,buy,228.616,13.87,entered top 10
+2017-08-21,CSX,sell,209.1144,14.32,dropped out of top 10
+2017-08-21,LITE,sell,53.4538,51.8,dropped out of top 10
+2017-08-21,NRG,buy,136.4985,21.02,entered top 10
+2017-08-21,NFLX,buy,171.6969,16.71,entered top 10
+2017-08-28,LRCX,sell,228.616,14.0,dropped out of top 10
+2017-08-28,TPL,buy,85.866,37.56,entered top 10
+2017-09-05,AMD,sell,704.3376,12.87,dropped out of top 10
+2017-09-05,MU,sell,133.7039,31.61,dropped out of top 10
+2017-09-05,ANET,sell,350.8849,11.04,dropped out of top 10
+2017-09-05,BA,buy,22.6836,228.01,entered top 10
+2017-09-05,ALGN,buy,29.2873,176.6,entered top 10
+2017-09-05,LITE,buy,90.6466,57.06,entered top 10
+2017-09-11,WDC,sell,56.7142,59.73,dropped out of top 10
+2017-09-11,NFLX,sell,171.6969,17.79,dropped out of top 10
+2017-09-11,TPL,sell,85.866,38.83,dropped out of top 10
+2017-09-11,LITE,sell,90.6466,56.94,dropped out of top 10
+2017-09-11,AMD,buy,329.7183,12.47,entered top 10
+2017-09-11,ANET,buy,377.9258,10.88,entered top 10
+2017-09-11,RCL,buy,37.8609,108.62,entered top 10
+2017-09-11,TSLA,buy,175.3931,23.45,entered top 10
+2017-09-25,RCL,sell,37.8609,103.99,dropped out of top 10
+2017-09-25,TSLA,sell,175.3931,23.52,dropped out of top 10
+2017-09-25,NFLX,buy,218.2297,18.66,entered top 10
+2017-09-25,LRCX,buy,260.564,15.63,entered top 10
+2017-10-02,LRCX,sell,260.564,16.4,dropped out of top 10
+2017-10-02,VRTX,buy,28.4881,151.38,entered top 10
+2017-10-09,NFLX,sell,218.2297,19.89,dropped out of top 10
+2017-10-09,MU,buy,111.9649,38.77,entered top 10
+2017-10-23,VRTX,sell,28.4881,155.16,dropped out of top 10
+2017-10-23,APO,buy,188.7152,23.42,entered top 10
+2017-10-30,BA,sell,22.6836,241.9,dropped out of top 10
+2017-10-30,AMD,sell,329.7183,11.25,dropped out of top 10
+2017-10-30,APO,sell,188.7152,23.52,dropped out of top 10
+2017-10-30,VRTX,buy,30.1217,149.86,entered top 10
+2017-10-30,LRCX,buy,245.6745,18.37,entered top 10
+2017-10-30,NVR,buy,1.3912,3244.61,entered top 10
+2017-11-06,LRCX,sell,245.6745,18.4,dropped out of top 10
+2017-11-06,NVR,sell,1.3912,3221.29,dropped out of top 10
+2017-11-06,AMD,buy,375.3402,12.05,entered top 10
+2017-11-06,URI,buy,32.3732,139.73,entered top 10
+2017-11-13,VRTX,sell,30.1217,147.29,dropped out of top 10
+2017-11-13,URI,sell,32.3732,139.39,dropped out of top 10
+2017-11-13,LRCX,buy,245.3315,18.24,entered top 10
+2017-11-13,NVR,buy,1.3638,3281.4,entered top 10
+2017-11-20,AMD,sell,375.3402,11.46,dropped out of top 10
+2017-11-20,TSLA,buy,207.6068,20.94,entered top 10
+2017-11-27,TSLA,sell,207.6068,20.86,dropped out of top 10
+2017-11-27,PYPL,buy,55.6439,77.84,entered top 10
+2017-12-04,PYPL,sell,55.6439,74.68,dropped out of top 10
+2017-12-04,ON,buy,206.6256,20.12,entered top 10
+2017-12-11,ON,sell,206.6256,19.41,dropped out of top 10
+2017-12-11,VRTX,buy,27.8869,143.87,entered top 10
+2018-01-02,NVDA,sell,3602.1607,4.82,dropped out of top 10
+2018-01-02,LRCX,sell,245.3315,16.46,dropped out of top 10
+2018-01-02,PODD,buy,85.1267,69.21,entered top 10
+2018-01-02,ISRG,buy,47.9953,122.75,entered top 10
+2018-01-08,VRTX,sell,27.8869,154.99,dropped out of top 10
+2018-01-08,ISRG,sell,47.9953,126.11,dropped out of top 10
+2018-01-08,NVDA,buy,1136.5583,5.44,entered top 10
+2018-01-08,FSLR,buy,89.2216,69.32,entered top 10
+2018-01-16,PODD,sell,85.1267,75.66,dropped out of top 10
+2018-01-16,BA,buy,19.6479,324.25,entered top 10
+2018-01-22,NRG,sell,136.4985,22.0,dropped out of top 10
+2018-01-22,DHI,buy,136.6144,46.84,entered top 10
+2018-01-29,DHI,sell,136.6144,45.24,dropped out of top 10
+2018-01-29,WYNN,buy,41.8422,155.13,entered top 10
+2018-02-05,WYNN,sell,41.8422,149.92,dropped out of top 10
+2018-02-05,PYPL,buy,81.4681,75.19,entered top 10
+2018-02-12,MU,sell,111.9649,39.94,dropped out of top 10
+2018-02-12,CAT,buy,47.1254,127.15,entered top 10
+2018-02-20,CAT,sell,47.1254,129.65,dropped out of top 10
+2018-02-20,MU,buy,144.4824,42.96,entered top 10
+2018-02-26,FSLR,sell,89.2216,61.99,dropped out of top 10
+2018-02-26,MU,sell,144.4824,45.75,dropped out of top 10
+2018-02-26,WYNN,buy,41.2756,152.91,entered top 10
+2018-02-26,VRTX,buy,37.7729,167.09,entered top 10
+2018-03-05,NVR,sell,1.3638,2875.97,dropped out of top 10
+2018-03-05,WYNN,sell,41.2756,146.48,dropped out of top 10
+2018-03-05,VRTX,sell,37.7729,168.32,dropped out of top 10
+2018-03-05,P,buy,288.1726,21.09,entered top 10
+2018-03-05,NFLX,buy,200.4886,30.32,entered top 10
+2018-03-05,FSLR,buy,94.9163,64.03,entered top 10
+2018-03-12,PYPL,sell,81.4681,79.78,dropped out of top 10
+2018-03-12,TPL,buy,125.1953,52.79,entered top 10
+2018-03-19,TTWO,sell,39.0572,106.17,dropped out of top 10
+2018-03-19,IBKR,buy,247.6651,16.87,entered top 10
+2018-03-26,ANET,sell,377.9258,16.92,dropped out of top 10
+2018-03-26,TPL,sell,125.1953,50.14,dropped out of top 10
+2018-03-26,PODD,buy,73.4142,85.63,entered top 10
+2018-03-26,TTWO,buy,61.7003,101.88,entered top 10
+2018-04-02,PODD,sell,73.4142,86.06,dropped out of top 10
+2018-04-02,TTWO,sell,61.7003,96.22,dropped out of top 10
+2018-04-02,ANET,buy,385.2258,15.86,entered top 10
+2018-04-02,TPL,buy,121.0964,50.44,entered top 10
+2018-04-09,TPL,sell,121.0964,52.3,dropped out of top 10
+2018-04-09,NOW,buy,184.0875,32.94,entered top 10
+2018-04-16,BA,sell,19.6479,317.96,dropped out of top 10
+2018-04-16,MU,buy,122.4908,50.99,entered top 10
+2018-04-23,P,sell,288.1726,20.52,dropped out of top 10
+2018-04-23,PODD,buy,72.2958,87.15,entered top 10
+2018-04-30,ANET,sell,385.2258,16.49,dropped out of top 10
+2018-04-30,NOW,sell,184.0875,32.6,dropped out of top 10
+2018-04-30,P,buy,301.2072,20.41,entered top 10
+2018-04-30,NRG,buy,239.1924,25.7,entered top 10
+2018-05-07,ALGN,sell,29.2873,258.99,dropped out of top 10
+2018-05-07,NFLX,sell,200.4886,32.17,dropped out of top 10
+2018-05-07,MU,sell,122.4908,47.01,dropped out of top 10
+2018-05-07,P,sell,301.2072,21.12,dropped out of top 10
+2018-05-07,CVNA,buy,1236.3142,5.11,entered top 10
+2018-05-07,TKO,buy,169.8329,37.16,entered top 10
+2018-05-07,BA,buy,19.6394,321.37,entered top 10
+2018-05-07,ANET,buy,408.2688,15.46,entered top 10
+2018-05-14,NVDA,sell,1136.5583,6.31,dropped out of top 10
+2018-05-14,ANET,sell,408.2688,16.13,dropped out of top 10
+2018-05-14,NFLX,buy,204.5616,32.76,entered top 10
+2018-05-14,ALGN,buy,23.3258,287.28,entered top 10
+2018-05-21,ALGN,sell,23.3258,299.7,dropped out of top 10
+2018-05-21,P,buy,284.8292,24.0,entered top 10
+2018-05-29,BA,sell,19.6394,343.94,dropped out of top 10
+2018-05-29,P,sell,284.8292,20.58,dropped out of top 10
+2018-05-29,LULU,buy,64.145,106.36,entered top 10
+2018-05-29,TPL,buy,100.6113,67.81,entered top 10
+2018-06-04,FSLR,sell,94.9163,66.02,dropped out of top 10
+2018-06-04,VLO,buy,73.9998,90.77,entered top 10
+2018-06-11,CVNA,sell,1236.3142,7.23,dropped out of top 10
+2018-06-11,VLO,sell,73.9998,87.09,dropped out of top 10
+2018-06-11,AXON,buy,111.9248,65.5,entered top 10
+2018-06-11,TWLO,buy,125.8505,58.25,entered top 10
+2018-06-18,PODD,sell,72.2958,97.21,dropped out of top 10
+2018-06-18,LULU,sell,64.145,127.46,dropped out of top 10
+2018-06-18,FSLR,buy,146.3217,50.75,entered top 10
+2018-06-18,ALGN,buy,20.5493,361.37,entered top 10
+2018-06-25,TWLO,sell,125.8505,55.19,dropped out of top 10
+2018-06-25,FSLR,sell,146.3217,54.92,dropped out of top 10
+2018-06-25,LULU,buy,60.3562,124.38,entered top 10
+2018-06-25,VLO,buy,92.3061,81.33,entered top 10
+2018-07-02,LULU,sell,60.3562,124.87,dropped out of top 10
+2018-07-02,OKTA,buy,147.8275,49.95,entered top 10
+2018-07-09,IBKR,sell,247.6651,14.47,dropped out of top 10
+2018-07-09,VLO,sell,92.3061,78.72,dropped out of top 10
+2018-07-09,LULU,buy,46.0602,130.13,entered top 10
+2018-07-09,TWLO,buy,100.6865,59.53,entered top 10
+2018-07-16,NRG,sell,239.1924,25.76,dropped out of top 10
+2018-07-16,PODD,buy,72.4033,85.9,entered top 10
+2018-07-23,TWLO,sell,100.6865,62.6,dropped out of top 10
+2018-07-23,GWW,buy,20.646,305.23,entered top 10
+2018-07-30,PODD,sell,72.4033,83.52,dropped out of top 10
+2018-07-30,CVNA,buy,684.879,8.83,entered top 10
+2018-08-06,GWW,sell,20.646,304.71,dropped out of top 10
+2018-08-06,TWLO,buy,101.2478,62.11,entered top 10
+2018-08-20,TWLO,sell,101.2478,77.52,dropped out of top 10
+2018-08-20,NTAP,buy,118.4293,66.14,entered top 10
+2018-08-27,TPL,sell,100.6113,84.46,dropped out of top 10
+2018-08-27,ALGN,sell,20.5493,369.63,dropped out of top 10
+2018-08-27,GWW,buy,24.2999,329.44,entered top 10
+2018-08-27,TWLO,buy,98.126,81.58,entered top 10
+2018-09-04,NFLX,sell,204.5616,36.61,dropped out of top 10
+2018-09-04,ALGN,buy,19.5705,387.03,entered top 10
+2018-09-10,OKTA,sell,147.8275,71.58,dropped out of top 10
+2018-09-10,TPL,buy,109.5615,82.9,entered top 10
+2018-09-17,ALGN,sell,19.5705,390.15,dropped out of top 10
+2018-09-17,FTNT,buy,504.3337,18.08,entered top 10
+2018-10-01,NTAP,sell,118.4293,69.71,dropped out of top 10
+2018-10-01,GWW,sell,24.2999,321.32,dropped out of top 10
+2018-10-01,TPL,sell,109.5615,86.12,dropped out of top 10
+2018-10-01,DXCM,buy,239.5116,35.26,entered top 10
+2018-10-01,OKTA,buy,118.7278,71.13,entered top 10
+2018-10-01,ALGN,buy,21.448,393.75,entered top 10
+2018-10-08,ALGN,sell,21.448,349.77,dropped out of top 10
+2018-10-08,AMD,buy,287.0385,26.76,entered top 10
+2018-10-29,XYZ,sell,147.6428,72.4,crash filter: SPY below 200-day average
+2018-10-29,TKO,sell,169.8329,63.86,crash filter: SPY below 200-day average
+2018-10-29,AXON,sell,111.9248,58.02,crash filter: SPY below 200-day average
+2018-10-29,LULU,sell,46.0602,136.55,crash filter: SPY below 200-day average
+2018-10-29,CVNA,sell,684.879,7.86,crash filter: SPY below 200-day average
+2018-10-29,TWLO,sell,98.126,67.31,crash filter: SPY below 200-day average
+2018-10-29,FTNT,sell,504.3337,16.04,crash filter: SPY below 200-day average
+2018-10-29,DXCM,sell,239.5116,31.8,crash filter: SPY below 200-day average
+2018-10-29,OKTA,sell,118.7278,53.95,crash filter: SPY below 200-day average
+2018-10-29,AMD,sell,287.0385,18.19,crash filter: SPY below 200-day average
+2018-11-12,CVNA,buy,754.8634,9.67,entered top 10
+2018-11-12,TKO,buy,115.8436,63.0,entered top 10
+2018-11-12,TWLO,buy,79.5382,91.75,entered top 10
+2018-11-12,AXON,buy,139.7713,52.21,entered top 10
+2018-11-12,DXCM,buy,198.0164,36.85,entered top 10
+2018-11-12,AMD,buy,352.5373,20.7,entered top 10
+2018-11-12,LULU,buy,53.1066,137.42,entered top 10
+2018-11-12,FTNT,buy,490.0168,14.89,entered top 10
+2018-11-12,TPL,buy,111.9448,65.19,entered top 10
+2018-11-12,OKTA,buy,123.7981,58.95,entered top 10
+2018-11-19,CVNA,sell,754.8634,9.11,crash filter: SPY below 200-day average
+2018-11-19,TKO,sell,115.8436,59.08,crash filter: SPY below 200-day average
+2018-11-19,TWLO,sell,79.5382,88.91,crash filter: SPY below 200-day average
+2018-11-19,AXON,sell,139.7713,49.95,crash filter: SPY below 200-day average
+2018-11-19,DXCM,sell,198.0164,34.22,crash filter: SPY below 200-day average
+2018-11-19,AMD,sell,352.5373,20.38,crash filter: SPY below 200-day average
+2018-11-19,LULU,sell,53.1066,134.37,crash filter: SPY below 200-day average
+2018-11-19,FTNT,sell,490.0168,14.61,crash filter: SPY below 200-day average
+2018-11-19,TPL,sell,111.9448,59.94,crash filter: SPY below 200-day average
+2018-11-19,OKTA,sell,123.7981,57.05,crash filter: SPY below 200-day average
+2018-12-03,TWLO,buy,71.688,97.42,entered top 10
+2018-12-03,TKO,buy,101.9233,68.52,entered top 10
+2018-12-03,AXON,buy,158.8858,43.95,entered top 10
+2018-12-03,CVNA,buy,791.5448,8.82,entered top 10
+2018-12-03,DXCM,buy,208.82,33.44,entered top 10
+2018-12-03,LULU,buy,50.9246,137.14,entered top 10
+2018-12-03,OKTA,buy,107.0042,65.27,entered top 10
+2018-12-03,FTNT,buy,457.607,15.26,entered top 10
+2018-12-03,TPL,buy,118.2244,59.07,entered top 10
+2018-12-03,XYZ,buy,95.4793,73.14,entered top 10
+2018-12-10,TWLO,sell,71.688,88.17,crash filter: SPY below 200-day average
+2018-12-10,TKO,sell,101.9233,67.47,crash filter: SPY below 200-day average
+2018-12-10,AXON,sell,158.8858,43.27,crash filter: SPY below 200-day average
+2018-12-10,CVNA,sell,791.5448,7.03,crash filter: SPY below 200-day average
+2018-12-10,DXCM,sell,208.82,30.44,crash filter: SPY below 200-day average
+2018-12-10,LULU,sell,50.9246,113.24,crash filter: SPY below 200-day average
+2018-12-10,OKTA,sell,107.0042,61.99,crash filter: SPY below 200-day average
+2018-12-10,FTNT,sell,457.607,14.39,crash filter: SPY below 200-day average
+2018-12-10,TPL,sell,118.2244,56.08,crash filter: SPY below 200-day average
+2018-12-10,XYZ,sell,95.4793,59.71,crash filter: SPY below 200-day average
+2019-02-19,TWLO,buy,59.6765,106.2,entered top 10
+2019-02-19,DXCM,buy,169.8934,37.3,entered top 10
+2019-02-19,TKO,buy,80.3556,78.87,entered top 10
+2019-02-19,OKTA,buy,74.6854,84.85,entered top 10
+2019-02-19,AXON,buy,114.2175,55.49,entered top 10
+2019-02-19,CMG,buy,522.2455,12.13,entered top 10
+2019-02-19,VEEV,buy,52.4052,120.93,entered top 10
+2019-02-19,LULU,buy,42.4392,149.33,entered top 10
+2019-02-19,CVNA,buy,893.4628,7.09,entered top 10
+2019-02-19,NRG,buy,182.0508,34.81,entered top 10
+2019-02-25,CMG,sell,522.2455,12.01,dropped out of top 10
+2019-02-25,AMD,buy,256.1293,25.04,entered top 10
+2019-03-04,AXON,sell,114.2175,54.49,dropped out of top 10
+2019-03-04,VEEV,sell,52.4052,121.08,dropped out of top 10
+2019-03-04,NRG,sell,182.0508,34.68,dropped out of top 10
+2019-03-04,CMG,buy,521.6835,12.26,entered top 10
+2019-03-04,CIEN,buy,146.8531,43.55,entered top 10
+2019-03-04,KEYS,buy,74.1681,86.24,entered top 10
+2019-03-11,CIEN,sell,146.8531,39.01,dropped out of top 10
+2019-03-11,KEYS,sell,74.1681,84.22,dropped out of top 10
+2019-03-11,AES,buy,452.6622,13.31,entered top 10
+2019-03-11,LLY,buy,53.8958,111.76,entered top 10
+2019-03-18,LLY,sell,53.8958,112.62,dropped out of top 10
+2019-03-18,DECK,buy,259.1015,23.66,entered top 10
+2019-03-25,DECK,sell,259.1015,23.39,dropped out of top 10
+2019-03-25,LLY,buy,51.7923,117.05,entered top 10
+2019-04-01,AES,sell,452.6622,13.56,dropped out of top 10
+2019-04-01,LLY,sell,51.7923,118.72,dropped out of top 10
+2019-04-01,XYZ,buy,80.7735,75.67,entered top 10
+2019-04-01,CIEN,buy,162.2985,37.66,entered top 10
+2019-04-08,XYZ,sell,80.7735,74.69,dropped out of top 10
+2019-04-08,CIEN,sell,162.2985,37.16,dropped out of top 10
+2019-04-08,LLY,buy,52.3999,115.13,entered top 10
+2019-04-08,KEYS,buy,67.5726,89.28,entered top 10
+2019-04-15,LULU,sell,42.4392,169.85,dropped out of top 10
+2019-04-15,LLY,sell,52.3999,112.42,dropped out of top 10
+2019-04-15,KEYS,sell,67.5726,91.91,dropped out of top 10
+2019-04-15,AES,buy,473.8771,13.53,entered top 10
+2019-04-15,LYV,buy,99.3175,64.56,entered top 10
+2019-04-15,VEEV,buy,47.5821,134.76,entered top 10
+2019-04-22,AES,sell,473.8771,13.21,dropped out of top 10
+2019-04-22,LYV,sell,99.3175,64.92,dropped out of top 10
+2019-04-22,ORLY,buy,240.8179,26.52,entered top 10
+2019-04-22,LLY,buy,61.0019,104.7,entered top 10
+2019-04-29,DXCM,sell,169.8934,31.18,dropped out of top 10
+2019-04-29,LLY,sell,61.0019,108.91,dropped out of top 10
+2019-04-29,AZO,buy,5.7788,1033.81,entered top 10
+2019-04-29,XYZ,buy,83.4254,71.61,entered top 10
+2019-05-06,ORLY,sell,240.8179,24.81,dropped out of top 10
+2019-05-06,XYZ,sell,83.4254,65.39,dropped out of top 10
+2019-05-06,KEYS,buy,66.3,86.24,entered top 10
+2019-05-06,LULU,buy,32.6013,175.38,entered top 10
+2019-05-13,AZO,sell,5.7788,989.16,dropped out of top 10
+2019-05-13,LLY,buy,55.2281,104.54,entered top 10
+2019-05-20,CMG,sell,521.6835,14.33,dropped out of top 10
+2019-05-20,LLY,sell,55.2281,105.84,dropped out of top 10
+2019-05-20,ERIE,buy,37.8727,174.84,entered top 10
+2019-05-20,AZO,buy,6.7199,985.36,entered top 10
+2019-05-28,TKO,sell,80.3556,69.2,dropped out of top 10
+2019-05-28,CDNS,buy,87.7813,64.22,entered top 10
+2019-06-03,TWLO,sell,59.6765,132.64,crash filter: SPY below 200-day average
+2019-06-03,OKTA,sell,74.6854,114.33,crash filter: SPY below 200-day average
+2019-06-03,CVNA,sell,893.4628,11.49,crash filter: SPY below 200-day average
+2019-06-03,AMD,sell,256.1293,28.72,crash filter: SPY below 200-day average
+2019-06-03,VEEV,sell,47.5821,154.71,crash filter: SPY below 200-day average
+2019-06-03,KEYS,sell,66.3,75.07,crash filter: SPY below 200-day average
+2019-06-03,LULU,sell,32.6013,165.66,crash filter: SPY below 200-day average
+2019-06-03,ERIE,sell,37.8727,182.76,crash filter: SPY below 200-day average
+2019-06-03,AZO,sell,6.7199,1026.09,crash filter: SPY below 200-day average
+2019-06-03,CDNS,sell,87.7813,63.25,crash filter: SPY below 200-day average
+2019-06-10,TWLO,buy,48.591,145.14,entered top 10
+2019-06-10,CVNA,buy,554.0808,12.73,entered top 10
+2019-06-10,OKTA,buy,53.9858,130.64,entered top 10
+2019-06-10,ERIE,buy,34.8494,202.38,entered top 10
+2019-06-10,AMD,buy,210.131,33.56,entered top 10
+2019-06-10,VEEV,buy,42.3368,166.59,entered top 10
+2019-06-10,BALL,buy,115.7806,60.91,entered top 10
+2019-06-10,CHD,buy,98.9564,71.27,entered top 10
+2019-06-10,CMG,buy,491.537,14.35,entered top 10
+2019-06-10,CDNS,buy,106.4304,66.27,entered top 10
+2019-06-17,CHD,sell,98.9564,70.66,dropped out of top 10
+2019-06-17,CDNS,sell,106.4304,67.83,dropped out of top 10
+2019-06-17,WDAY,buy,33.3379,209.21,entered top 10
+2019-06-17,KDP,buy,285.4111,24.44,entered top 10
+2019-06-24,KDP,sell,285.4111,25.45,dropped out of top 10
+2019-06-24,AZO,buy,6.3631,1123.11,entered top 10
+2019-07-01,CVNA,sell,554.0808,12.74,dropped out of top 10
+2019-07-01,CMG,sell,491.537,14.75,dropped out of top 10
+2019-07-01,AZO,sell,6.3631,1107.89,dropped out of top 10
+2019-07-01,FICO,buy,22.3099,319.02,entered top 10
+2019-07-01,NOW,buy,126.0715,56.45,entered top 10
+2019-07-01,SBUX,buy,99.1652,71.77,entered top 10
+2019-07-08,NOW,sell,126.0715,58.67,dropped out of top 10
+2019-07-08,AZO,buy,6.404,1132.92,entered top 10
+2019-07-15,FICO,sell,22.3099,343.84,dropped out of top 10
+2019-07-15,CMG,buy,495.2347,15.1,entered top 10
+2019-07-22,AZO,sell,6.404,1171.31,dropped out of top 10
+2019-07-22,CIEN,buy,171.4142,43.41,entered top 10
+2019-07-29,WDAY,sell,33.3379,216.36,dropped out of top 10
+2019-07-29,AZO,buy,6.6343,1144.28,entered top 10
+2019-08-05,CMG,sell,495.2347,15.67,dropped out of top 10
+2019-08-05,AZO,sell,6.6343,1081.27,dropped out of top 10
+2019-08-05,WDAY,buy,36.8736,190.89,entered top 10
+2019-08-05,CDNS,buy,101.1769,69.57,entered top 10
+2019-08-19,WDAY,sell,36.8736,194.35,dropped out of top 10
+2019-08-19,NOW,buy,140.0827,52.05,entered top 10
+2019-09-03,AMD,sell,210.131,30.8,dropped out of top 10
+2019-09-03,CDNS,sell,101.1769,67.75,dropped out of top 10
+2019-09-03,NOW,sell,140.0827,52.77,dropped out of top 10
+2019-09-03,CMG,buy,431.0867,16.68,entered top 10
+2019-09-03,FICO,buy,20.4677,351.24,entered top 10
+2019-09-03,SBAC,buy,30.3246,237.07,entered top 10
+2019-09-09,TWLO,sell,48.591,123.87,dropped out of top 10
+2019-09-09,CIEN,sell,171.4142,39.61,dropped out of top 10
+2019-09-09,TDG,buy,16.2606,420.29,entered top 10
+2019-09-09,EW,buy,90.733,75.32,entered top 10
+2019-09-16,FICO,sell,20.4677,306.23,dropped out of top 10
+2019-09-16,EW,sell,90.733,72.66,dropped out of top 10
+2019-09-16,AMT,buy,36.5914,175.84,entered top 10
+2019-09-16,CDNS,buy,98.9496,65.02,entered top 10
+2019-09-23,TDG,sell,16.2606,412.1,dropped out of top 10
+2019-09-23,CDNS,sell,98.9496,65.42,dropped out of top 10
+2019-09-23,TWLO,buy,57.8391,113.86,entered top 10
+2019-09-23,HSY,buy,50.8407,129.54,entered top 10
+2019-10-07,VEEV,sell,42.3368,153.3,dropped out of top 10
+2019-10-07,FICO,buy,21.266,308.33,entered top 10
+2019-10-14,SBAC,sell,30.3246,217.78,dropped out of top 10
+2019-10-14,AMT,sell,36.5914,183.99,dropped out of top 10
+2019-10-14,HSY,sell,50.8407,130.74,dropped out of top 10
+2019-10-14,FICO,sell,21.266,308.21,dropped out of top 10
+2019-10-14,TER,buy,110.9094,59.37,entered top 10
+2019-10-14,CVNA,buy,455.1504,14.47,entered top 10
+2019-10-14,LRCX,buy,300.8588,21.89,entered top 10
+2019-10-14,CDNS,buy,99.649,66.08,entered top 10
+2019-10-21,ERIE,sell,34.8494,163.5,dropped out of top 10
+2019-10-21,BALL,sell,115.7806,68.42,dropped out of top 10
+2019-10-21,SBUX,sell,99.1652,73.07,dropped out of top 10
+2019-10-21,TWLO,sell,57.8391,106.49,dropped out of top 10
+2019-10-21,KLAC,buy,444.5896,14.79,entered top 10
+2019-10-21,SBAC,buy,29.8161,220.48,entered top 10
+2019-10-21,PODD,buy,42.5116,154.63,entered top 10
+2019-10-21,MLM,buy,25.7863,254.93,entered top 10
+2019-10-28,CDNS,sell,99.649,65.11,dropped out of top 10
+2019-10-28,SBAC,sell,29.8161,219.37,dropped out of top 10
+2019-10-28,MLM,sell,25.7863,256.83,dropped out of top 10
+2019-10-28,VEEV,buy,45.8698,147.38,entered top 10
+2019-10-28,CPRT,buy,320.6747,21.08,entered top 10
+2019-10-28,TDG,buy,16.4213,411.67,entered top 10
+2019-11-04,CPRT,sell,320.6747,20.84,dropped out of top 10
+2019-11-04,TDG,sell,16.4213,423.6,dropped out of top 10
+2019-11-04,KEYS,buy,65.9244,103.53,entered top 10
+2019-11-04,CSGP,buy,123.6658,55.19,entered top 10
+2019-11-11,CVNA,sell,455.1504,15.39,dropped out of top 10
+2019-11-11,VEEV,sell,45.8698,142.98,dropped out of top 10
+2019-11-11,KEYS,sell,65.9244,104.39,dropped out of top 10
+2019-11-11,CPRT,buy,332.8986,20.32,entered top 10
+2019-11-11,SMCI,buy,3218.4161,2.1,entered top 10
+2019-11-11,NVR,buy,1.9735,3428.22,entered top 10
+2019-11-18,CPRT,sell,332.8986,21.5,dropped out of top 10
+2019-11-18,SMCI,sell,3218.4161,2.16,dropped out of top 10
+2019-11-18,NVR,sell,1.9735,3591.4,dropped out of top 10
+2019-11-18,CVNA,buy,435.7189,16.28,entered top 10
+2019-11-18,KEYS,buy,64.4151,110.11,entered top 10
+2019-11-18,VEEV,buy,46.5305,152.43,entered top 10
+2019-11-25,CSGP,sell,123.6658,59.28,dropped out of top 10
+2019-11-25,VEEV,sell,46.5305,154.78,dropped out of top 10
+2019-11-25,AMD,buy,178.7927,39.54,entered top 10
+2019-11-25,CPRT,buy,313.8108,22.53,entered top 10
+2019-12-02,CMG,sell,431.0867,16.25,dropped out of top 10
+2019-12-02,AMD,sell,178.7927,39.28,dropped out of top 10
+2019-12-02,FICO,buy,19.5833,368.35,entered top 10
+2019-12-02,GNRC,buy,73.3164,98.39,entered top 10
+2019-12-09,OKTA,sell,53.9858,118.17,dropped out of top 10
+2019-12-09,CPRT,sell,313.8108,22.11,dropped out of top 10
+2019-12-09,BX,buy,160.1181,42.43,entered top 10
+2019-12-09,AMD,buy,172.0034,39.5,entered top 10
+2019-12-16,KEYS,sell,64.4151,107.94,dropped out of top 10
+2019-12-16,FICO,sell,19.5833,356.98,dropped out of top 10
+2019-12-16,GNRC,sell,73.3164,99.19,dropped out of top 10
+2019-12-16,MRVL,buy,277.7065,25.37,entered top 10
+2019-12-16,APO,buy,188.7961,37.32,entered top 10
+2019-12-16,JBL,buy,180.9423,38.94,entered top 10
+2019-12-23,BX,sell,160.1181,43.64,dropped out of top 10
+2019-12-23,MRVL,sell,277.7065,25.28,dropped out of top 10
+2019-12-23,JBL,sell,180.9423,40.16,dropped out of top 10
+2019-12-23,OKTA,buy,60.7055,116.8,entered top 10
+2019-12-23,TGT,buy,66.3569,106.85,entered top 10
+2019-12-23,DXCM,buy,132.5992,53.47,entered top 10
+2019-12-30,KLAC,sell,444.5896,16.47,dropped out of top 10
+2019-12-30,APO,sell,188.7961,40.08,dropped out of top 10
+2019-12-30,DXCM,sell,132.5992,54.25,dropped out of top 10
+2019-12-30,FICO,buy,19.4348,378.59,entered top 10
+2019-12-30,GNRC,buy,72.1266,102.01,entered top 10
+2019-12-30,CMG,buy,438.4804,16.78,entered top 10
+2020-01-06,TGT,sell,66.3569,102.11,dropped out of top 10
+2020-01-06,CMG,sell,438.4804,17.22,dropped out of top 10
+2020-01-06,DXCM,buy,132.0701,54.53,entered top 10
+2020-01-06,ARES,buy,256.5697,28.07,entered top 10
+2020-01-13,OKTA,sell,60.7055,129.94,dropped out of top 10
+2020-01-13,FICO,sell,19.4348,404.64,dropped out of top 10
+2020-01-13,DXCM,sell,132.0701,58.69,dropped out of top 10
+2020-01-13,TGT,buy,74.9592,102.82,entered top 10
+2020-01-13,BX,buy,170.1905,45.29,entered top 10
+2020-01-13,KLAC,buy,478.0222,16.12,entered top 10
+2020-01-21,ARES,sell,256.5697,29.58,dropped out of top 10
+2020-01-21,BX,sell,170.1905,47.24,dropped out of top 10
+2020-01-21,AAPL,buy,102.3274,76.34,entered top 10
+2020-01-21,CPRT,buy,322.1828,24.25,entered top 10
+2020-01-27,CPRT,sell,322.1828,24.26,dropped out of top 10
+2020-01-27,APO,buy,185.8504,41.3,entered top 10
+2020-02-03,LRCX,sell,300.8588,27.83,dropped out of top 10
+2020-02-03,KLAC,sell,478.0222,15.47,dropped out of top 10
+2020-02-03,APO,sell,185.8504,39.82,dropped out of top 10
+2020-02-03,QCOM,buy,102.1404,73.82,entered top 10
+2020-02-03,CPRT,buy,294.8052,25.58,entered top 10
+2020-02-03,ARES,buy,248.8783,30.3,entered top 10
+2020-02-10,ARES,sell,248.8783,30.67,dropped out of top 10
+2020-02-10,LITE,buy,90.3418,86.32,entered top 10
+2020-02-18,TGT,sell,74.9592,96.87,dropped out of top 10
+2020-02-18,LITE,sell,90.3418,84.42,dropped out of top 10
+2020-02-18,BX,buy,158.834,49.7,entered top 10
+2020-02-18,APO,buy,203.7213,38.75,entered top 10
+2020-02-24,CPRT,sell,294.8052,23.18,dropped out of top 10
+2020-02-24,TSLA,buy,123.6341,55.99,entered top 10
+2020-03-02,TER,sell,110.9094,57.88,crash filter: SPY below 200-day average
+2020-03-02,PODD,sell,42.5116,179.82,crash filter: SPY below 200-day average
+2020-03-02,CVNA,sell,435.7189,16.66,crash filter: SPY below 200-day average
+2020-03-02,AMD,sell,172.0034,47.37,crash filter: SPY below 200-day average
+2020-03-02,GNRC,sell,72.1266,103.87,crash filter: SPY below 200-day average
+2020-03-02,AAPL,sell,102.3274,67.96,crash filter: SPY below 200-day average
+2020-03-02,QCOM,sell,102.1404,68.05,crash filter: SPY below 200-day average
+2020-03-02,BX,sell,158.834,42.97,crash filter: SPY below 200-day average
+2020-03-02,APO,sell,203.7213,35.54,crash filter: SPY below 200-day average
+2020-03-02,TSLA,sell,123.6341,47.37,crash filter: SPY below 200-day average
+2020-06-01,TSLA,buy,122.5169,57.26,entered top 10
+2020-06-01,DXCM,buy,73.2859,95.72,entered top 10
+2020-06-01,MRNA,buy,111.663,62.82,entered top 10
+2020-06-01,NVDA,buy,798.2938,8.79,entered top 10
+2020-06-01,LITE,buy,95.5806,73.39,entered top 10
+2020-06-01,GEN,buy,359.5458,19.51,entered top 10
+2020-06-01,NEM,buy,142.1937,49.33,entered top 10
+2020-06-01,AMD,buy,131.4569,53.36,entered top 10
+2020-06-01,GNRC,buy,62.6775,111.92,entered top 10
+2020-06-01,DVA,buy,86.6679,80.94,entered top 10
+2020-06-08,AMD,sell,131.4569,53.25,dropped out of top 10
+2020-06-08,GNRC,sell,62.6775,114.61,dropped out of top 10
+2020-06-08,REGN,buy,12.0679,582.97,entered top 10
+2020-06-08,PODD,buy,39.1715,179.6,entered top 10
+2020-06-15,LITE,sell,95.5806,72.93,dropped out of top 10
+2020-06-15,DVA,sell,86.6679,76.57,dropped out of top 10
+2020-06-15,FTNT,buy,267.6703,25.71,entered top 10
+2020-06-15,WST,buy,35.0846,196.12,entered top 10
+2020-06-22,PODD,sell,39.1715,199.8,dropped out of top 10
+2020-06-22,AMD,buy,135.4506,54.72,entered top 10
+2020-06-29,NEM,sell,142.1937,49.89,dropped out of top 10
+2020-06-29,WST,sell,35.0846,219.21,dropped out of top 10
+2020-06-29,AMD,sell,135.4506,50.1,dropped out of top 10
+2020-06-29,TYL,buy,21.0789,340.29,entered top 10
+2020-06-29,ODFL,buy,90.4055,79.34,entered top 10
+2020-06-29,GNRC,buy,60.537,118.49,entered top 10
+2020-07-06,GEN,sell,359.5458,17.52,dropped out of top 10
+2020-07-06,ODFL,sell,90.4055,83.69,dropped out of top 10
+2020-07-06,GNRC,sell,60.537,125.19,dropped out of top 10
+2020-07-06,LULU,buy,24.0857,309.31,entered top 10
+2020-07-06,WST,buy,32.6401,228.24,entered top 10
+2020-07-06,AMD,buy,140.6894,52.95,entered top 10
+2020-07-13,FTNT,sell,267.6703,29.15,dropped out of top 10
+2020-07-13,TYL,sell,21.0789,360.92,dropped out of top 10
+2020-07-13,WST,sell,32.6401,229.68,dropped out of top 10
+2020-07-13,CVNA,buy,273.7123,27.89,entered top 10
+2020-07-13,AAPL,buy,81.1104,94.12,entered top 10
+2020-07-13,ODFL,buy,88.0745,86.67,entered top 10
+2020-07-20,LULU,sell,24.0857,318.82,dropped out of top 10
+2020-07-20,AMD,sell,140.6894,55.17,dropped out of top 10
+2020-07-20,ODFL,sell,88.0745,89.97,dropped out of top 10
+2020-07-20,WST,buy,32.0153,243.23,entered top 10
+2020-07-20,SMCI,buy,2732.4545,2.85,entered top 10
+2020-07-20,TER,buy,91.5942,85.02,entered top 10
+2020-07-27,TER,sell,91.5942,82.93,dropped out of top 10
+2020-07-27,VRTX,buy,27.5824,281.12,entered top 10
+2020-08-03,WST,sell,32.0153,267.83,dropped out of top 10
+2020-08-03,SMCI,sell,2732.4545,3.1,dropped out of top 10
+2020-08-03,VRTX,sell,27.5824,273.93,dropped out of top 10
+2020-08-03,FTNT,buy,290.4723,28.03,entered top 10
+2020-08-03,AMD,buy,104.0187,78.27,entered top 10
+2020-08-03,GNRC,buy,51.1202,159.26,entered top 10
+2020-08-10,AMD,sell,104.0187,84.96,dropped out of top 10
+2020-08-10,GNRC,sell,51.1202,177.91,dropped out of top 10
+2020-08-10,XYZ,buy,60.3442,147.68,entered top 10
+2020-08-10,TWLO,buy,35.8801,248.37,entered top 10
+2020-08-17,CVNA,sell,273.7123,39.67,dropped out of top 10
+2020-08-17,FTNT,sell,290.4723,25.67,dropped out of top 10
+2020-08-17,TWLO,sell,35.8801,242.75,dropped out of top 10
+2020-08-17,BE,buy,636.0019,14.2,entered top 10
+2020-08-17,AMD,buy,109.9387,82.17,entered top 10
+2020-08-17,GNRC,buy,50.2079,179.93,entered top 10
+2020-08-24,AAPL,sell,81.1104,124.51,dropped out of top 10
+2020-08-24,GNRC,sell,50.2079,189.04,dropped out of top 10
+2020-08-24,TWLO,buy,38.6427,254.54,entered top 10
+2020-08-24,CVNA,buy,239.6111,41.05,entered top 10
+2020-08-31,CVNA,sell,239.6111,43.56,dropped out of top 10
+2020-08-31,SWKS,buy,81.1975,123.17,entered top 10
+2020-09-08,REGN,sell,12.0679,571.81,dropped out of top 10
+2020-09-08,TWLO,sell,38.6427,222.96,dropped out of top 10
+2020-09-08,SWKS,sell,81.1975,114.06,dropped out of top 10
+2020-09-08,CVNA,buy,234.6596,35.74,entered top 10
+2020-09-08,GNRC,buy,47.4906,176.58,entered top 10
+2020-09-08,AAPL,buy,75.9166,110.46,entered top 10
+2020-09-14,GNRC,sell,47.4906,181.64,dropped out of top 10
+2020-09-14,AAPL,sell,75.9166,110.98,dropped out of top 10
+2020-09-14,REGN,buy,15.5815,549.78,entered top 10
+2020-09-14,TWLO,buy,37.4569,228.7,entered top 10
+2020-09-21,TWLO,sell,37.4569,223.84,dropped out of top 10
+2020-09-21,GNRC,buy,47.018,180.18,entered top 10
+2020-09-28,REGN,sell,15.5815,566.91,dropped out of top 10
+2020-09-28,GNRC,sell,47.018,186.69,dropped out of top 10
+2020-09-28,DDOG,buy,95.2662,91.95,entered top 10
+2020-09-28,TWLO,buy,35.4858,246.86,entered top 10
+2020-10-05,TWLO,sell,35.4858,289.71,dropped out of top 10
+2020-10-05,GNRC,buy,51.4737,199.45,entered top 10
+2020-10-12,GNRC,sell,51.4737,206.44,dropped out of top 10
+2020-10-12,CRWD,buy,292.1146,36.66,entered top 10
+2020-11-02,AMD,sell,109.9387,75.77,dropped out of top 10
+2020-11-02,TWLO,buy,30.0495,278.02,entered top 10
+2020-11-09,DXCM,sell,73.2859,90.24,dropped out of top 10
+2020-11-09,AMD,buy,78.6356,84.32,entered top 10
+2020-11-16,AMD,sell,78.6356,81.13,dropped out of top 10
+2020-11-16,GNRC,buy,29.4492,216.72,entered top 10
+2021-01-25,NVDA,sell,798.2938,13.7,dropped out of top 10
+2021-01-25,OKTA,buy,40.5974,268.22,entered top 10
+2021-02-01,DDOG,sell,95.2662,103.37,dropped out of top 10
+2021-02-01,GNRC,sell,29.4492,249.96,dropped out of top 10
+2021-02-01,OKTA,sell,40.5974,260.45,dropped out of top 10
+2021-02-01,FCX,buy,350.2734,26.28,entered top 10
+2021-02-01,COHR,buy,107.1573,85.9,entered top 10
+2021-02-01,NVDA,buy,708.069,13.0,entered top 10
+2021-02-08,COHR,sell,107.1573,89.41,dropped out of top 10
+2021-02-08,NVDA,sell,708.069,13.64,dropped out of top 10
+2021-02-08,EQT,buy,613.1648,15.76,entered top 10
+2021-02-08,GNRC,buy,35.3442,273.38,entered top 10
+2021-02-16,GNRC,sell,35.3442,347.39,dropped out of top 10
+2021-02-16,COHR,buy,133.7281,92.34,entered top 10
+2021-03-15,EQT,sell,613.1648,17.32,dropped out of top 10
+2021-03-15,SKYD,buy,127.7042,83.31,entered top 10
+2021-03-22,COHR,sell,133.7281,69.46,dropped out of top 10
+2021-03-22,TRGP,buy,319.0348,29.16,entered top 10
+2021-04-05,CRWD,sell,292.1146,47.81,dropped out of top 10
+2021-04-05,APA,buy,852.0765,16.06,entered top 10
+2021-04-12,APA,sell,852.0765,14.91,dropped out of top 10
+2021-04-12,GNRC,buy,39.6055,327.0,entered top 10
+2021-04-19,GNRC,sell,39.6055,328.67,dropped out of top 10
+2021-04-19,HAL,buy,698.228,18.64,entered top 10
+2021-04-26,MRNA,sell,111.663,171.62,dropped out of top 10
+2021-04-26,CVNA,sell,234.6596,55.81,dropped out of top 10
+2021-04-26,TWLO,sell,30.0495,386.44,dropped out of top 10
+2021-04-26,HAL,sell,698.228,17.18,dropped out of top 10
+2021-04-26,IVZ,buy,657.8404,21.07,entered top 10
+2021-04-26,WSM,buy,176.0986,78.7,entered top 10
+2021-04-26,TPL,buy,89.2737,155.25,entered top 10
+2021-04-26,GNRC,buy,41.6472,332.78,entered top 10
+2021-05-03,SKYD,sell,127.7042,35.96,dropped out of top 10
+2021-05-03,TRGP,sell,319.0348,31.37,dropped out of top 10
+2021-05-03,TPL,sell,89.2737,164.09,dropped out of top 10
+2021-05-03,CVNA,buy,165.2039,59.55,entered top 10
+2021-05-03,TWLO,buy,26.5095,371.08,entered top 10
+2021-05-03,MRNA,buy,53.4384,184.08,entered top 10
+2021-05-10,WSM,sell,176.0986,84.32,dropped out of top 10
+2021-05-10,CVNA,sell,165.2039,48.57,dropped out of top 10
+2021-05-10,TWLO,sell,26.5095,299.82,dropped out of top 10
+2021-05-10,MRNA,sell,53.4384,163.85,dropped out of top 10
+2021-05-10,TPL,buy,54.0296,182.66,entered top 10
+2021-05-10,TPR,buy,229.4142,43.02,entered top 10
+2021-05-10,URI,buy,29.4392,335.24,entered top 10
+2021-05-10,MOS,buy,300.5757,32.83,entered top 10
+2021-05-17,BE,sell,636.0019,19.97,dropped out of top 10
+2021-05-17,URI,sell,29.4392,326.25,dropped out of top 10
+2021-05-17,CVNA,buy,238.8492,47.05,entered top 10
+2021-05-17,PWR,buy,116.8947,96.14,entered top 10
+2021-05-24,TPL,sell,54.0296,160.42,dropped out of top 10
+2021-05-24,BE,buy,392.5418,22.43,entered top 10
+2021-06-01,PWR,sell,116.8947,96.42,dropped out of top 10
+2021-06-01,MRNA,buy,61.0313,184.26,entered top 10
+2021-06-07,MOS,sell,300.5757,32.03,dropped out of top 10
+2021-06-07,TPL,buy,62.051,155.39,entered top 10
+2021-06-14,XYZ,sell,60.3442,222.83,dropped out of top 10
+2021-06-14,CVNA,sell,238.8492,54.9,dropped out of top 10
+2021-06-14,BE,sell,392.5418,25.53,dropped out of top 10
+2021-06-14,MOS,buy,398.3988,30.38,entered top 10
+2021-06-14,PWR,buy,131.4161,92.1,entered top 10
+2021-06-14,DE,buy,38.053,318.08,entered top 10
+2021-06-21,PWR,sell,131.4161,85.94,dropped out of top 10
+2021-06-21,DE,sell,38.053,309.93,dropped out of top 10
+2021-06-21,NUE,buy,133.0989,87.23,entered top 10
+2021-06-21,STLD,buy,213.6239,54.35,entered top 10
+2021-06-28,NUE,sell,133.0989,89.32,dropped out of top 10
+2021-06-28,STLD,sell,213.6239,56.02,dropped out of top 10
+2021-06-28,BE,buy,434.9461,27.42,entered top 10
+2021-06-28,MGM,buy,273.0551,43.67,entered top 10
+2021-07-06,TSLA,sell,122.5169,227.01,dropped out of top 10
+2021-07-06,GNRC,sell,41.6472,416.46,dropped out of top 10
+2021-07-06,BE,sell,434.9461,26.35,dropped out of top 10
+2021-07-06,MGM,sell,273.0551,43.18,dropped out of top 10
+2021-07-06,DVN,buy,603.2217,22.75,entered top 10
+2021-07-06,COF,buy,96.6106,142.05,entered top 10
+2021-07-06,NUE,buy,153.8591,89.2,entered top 10
+2021-07-06,F,buy,1272.4876,10.78,entered top 10
+2021-07-12,F,sell,1272.4876,10.39,dropped out of top 10
+2021-07-12,MGM,buy,327.4452,41.27,entered top 10
+2021-07-19,MRNA,sell,61.0313,284.26,dropped out of top 10
+2021-07-19,MGM,sell,327.4452,35.98,dropped out of top 10
+2021-07-19,GNRC,buy,30.3496,423.66,entered top 10
+2021-07-19,TRGP,buy,361.2057,35.6,entered top 10
+2021-07-26,MOS,sell,398.3988,26.37,dropped out of top 10
+2021-07-26,COF,sell,96.6106,144.74,dropped out of top 10
+2021-07-26,NUE,sell,153.8591,87.76,dropped out of top 10
+2021-07-26,MRNA,buy,38.5119,352.35,entered top 10
+2021-07-26,MGM,buy,351.3643,38.62,entered top 10
+2021-07-26,CRWD,buy,202.664,66.96,entered top 10
+2021-08-02,CRWD,sell,202.664,63.5,dropped out of top 10
+2021-08-02,FANG,buy,217.8187,62.12,entered top 10
+2021-08-09,MGM,sell,351.3643,39.64,dropped out of top 10
+2021-08-09,FANG,sell,217.8187,62.5,dropped out of top 10
+2021-08-09,COF,buy,91.1418,150.48,entered top 10
+2021-08-09,CRWD,buy,211.6422,64.8,entered top 10
+2021-08-30,GNRC,sell,30.3496,447.39,dropped out of top 10
+2021-08-30,CRWD,sell,211.6422,71.26,dropped out of top 10
+2021-08-30,NUE,buy,126.3383,112.28,entered top 10
+2021-08-30,ALB,buy,62.6875,226.29,entered top 10
+2021-09-07,IVZ,sell,657.8404,19.97,dropped out of top 10
+2021-09-07,NUE,sell,126.3383,105.48,dropped out of top 10
+2021-09-07,FTNT,buy,215.0944,64.26,entered top 10
+2021-09-07,AMAT,buy,105.322,131.24,entered top 10
+2021-09-13,FCX,sell,350.2734,33.28,dropped out of top 10
+2021-09-13,COF,sell,91.1418,143.1,dropped out of top 10
+2021-09-13,ALB,sell,62.6875,227.92,dropped out of top 10
+2021-09-13,AMAT,sell,105.322,132.97,dropped out of top 10
+2021-09-13,NUE,buy,132.5131,105.07,entered top 10
+2021-09-13,FANG,buy,227.1727,61.29,entered top 10
+2021-09-13,OXY,buy,588.6317,23.65,entered top 10
+2021-09-13,IVZ,buy,699.468,19.9,entered top 10
+2021-09-20,FANG,sell,227.1727,63.27,dropped out of top 10
+2021-09-20,OXY,sell,588.6317,23.92,dropped out of top 10
+2021-09-20,IVZ,sell,699.468,20.18,dropped out of top 10
+2021-09-20,COF,buy,96.4554,140.67,entered top 10
+2021-09-20,IT,buy,44.5838,304.32,entered top 10
+2021-09-20,AMAT,buy,103.4475,131.16,entered top 10
+2021-09-27,IT,sell,44.5838,323.55,dropped out of top 10
+2021-09-27,AMAT,sell,103.4475,133.81,dropped out of top 10
+2021-09-27,ALB,buy,67.6847,212.8,entered top 10
+2021-09-27,FANG,buy,195.5295,73.66,entered top 10
+2021-10-04,TPR,sell,229.4142,33.56,dropped out of top 10
+2021-10-04,COF,sell,96.4554,151.73,dropped out of top 10
+2021-10-04,PLTR,buy,585.3048,24.03,entered top 10
+2021-10-04,OXY,buy,477.4436,29.46,entered top 10
+2021-10-11,NUE,sell,132.5131,92.84,dropped out of top 10
+2021-10-11,OXY,sell,477.4436,31.8,dropped out of top 10
+2021-10-11,IT,buy,48.1199,302.89,entered top 10
+2021-10-11,BX,buy,151.1367,96.44,entered top 10
+2021-10-18,FTNT,sell,215.0944,63.03,dropped out of top 10
+2021-10-18,OXY,buy,490.5236,30.66,entered top 10
+2021-10-25,BX,sell,151.1367,116.04,dropped out of top 10
+2021-10-25,FTNT,buy,229.9662,67.59,entered top 10
+2021-11-01,ALB,sell,67.6847,240.58,dropped out of top 10
+2021-11-01,PLTR,sell,585.3048,26.08,dropped out of top 10
+2021-11-01,APA,buy,681.6672,23.11,entered top 10
+2021-11-01,EOG,buy,213.2409,73.86,entered top 10
+2021-11-08,IT,sell,48.1199,334.07,dropped out of top 10
+2021-11-08,COP,buy,251.9138,63.4,entered top 10
+2021-11-15,COP,sell,251.9138,60.4,dropped out of top 10
+2021-11-15,MOS,buy,466.0777,33.06,entered top 10
+2021-11-22,EOG,sell,213.2409,67.39,dropped out of top 10
+2021-11-22,MOS,sell,466.0777,32.24,dropped out of top 10
+2021-11-22,BX,buy,119.9114,123.39,entered top 10
+2021-11-22,GNRC,buy,33.3281,443.96,entered top 10
+2021-11-29,OXY,sell,490.5236,28.62,dropped out of top 10
+2021-11-29,APA,sell,681.6672,23.49,dropped out of top 10
+2021-11-29,IT,buy,48.1592,324.84,entered top 10
+2021-11-29,NUE,buy,145.6762,107.39,entered top 10
+2021-12-06,TPL,sell,62.051,128.63,dropped out of top 10
+2021-12-06,NUE,sell,145.6762,104.16,dropped out of top 10
+2021-12-06,KKR,buy,181.4839,71.12,entered top 10
+2021-12-06,OXY,buy,465.9187,27.7,entered top 10
+2021-12-13,MRNA,sell,38.5119,257.14,dropped out of top 10
+2021-12-13,KKR,sell,181.4839,72.19,dropped out of top 10
+2021-12-13,OXY,sell,465.9187,28.08,dropped out of top 10
+2021-12-13,NVDA,buy,397.8157,30.15,entered top 10
+2021-12-13,F,buy,774.6998,15.48,entered top 10
+2021-12-13,NUE,buy,113.0397,106.11,entered top 10
+2021-12-20,GNRC,sell,33.3281,351.69,dropped out of top 10
+2021-12-20,ALB,buy,57.6277,207.6,entered top 10
+2021-12-27,IT,sell,48.1592,327.71,dropped out of top 10
+2021-12-27,ALB,sell,57.6277,216.06,dropped out of top 10
+2021-12-27,MRNA,buy,57.7015,243.24,entered top 10
+2021-12-27,SPG,buy,116.4207,120.56,entered top 10
+2022-01-03,SPG,sell,116.4207,124.21,dropped out of top 10
+2022-01-03,IT,buy,43.5901,334.86,entered top 10
+2022-01-10,TRGP,sell,361.2057,50.07,dropped out of top 10
+2022-01-10,IT,sell,43.5901,293.33,dropped out of top 10
+2022-01-10,KKR,buy,218.4998,66.88,entered top 10
+2022-01-10,EXR,buy,87.1543,167.68,entered top 10
+2022-01-18,FANG,sell,195.5295,105.17,dropped out of top 10
+2022-01-18,IT,buy,52.4732,280.22,entered top 10
+2022-01-24,DVN,sell,603.2217,35.72,crash filter: SPY below 200-day average
+2022-01-24,FTNT,sell,229.9662,56.48,crash filter: SPY below 200-day average
+2022-01-24,BX,sell,119.9114,87.78,crash filter: SPY below 200-day average
+2022-01-24,NVDA,sell,397.8157,22.21,crash filter: SPY below 200-day average
+2022-01-24,F,sell,774.6998,14.5,crash filter: SPY below 200-day average
+2022-01-24,NUE,sell,113.0397,84.19,crash filter: SPY below 200-day average
+2022-01-24,MRNA,sell,57.7015,153.32,crash filter: SPY below 200-day average
+2022-01-24,KKR,sell,218.4998,61.47,crash filter: SPY below 200-day average
+2022-01-24,EXR,sell,87.1543,158.86,crash filter: SPY below 200-day average
+2022-01-24,IT,sell,52.4732,269.62,crash filter: SPY below 200-day average
+2022-01-31,DVN,buy,316.949,41.41,entered top 10
+2022-01-31,FTNT,buy,232.3345,56.49,entered top 10
+2022-01-31,NUE,buy,141.2681,92.9,entered top 10
+2022-01-31,NVDA,buy,567.9939,23.11,entered top 10
+2022-01-31,IT,buy,45.6038,287.79,entered top 10
+2022-01-31,EXR,buy,81.2742,161.48,entered top 10
+2022-01-31,ON,buy,238.5137,55.02,entered top 10
+2022-01-31,BX,buy,124.3454,105.55,entered top 10
+2022-01-31,APA,buy,460.3403,28.51,entered top 10
+2022-01-31,F,buy,914.8498,14.35,entered top 10
+2022-02-07,ON,sell,238.5137,59.82,dropped out of top 10
+2022-02-07,BX,sell,124.3454,111.38,dropped out of top 10
+2022-02-07,APA,sell,460.3403,29.38,dropped out of top 10
+2022-02-07,FANG,buy,129.3125,105.88,entered top 10
+2022-02-07,TRGP,buy,247.1429,55.4,entered top 10
+2022-02-07,STLD,buy,245.8667,55.68,entered top 10
+2022-02-14,DVN,sell,316.949,43.25,crash filter: SPY below 200-day average
+2022-02-14,FTNT,sell,232.3345,62.16,crash filter: SPY below 200-day average
+2022-02-14,NUE,sell,141.2681,111.02,crash filter: SPY below 200-day average
+2022-02-14,NVDA,sell,567.9939,23.81,crash filter: SPY below 200-day average
+2022-02-14,IT,sell,45.6038,287.47,crash filter: SPY below 200-day average
+2022-02-14,EXR,sell,81.2742,161.23,crash filter: SPY below 200-day average
+2022-02-14,F,sell,914.8498,12.8,crash filter: SPY below 200-day average
+2022-02-14,FANG,sell,129.3125,108.15,crash filter: SPY below 200-day average
+2022-02-14,TRGP,sell,247.1429,57.59,crash filter: SPY below 200-day average
+2022-02-14,STLD,sell,245.8667,56.68,crash filter: SPY below 200-day average
+2022-03-21,DVN,buy,280.9251,49.1,entered top 10
+2022-03-21,DDOG,buy,96.4402,143.03,entered top 10
+2022-03-21,NVDA,buy,522.0126,26.42,entered top 10
+2022-03-21,TRGP,buy,217.8827,63.31,entered top 10
+2022-03-21,ANET,buy,421.4495,32.73,entered top 10
+2022-03-21,FTNT,buy,218.4998,63.13,entered top 10
+2022-03-21,BX,buy,133.2629,103.51,entered top 10
+2022-03-21,COP,buy,161.4681,85.43,entered top 10
+2022-03-21,NUE,buy,107.0273,128.88,entered top 10
+2022-03-21,FANG,buy,125.8708,109.59,entered top 10
+2022-03-28,ANET,sell,421.4495,34.47,dropped out of top 10
+2022-03-28,COP,sell,161.4681,88.54,dropped out of top 10
+2022-03-28,NUE,sell,107.0273,145.13,dropped out of top 10
+2022-03-28,CF,buy,150.0599,96.33,entered top 10
+2022-03-28,APA,buy,414.3755,34.88,entered top 10
+2022-03-28,PANW,buy,140.3805,102.97,entered top 10
+2022-04-04,NVDA,sell,522.0126,26.59,dropped out of top 10
+2022-04-04,FTNT,sell,218.4998,68.43,dropped out of top 10
+2022-04-04,BX,sell,133.2629,109.04,dropped out of top 10
+2022-04-04,PANW,sell,140.3805,102.59,dropped out of top 10
+2022-04-04,COP,buy,170.416,85.89,entered top 10
+2022-04-04,OXY,buy,266.9958,54.82,entered top 10
+2022-04-04,EXE,buy,196.6152,74.44,entered top 10
+2022-04-04,MOS,buy,246.1927,59.45,entered top 10
+2022-04-11,DDOG,sell,96.4402,131.5,dropped out of top 10
+2022-04-11,BKR,buy,427.5543,33.08,entered top 10
+2022-04-18,DVN,sell,280.9251,51.67,crash filter: SPY below 200-day average
+2022-04-18,TRGP,sell,217.8827,71.22,crash filter: SPY below 200-day average
+2022-04-18,FANG,sell,125.8708,113.08,crash filter: SPY below 200-day average
+2022-04-18,CF,sell,150.0599,97.79,crash filter: SPY below 200-day average
+2022-04-18,APA,sell,414.3755,37.92,crash filter: SPY below 200-day average
+2022-04-18,COP,sell,170.416,86.82,crash filter: SPY below 200-day average
+2022-04-18,OXY,sell,266.9958,56.11,crash filter: SPY below 200-day average
+2022-04-18,EXE,sell,196.6152,77.21,crash filter: SPY below 200-day average
+2022-04-18,MOS,sell,246.1927,67.23,crash filter: SPY below 200-day average
+2022-04-18,BKR,sell,427.5543,33.8,crash filter: SPY below 200-day average
+2022-12-05,OXY,buy,230.0138,64.89,entered top 10
+2022-12-05,EQT,buy,400.9418,37.22,entered top 10
+2022-12-05,TPL,buy,54.0098,276.33,entered top 10
+2022-12-05,SMCI,buy,1723.6724,8.66,entered top 10
+2022-12-05,COP,buy,136.9663,108.97,entered top 10
+2022-12-05,MPC,buy,135.9669,109.77,entered top 10
+2022-12-05,XOM,buy,153.2791,97.37,entered top 10
+2022-12-05,EXE,buy,165.9271,89.95,entered top 10
+2022-12-05,VLO,buy,129.7347,115.04,entered top 10
+2022-12-05,MCK,buy,39.6473,376.44,entered top 10
+2022-12-12,OXY,sell,230.0138,58.96,crash filter: SPY below 200-day average
+2022-12-12,EQT,sell,400.9418,34.72,crash filter: SPY below 200-day average
+2022-12-12,TPL,sell,54.0098,256.23,crash filter: SPY below 200-day average
+2022-12-12,SMCI,sell,1723.6724,8.51,crash filter: SPY below 200-day average
+2022-12-12,COP,sell,136.9663,97.06,crash filter: SPY below 200-day average
+2022-12-12,MPC,sell,135.9669,98.98,crash filter: SPY below 200-day average
+2022-12-12,XOM,sell,153.2791,91.14,crash filter: SPY below 200-day average
+2022-12-12,EXE,sell,165.9271,85.1,crash filter: SPY below 200-day average
+2022-12-12,VLO,sell,129.7347,103.56,crash filter: SPY below 200-day average
+2022-12-12,MCK,sell,39.6473,365.12,crash filter: SPY below 200-day average
+2023-01-17,TPL,buy,61.54,225.62,entered top 10
+2023-01-17,SMCI,buy,1721.9761,8.06,entered top 10
+2023-01-17,FSLR,buy,76.6327,181.18,entered top 10
+2023-01-17,OXY,buy,225.9486,61.45,entered top 10
+2023-01-17,STLD,buy,131.2254,105.81,entered top 10
+2023-01-17,XOM,buy,139.1878,99.75,entered top 10
+2023-01-17,MPC,buy,122.2881,113.54,entered top 10
+2023-01-17,CAH,buy,192.0967,72.28,entered top 10
+2023-01-17,EQT,buy,415.822,33.39,entered top 10
+2023-01-17,EXE,buy,170.2077,81.57,entered top 10
+2023-01-23,XOM,sell,139.1878,99.76,dropped out of top 10
+2023-01-23,MPC,sell,122.2881,116.46,dropped out of top 10
+2023-01-23,CEG,buy,169.2713,80.51,entered top 10
+2023-01-23,ERIE,buy,59.7784,227.99,entered top 10
+2023-01-30,CAH,sell,192.0967,72.24,dropped out of top 10
+2023-01-30,EXE,sell,170.2077,76.54,dropped out of top 10
+2023-01-30,MPC,buy,111.5362,122.2,entered top 10
+2023-01-30,VLO,buy,105.9662,128.62,entered top 10
+2023-02-06,ERIE,sell,59.7784,228.88,dropped out of top 10
+2023-02-06,MPC,sell,111.5362,109.35,dropped out of top 10
+2023-02-06,VLO,sell,105.9662,118.23,dropped out of top 10
+2023-02-06,CAH,buy,179.2685,74.23,entered top 10
+2023-02-06,LLY,buy,40.0473,332.28,entered top 10
+2023-02-06,MCK,buy,37.1692,358.01,entered top 10
+2023-02-13,CAH,sell,179.2685,75.03,dropped out of top 10
+2023-02-13,LLY,sell,40.0473,335.97,dropped out of top 10
+2023-02-13,MCK,sell,37.1692,361.61,dropped out of top 10
+2023-02-13,TKO,buy,163.1292,82.43,entered top 10
+2023-02-13,VLO,buy,106.8919,125.8,entered top 10
+2023-02-13,EXE,buy,184.7507,72.79,entered top 10
+2023-02-21,EQT,sell,415.822,29.63,dropped out of top 10
+2023-02-21,MPC,buy,111.3806,113.13,entered top 10
+2023-02-27,TKO,sell,163.1292,80.04,dropped out of top 10
+2023-02-27,EXE,sell,184.7507,75.58,dropped out of top 10
+2023-02-27,AXON,buy,68.6591,194.63,entered top 10
+2023-02-27,EQT,buy,405.3264,32.97,entered top 10
+2023-03-06,OXY,sell,225.9486,57.24,dropped out of top 10
+2023-03-06,AXON,sell,68.6591,217.37,dropped out of top 10
+2023-03-06,EQT,sell,405.3264,31.45,dropped out of top 10
+2023-03-06,DECK,buy,189.3945,71.49,entered top 10
+2023-03-06,ALB,buy,54.8053,247.05,entered top 10
+2023-03-06,XOM,buy,136.4013,99.26,entered top 10
+2023-03-13,TPL,sell,61.54,178.48,crash filter: SPY below 200-day average
+2023-03-13,SMCI,sell,1721.9761,9.09,crash filter: SPY below 200-day average
+2023-03-13,FSLR,sell,76.6327,204.4,crash filter: SPY below 200-day average
+2023-03-13,STLD,sell,131.2254,111.97,crash filter: SPY below 200-day average
+2023-03-13,CEG,sell,169.2713,74.81,crash filter: SPY below 200-day average
+2023-03-13,VLO,sell,106.8919,116.11,crash filter: SPY below 200-day average
+2023-03-13,MPC,sell,111.3806,115.96,crash filter: SPY below 200-day average
+2023-03-13,DECK,sell,189.3945,67.42,crash filter: SPY below 200-day average
+2023-03-13,ALB,sell,54.8053,208.55,crash filter: SPY below 200-day average
+2023-03-13,XOM,sell,136.4013,93.18,crash filter: SPY below 200-day average
+2023-03-20,FSLR,buy,65.1996,200.89,entered top 10
+2023-03-20,SMCI,buy,1370.2908,9.56,entered top 10
+2023-03-20,MPC,buy,113.9379,114.96,entered top 10
+2023-03-20,STLD,buy,131.292,99.76,entered top 10
+2023-03-20,CEG,buy,174.4486,75.08,entered top 10
+2023-03-20,VLO,buy,113.7065,115.19,entered top 10
+2023-03-20,XOM,buy,148.3239,88.31,entered top 10
+2023-03-20,AXON,buy,61.1016,214.36,entered top 10
+2023-03-20,LVS,buy,257.6173,50.84,entered top 10
+2023-03-20,GILD,buy,188.6905,69.42,entered top 10
+2023-03-27,STLD,sell,131.292,104.24,dropped out of top 10
+2023-03-27,VLO,sell,113.7065,118.72,dropped out of top 10
+2023-03-27,XOM,sell,148.3239,92.65,dropped out of top 10
+2023-03-27,DECK,buy,182.8543,74.31,entered top 10
+2023-03-27,FIX,buy,98.8448,137.46,entered top 10
+2023-03-27,ACGL,buy,214.1434,63.45,entered top 10
+2023-04-03,CEG,sell,174.4486,75.85,dropped out of top 10
+2023-04-03,GILD,sell,188.6905,73.94,dropped out of top 10
+2023-04-03,STLD,buy,130.0832,107.85,entered top 10
+2023-04-03,EME,buy,86.9339,161.39,entered top 10
+2023-04-10,ACGL,sell,214.1434,65.45,dropped out of top 10
+2023-04-10,FICO,buy,19.873,668.79,entered top 10
+2023-04-17,STLD,sell,130.0832,100.19,dropped out of top 10
+2023-04-17,EME,sell,86.9339,154.76,dropped out of top 10
+2023-04-17,ON,buy,178.4739,77.16,entered top 10
+2023-04-17,WYNN,buy,127.7993,107.75,entered top 10
+2023-04-24,WYNN,sell,127.7993,109.42,dropped out of top 10
+2023-04-24,TKO,buy,134.631,102.12,entered top 10
+2023-05-01,ON,sell,178.4739,74.82,dropped out of top 10
+2023-05-01,TKO,sell,134.631,100.23,dropped out of top 10
+2023-05-01,NFLX,buy,410.7223,32.98,entered top 10
+2023-05-01,WYNN,buy,121.2359,111.72,entered top 10
+2023-05-08,MPC,sell,113.9379,100.7,dropped out of top 10
+2023-05-08,FIX,sell,98.8448,149.89,dropped out of top 10
+2023-05-08,TKO,buy,130.4726,100.78,entered top 10
+2023-05-08,GE,buy,167.3017,78.59,entered top 10
+2023-05-15,GE,sell,167.3017,77.59,dropped out of top 10
+2023-05-15,PODD,buy,39.6719,330.56,entered top 10
+2023-05-22,PODD,sell,39.6719,301.98,dropped out of top 10
+2023-05-22,GE,buy,146.8918,81.63,entered top 10
+2023-05-30,TKO,sell,130.4726,93.77,dropped out of top 10
+2023-05-30,GE,sell,146.8918,80.63,dropped out of top 10
+2023-05-30,DXCM,buy,103.8461,115.35,entered top 10
+2023-05-30,FIX,buy,80.2024,149.35,entered top 10
+2023-06-05,DXCM,sell,103.8461,122.88,dropped out of top 10
+2023-06-05,GE,buy,155.149,82.97,entered top 10
+2023-06-12,WYNN,sell,121.2359,99.32,dropped out of top 10
+2023-06-12,FIX,sell,80.2024,156.88,dropped out of top 10
+2023-06-12,ACGL,buy,180.5957,67.85,entered top 10
+2023-06-12,CAH,buy,148.973,82.25,entered top 10
+2023-06-20,DECK,sell,182.8543,84.76,dropped out of top 10
+2023-06-20,ACGL,sell,180.5957,67.63,dropped out of top 10
+2023-06-20,CAH,sell,148.973,86.26,dropped out of top 10
+2023-06-20,RCL,buy,146.9676,91.63,entered top 10
+2023-06-20,WYNN,buy,132.9196,101.32,entered top 10
+2023-06-20,NVDA,buy,313.8459,42.91,entered top 10
+2023-06-26,LVS,sell,257.6173,53.26,dropped out of top 10
+2023-06-26,FIX,buy,88.0803,158.81,entered top 10
+2023-07-03,WYNN,sell,132.9196,101.96,dropped out of top 10
+2023-07-03,VRT,buy,548.2241,24.73,entered top 10
+2023-07-10,FIX,sell,88.0803,157.4,dropped out of top 10
+2023-07-10,DECK,buy,157.12,88.22,entered top 10
+2023-07-17,DECK,sell,157.12,90.39,dropped out of top 10
+2023-07-17,UBER,buy,317.4724,44.72,entered top 10
+2023-07-24,FICO,sell,19.873,849.61,dropped out of top 10
+2023-07-24,UBER,sell,317.4724,47.01,dropped out of top 10
+2023-07-24,JBL,buy,141.3752,111.88,entered top 10
+2023-07-24,FIX,buy,96.7523,163.48,entered top 10
+2023-07-31,JBL,sell,141.3752,108.42,dropped out of top 10
+2023-07-31,FIX,sell,96.7523,172.79,dropped out of top 10
+2023-07-31,CCL,buy,871.2502,18.39,entered top 10
+2023-07-31,UBER,buy,327.6277,48.9,entered top 10
+2023-08-07,AXON,sell,61.1016,181.72,dropped out of top 10
+2023-08-07,UBER,sell,327.6277,44.96,dropped out of top 10
+2023-08-07,PHM,buy,157.2703,82.33,entered top 10
+2023-08-07,JBL,buy,119.0605,108.76,entered top 10
+2023-08-14,FSLR,sell,65.1996,204.56,dropped out of top 10
+2023-08-14,CCL,sell,871.2502,16.24,dropped out of top 10
+2023-08-14,META,buy,46.0232,298.42,entered top 10
+2023-08-14,PLTR,buy,902.6743,15.22,entered top 10
+2023-08-28,JBL,sell,119.0605,108.18,dropped out of top 10
+2023-08-28,CCL,buy,834.7862,15.6,entered top 10
+2023-09-05,CCL,sell,834.7862,15.23,dropped out of top 10
+2023-09-05,FICO,buy,14.2835,890.37,entered top 10
+2023-09-18,FICO,sell,14.2835,888.23,dropped out of top 10
+2023-09-18,EME,buy,59.9028,211.8,entered top 10
+2023-09-25,NFLX,sell,410.7223,38.25,dropped out of top 10
+2023-09-25,EME,sell,59.9028,208.08,dropped out of top 10
+2023-09-25,FICO,buy,15.8406,884.46,entered top 10
+2023-09-25,APP,buy,374.7366,37.39,entered top 10
+2023-10-09,PHM,sell,157.2703,69.82,dropped out of top 10
+2023-10-09,PLTR,sell,902.6743,16.23,dropped out of top 10
+2023-10-09,CVNA,buy,1743.2666,7.36,entered top 10
+2023-10-09,CCL,buy,1033.8708,12.41,entered top 10
+2023-10-16,CCL,sell,1033.8708,12.2,dropped out of top 10
+2023-10-16,DELL,buy,197.0411,64.67,entered top 10
+2023-10-30,SMCI,sell,1370.2908,24.56,crash filter: SPY below 200-day average
+2023-10-30,GE,sell,155.149,84.27,crash filter: SPY below 200-day average
+2023-10-30,RCL,sell,146.9676,80.8,crash filter: SPY below 200-day average
+2023-10-30,NVDA,sell,313.8459,40.92,crash filter: SPY below 200-day average
+2023-10-30,VRT,sell,548.2241,36.74,crash filter: SPY below 200-day average
+2023-10-30,META,sell,46.0232,295.96,crash filter: SPY below 200-day average
+2023-10-30,FICO,sell,15.8406,850.17,crash filter: SPY below 200-day average
+2023-10-30,APP,sell,374.7366,36.78,crash filter: SPY below 200-day average
+2023-10-30,CVNA,sell,1743.2666,5.79,crash filter: SPY below 200-day average
+2023-10-30,DELL,sell,197.0411,63.06,crash filter: SPY below 200-day average
+2023-11-06,SMCI,buy,595.2699,25.8,entered top 10
+2023-11-06,NVDA,buy,339.7575,45.2,entered top 10
+2023-11-06,META,buy,49.0127,313.3,entered top 10
+2023-11-06,VRT,buy,379.9539,40.41,entered top 10
+2023-11-06,CVNA,buy,2324.9631,6.6,entered top 10
+2023-11-06,APP,buy,389.7385,39.4,entered top 10
+2023-11-06,JBL,buy,120.3094,127.63,entered top 10
+2023-11-06,FICO,buy,16.4875,931.34,entered top 10
+2023-11-06,PLTR,buy,807.7992,19.01,entered top 10
+2023-11-06,PHM,buy,190.2749,80.7,entered top 10
+2023-11-13,PHM,sell,190.2749,79.67,dropped out of top 10
+2023-11-13,AVGO,buy,170.3239,92.06,entered top 10
+2023-11-20,FICO,sell,16.4875,1044.84,dropped out of top 10
+2023-11-20,OKTA,buy,230.8197,70.16,entered top 10
+2023-11-27,OKTA,sell,230.8197,72.24,dropped out of top 10
+2023-11-27,COIN,buy,141.6876,112.69,entered top 10
+2023-12-04,AVGO,sell,170.3239,89.03,dropped out of top 10
+2023-12-04,PHM,buy,184.9067,88.25,entered top 10
+2023-12-11,JBL,sell,120.3094,119.23,dropped out of top 10
+2023-12-11,UBER,buy,256.536,61.59,entered top 10
+2023-12-26,PHM,sell,184.9067,100.49,dropped out of top 10
+2023-12-26,RCL,buy,148.2175,123.58,entered top 10
+2024-01-02,RCL,sell,148.2175,122.9,dropped out of top 10
+2024-01-02,CRWD,buy,283.4418,62.93,entered top 10
+2024-01-16,UBER,sell,256.536,62.94,dropped out of top 10
+2024-01-16,PANW,buy,102.1267,164.31,entered top 10
+2024-01-29,PANW,sell,102.1267,170.82,dropped out of top 10
+2024-01-29,UBER,buy,265.5736,65.67,entered top 10
+2024-02-05,UBER,sell,265.5736,68.17,dropped out of top 10
+2024-02-05,DELL,buy,217.3419,83.27,entered top 10
+2024-02-12,DELL,sell,217.3419,83.07,dropped out of top 10
+2024-02-12,PHM,buy,178.1876,101.33,entered top 10
+2024-02-20,PLTR,sell,807.7992,23.82,dropped out of top 10
+2024-02-20,COIN,sell,141.6876,179.69,dropped out of top 10
+2024-02-20,PHM,sell,178.1876,98.29,dropped out of top 10
+2024-02-20,AVGO,buy,171.1464,120.31,entered top 10
+2024-02-20,AMD,buy,120.1935,171.31,entered top 10
+2024-02-20,PANW,buy,113.3797,181.61,entered top 10
+2024-02-26,PANW,sell,113.3797,144.12,dropped out of top 10
+2024-02-26,DELL,buy,188.4225,89.13,entered top 10
+2024-03-04,AVGO,sell,171.1464,136.32,dropped out of top 10
+2024-03-04,PLTR,buy,952.556,24.42,entered top 10
+2024-03-11,AMD,sell,120.1935,202.81,dropped out of top 10
+2024-03-11,LLY,buy,32.9537,739.37,entered top 10
+2024-03-18,DELL,sell,188.4225,102.75,dropped out of top 10
+2024-03-18,LLY,sell,32.9537,747.77,dropped out of top 10
+2024-03-18,COIN,buy,91.7033,238.85,entered top 10
+2024-03-18,UBER,buy,284.1731,77.08,entered top 10
+2024-03-25,CRWD,sell,283.4418,81.42,dropped out of top 10
+2024-03-25,COIN,sell,91.7033,260.74,dropped out of top 10
+2024-03-25,DELL,buy,219.263,107.08,entered top 10
+2024-03-25,LLY,buy,30.9763,757.94,entered top 10
+2024-04-01,META,sell,49.0127,482.61,dropped out of top 10
+2024-04-01,LLY,sell,30.9763,761.23,dropped out of top 10
+2024-04-01,COIN,buy,90.0905,262.13,entered top 10
+2024-04-01,CRWD,buy,293.9813,80.33,entered top 10
+2024-04-08,CRWD,sell,293.9813,78.97,dropped out of top 10
+2024-04-08,VST,buy,317.769,73.81,entered top 10
+2024-04-22,UBER,sell,284.1731,70.41,dropped out of top 10
+2024-04-22,WSM,buy,147.1111,136.24,entered top 10
+2024-05-13,PLTR,sell,952.556,20.58,dropped out of top 10
+2024-05-13,CEG,buy,91.7679,213.66,entered top 10
+2024-06-03,NVDA,sell,339.7575,113.18,dropped out of top 10
+2024-06-03,NRG,buy,415.7515,77.69,entered top 10
+2024-06-10,NRG,sell,415.7515,74.72,dropped out of top 10
+2024-06-10,NVDA,buy,256.3946,120.15,entered top 10
+2024-06-17,NVDA,sell,256.3946,132.49,dropped out of top 10
+2024-06-17,NRG,buy,424.0637,75.35,entered top 10
+2024-07-01,WSM,sell,147.1111,135.76,dropped out of top 10
+2024-07-01,NRG,sell,424.0637,75.8,dropped out of top 10
+2024-07-01,NVDA,buy,243.9715,123.25,entered top 10
+2024-07-01,CRWD,buy,311.8768,96.42,entered top 10
+2024-07-08,CRWD,sell,311.8768,97.49,dropped out of top 10
+2024-07-08,WSM,buy,224.3012,136.89,entered top 10
+2024-07-15,CEG,sell,91.7679,213.56,dropped out of top 10
+2024-07-15,CRWD,buy,211.9034,93.01,entered top 10
+2024-07-22,CVNA,sell,2324.9631,26.66,dropped out of top 10
+2024-07-22,COIN,sell,90.0905,260.21,dropped out of top 10
+2024-07-22,MU,buy,282.444,114.74,entered top 10
+2024-07-22,CEG,buy,170.9437,189.57,entered top 10
+2024-07-29,MU,sell,282.444,109.72,dropped out of top 10
+2024-07-29,CVNA,buy,1131.6384,26.81,entered top 10
+2024-08-05,WSM,sell,224.3012,124.15,dropped out of top 10
+2024-08-05,COIN,buy,156.0093,162.17,entered top 10
+2024-08-12,CEG,sell,170.9437,187.34,dropped out of top 10
+2024-08-12,WSM,buy,208.7067,136.59,entered top 10
+2024-08-19,APP,sell,389.7385,85.91,dropped out of top 10
+2024-08-19,COHR,buy,407.2725,76.71,entered top 10
+2024-08-26,DELL,sell,219.263,108.37,dropped out of top 10
+2024-08-26,CRWD,sell,211.9034,67.7,dropped out of top 10
+2024-08-26,COHR,sell,407.2725,79.77,dropped out of top 10
+2024-08-26,GDDY,buy,195.8391,162.59,entered top 10
+2024-08-26,HOOD,buy,1506.162,21.14,entered top 10
+2024-08-26,NRG,buy,393.4444,80.93,entered top 10
+2024-09-03,VRT,sell,379.9539,81.95,dropped out of top 10
+2024-09-03,HOOD,sell,1506.162,19.74,dropped out of top 10
+2024-09-03,DELL,buy,266.7615,111.37,entered top 10
+2024-09-03,KKR,buy,246.2347,120.65,entered top 10
+2024-09-09,SMCI,sell,595.2699,39.23,dropped out of top 10
+2024-09-09,DELL,sell,266.7615,103.86,dropped out of top 10
+2024-09-09,KKR,sell,246.2347,116.39,dropped out of top 10
+2024-09-09,FICO,buy,15.5657,1750.78,entered top 10
+2024-09-09,HWM,buy,294.0591,92.68,entered top 10
+2024-09-09,GE,buy,168.7041,161.54,entered top 10
+2024-09-16,WSM,sell,208.7067,140.67,dropped out of top 10
+2024-09-16,FICO,sell,15.5657,1863.14,dropped out of top 10
+2024-09-16,HWM,sell,294.0591,95.08,dropped out of top 10
+2024-09-16,GE,sell,168.7041,176.23,dropped out of top 10
+2024-09-16,VRT,buy,344.1959,84.3,entered top 10
+2024-09-16,SMCI,buy,648.2129,44.76,entered top 10
+2024-09-16,APP,buy,260.1929,111.51,entered top 10
+2024-09-16,COHR,buy,383.2032,75.72,entered top 10
+2024-09-23,VRT,sell,344.1959,95.01,dropped out of top 10
+2024-09-23,PLTR,buy,873.0619,36.9,entered top 10
+2024-09-30,SMCI,sell,648.2129,41.31,dropped out of top 10
+2024-09-30,PLTR,sell,873.0619,36.54,dropped out of top 10
+2024-09-30,VRT,buy,322.6709,97.26,entered top 10
+2024-09-30,HOOD,buy,1307.9834,23.99,entered top 10
+2024-10-07,VRT,sell,322.6709,104.84,dropped out of top 10
+2024-10-07,HOOD,sell,1307.9834,22.73,dropped out of top 10
+2024-10-07,HWM,buy,313.7063,101.29,entered top 10
+2024-10-07,FICO,buy,16.526,1922.67,entered top 10
+2024-10-14,GDDY,sell,195.8391,163.82,dropped out of top 10
+2024-10-14,NRG,sell,393.4444,87.27,dropped out of top 10
+2024-10-14,HWM,sell,313.7063,103.14,dropped out of top 10
+2024-10-14,HOOD,buy,1218.3566,26.93,entered top 10
+2024-10-14,VRT,buy,292.4427,112.18,entered top 10
+2024-10-14,DVA,buy,203.5639,161.16,entered top 10
+2024-10-21,FICO,sell,16.526,1962.66,dropped out of top 10
+2024-10-21,DVA,sell,203.5639,161.97,dropped out of top 10
+2024-10-21,FIX,buy,79.0908,415.57,entered top 10
+2024-10-21,KKR,buy,237.8544,138.19,entered top 10
+2024-10-28,COIN,sell,156.0093,213.14,dropped out of top 10
+2024-10-28,PLTR,buy,744.5641,45.1,entered top 10
+2024-11-04,FIX,sell,79.0908,386.82,dropped out of top 10
+2024-11-04,CEG,buy,133.3211,229.7,entered top 10
+2024-11-11,KKR,sell,237.8544,152.23,dropped out of top 10
+2024-11-11,CEG,sell,133.3211,238.6,dropped out of top 10
+2024-11-11,ECHO,buy,1298.5631,26.05,entered top 10
+2024-11-11,FIX,buy,72.3674,467.37,entered top 10
+2024-11-18,PLTR,sell,744.5641,64.86,dropped out of top 10
+2024-11-18,FIX,sell,72.3674,441.99,dropped out of top 10
+2024-11-18,CEG,buy,179.2061,223.62,entered top 10
+2024-11-18,EME,buy,80.1807,499.8,entered top 10
+2024-11-25,EME,sell,80.1807,505.32,dropped out of top 10
+2024-11-25,PLTR,buy,610.9424,66.97,entered top 10
+2024-12-09,CEG,sell,179.2061,250.63,dropped out of top 10
+2024-12-09,TPL,buy,100.5399,446.33,entered top 10
+2024-12-16,ECHO,sell,1298.5631,22.98,dropped out of top 10
+2024-12-16,AXON,buy,45.9471,652.65,entered top 10
+2024-12-23,AXON,sell,45.9471,634.01,dropped out of top 10
+2024-12-23,TRGP,buy,171.9243,169.49,entered top 10
+2024-12-30,COHR,sell,383.2032,93.71,dropped out of top 10
+2024-12-30,TRGP,sell,171.9243,169.85,dropped out of top 10
+2024-12-30,AXON,buy,53.797,601.8,entered top 10
+2024-12-30,FIX,buy,76.5434,422.96,entered top 10
+2025-01-06,FIX,sell,76.5434,451.91,dropped out of top 10
+2025-01-06,COHR,buy,320.4436,108.89,entered top 10
+2025-01-21,NVDA,sell,243.9715,138.66,dropped out of top 10
+2025-01-21,UAL,buy,309.2911,109.41,entered top 10
+2025-01-27,VRT,sell,292.4427,116.69,dropped out of top 10
+2025-01-27,COHR,sell,320.4436,87.91,dropped out of top 10
+2025-01-27,NVDA,buy,248.839,124.6,entered top 10
+2025-01-27,COIN,buy,109.1792,283.98,entered top 10
+2025-02-03,COIN,sell,109.1792,272.71,dropped out of top 10
+2025-02-03,TSLA,buy,77.7548,387.07,entered top 10
+2025-02-10,AXON,sell,53.797,683.64,dropped out of top 10
+2025-02-10,NVDA,sell,248.839,129.62,dropped out of top 10
+2025-02-10,TSLA,sell,77.7548,355.85,dropped out of top 10
+2025-02-10,BE,buy,1286.9174,24.87,entered top 10
+2025-02-10,TRGP,buy,163.4594,195.84,entered top 10
+2025-02-10,VRT,buy,265.3387,120.65,entered top 10
+2025-02-18,BE,sell,1286.9174,25.37,dropped out of top 10
+2025-02-18,VRT,sell,265.3387,110.66,dropped out of top 10
+2025-02-18,CEG,buy,97.3005,320.44,entered top 10
+2025-02-18,TSLA,buy,87.7391,355.37,entered top 10
+2025-02-24,TRGP,sell,163.4594,192.24,dropped out of top 10
+2025-02-24,TSLA,sell,87.7391,337.8,dropped out of top 10
+2025-02-24,BE,buy,1260.1039,24.23,entered top 10
+2025-02-24,VRT,buy,315.1723,96.89,entered top 10
+2025-03-03,CEG,sell,97.3005,246.27,dropped out of top 10
+2025-03-03,VRT,sell,315.1723,93.37,dropped out of top 10
+2025-03-03,TWLO,buy,222.5915,120.1,entered top 10
+2025-03-03,AXON,buy,50.1211,533.37,entered top 10
+2025-03-10,AXON,sell,50.1211,507.88,dropped out of top 10
+2025-03-10,ECHO,buy,942.1027,27.32,entered top 10
+2025-03-17,VST,sell,317.769,122.26,crash filter: SPY below 200-day average
+2025-03-17,CVNA,sell,1131.6384,35.74,crash filter: SPY below 200-day average
+2025-03-17,APP,sell,260.1929,297.46,crash filter: SPY below 200-day average
+2025-03-17,HOOD,sell,1218.3566,39.31,crash filter: SPY below 200-day average
+2025-03-17,PLTR,sell,610.9424,88.35,crash filter: SPY below 200-day average
+2025-03-17,TPL,sell,100.5399,434.12,crash filter: SPY below 200-day average
+2025-03-17,UAL,sell,309.2911,73.49,crash filter: SPY below 200-day average
+2025-03-17,BE,sell,1260.1039,24.38,crash filter: SPY below 200-day average
+2025-03-17,TWLO,sell,222.5915,97.91,crash filter: SPY below 200-day average
+2025-03-17,ECHO,sell,942.1027,26.27,crash filter: SPY below 200-day average
+2025-05-19,PLTR,buy,319.1648,124.84,entered top 10
+2025-05-19,APP,buy,112.0405,355.63,entered top 10
+2025-05-19,HOOD,buy,665.0178,59.91,entered top 10
+2025-05-19,TPL,buy,85.7573,464.62,entered top 10
+2025-05-19,GEV,buy,94.0771,423.53,entered top 10
+2025-05-19,AXON,buy,55.1318,722.71,entered top 10
+2025-05-19,CVNA,buy,675.8003,58.96,entered top 10
+2025-05-19,PM,buy,245.0916,162.57,entered top 10
+2025-05-19,T,buy,1533.646,25.98,entered top 10
+2025-05-19,TMUS,buy,168.4746,236.5,entered top 10
+2025-05-27,T,sell,1533.646,25.55,dropped out of top 10
+2025-05-27,TMUS,sell,168.4746,236.8,dropped out of top 10
+2025-05-27,RDDT,buy,396.352,103.1,entered top 10
+2025-05-27,NFLX,buy,341.5313,119.65,entered top 10
+2025-06-02,NFLX,sell,341.5313,120.0,dropped out of top 10
+2025-06-02,TPR,buy,539.4486,77.09,entered top 10
+2025-06-09,PM,sell,245.0916,171.93,dropped out of top 10
+2025-06-09,TPR,sell,539.4486,77.99,dropped out of top 10
+2025-06-09,HWM,buy,238.8329,176.14,entered top 10
+2025-06-09,NFLX,buy,339.2257,124.01,entered top 10
+2025-06-16,TPL,sell,85.7573,364.95,dropped out of top 10
+2025-06-16,HWM,sell,238.8329,172.02,dropped out of top 10
+2025-06-16,NFLX,sell,339.2257,121.1,dropped out of top 10
+2025-06-16,TSLA,buy,113.7532,331.62,entered top 10
+2025-06-16,TWLO,buy,330.0082,114.31,entered top 10
+2025-06-16,TPR,buy,475.9086,79.27,entered top 10
+2025-06-23,RDDT,sell,396.352,135.63,dropped out of top 10
+2025-06-23,TSLA,sell,113.7532,327.21,dropped out of top 10
+2025-06-23,NRG,buy,287.2842,149.16,entered top 10
+2025-06-23,HWM,buy,248.4405,172.48,entered top 10
+2025-07-07,TPR,sell,475.9086,88.88,dropped out of top 10
+2025-07-07,VST,buy,240.2218,189.88,entered top 10
+2025-07-14,NRG,sell,287.2842,147.47,dropped out of top 10
+2025-07-14,VST,sell,240.2218,195.01,dropped out of top 10
+2025-07-14,DASH,buy,190.1001,240.39,entered top 10
+2025-07-14,TPR,buy,469.7488,97.28,entered top 10
+2025-07-21,TWLO,sell,330.0082,132.07,dropped out of top 10
+2025-07-21,TPR,sell,469.7488,101.88,dropped out of top 10
+2025-07-21,VST,buy,237.504,192.51,entered top 10
+2025-07-21,NRG,buy,306.7301,149.06,entered top 10
+2025-07-28,NRG,sell,306.7301,154.75,dropped out of top 10
+2025-07-28,TPR,buy,447.7531,106.99,entered top 10
+2025-08-04,HWM,sell,248.4405,184.68,dropped out of top 10
+2025-08-04,RDDT,buy,239.2071,191.89,entered top 10
+2025-08-11,DASH,sell,190.1001,257.93,dropped out of top 10
+2025-08-11,BE,buy,1318.5887,37.16,entered top 10
+2025-08-18,AXON,sell,55.1318,754.42,dropped out of top 10
+2025-08-18,BE,sell,1318.5887,45.35,dropped out of top 10
+2025-08-18,RCL,buy,164.1787,307.2,entered top 10
+2025-08-18,UAL,buy,502.6043,100.35,entered top 10
+2025-08-25,CVNA,sell,675.8003,70.81,dropped out of top 10
+2025-08-25,UAL,sell,502.6043,101.9,dropped out of top 10
+2025-08-25,BE,buy,1021.5164,48.5,entered top 10
+2025-08-25,TWLO,buy,467.3951,106.0,entered top 10
+2025-09-02,RCL,sell,164.1787,347.11,dropped out of top 10
+2025-09-02,TWLO,sell,467.3951,102.62,dropped out of top 10
+2025-09-02,CVNA,buy,709.7975,72.48,entered top 10
+2025-09-02,FIX,buy,75.0286,685.69,entered top 10
+2025-09-08,FIX,sell,75.0286,709.22,dropped out of top 10
+2025-09-08,AXON,buy,74.7648,737.11,entered top 10
+2025-09-15,AXON,sell,74.7648,759.24,dropped out of top 10
+2025-09-15,LITE,buy,350.0518,163.82,entered top 10
+2025-09-22,LITE,sell,350.0518,169.21,dropped out of top 10
+2025-09-22,AXON,buy,77.1919,767.1,entered top 10
+2025-09-29,VST,sell,237.504,200.63,dropped out of top 10
+2025-09-29,AXON,sell,77.1919,715.62,dropped out of top 10
+2025-09-29,ECHO,buy,695.2332,73.68,entered top 10
+2025-09-29,LITE,buy,310.1583,165.16,entered top 10
+2025-10-13,CVNA,sell,709.7975,66.64,dropped out of top 10
+2025-10-13,CIEN,buy,291.4801,164.16,entered top 10
+2025-10-27,CIEN,sell,291.4801,182.45,dropped out of top 10
+2025-10-27,WDC,buy,399.7928,132.89,entered top 10
+2025-11-03,GEV,sell,94.0771,588.47,dropped out of top 10
+2025-11-03,STX,buy,214.9185,257.49,entered top 10
+2025-11-10,RDDT,sell,239.2071,199.83,dropped out of top 10
+2025-11-10,CIEN,buy,231.2781,207.01,entered top 10
+2025-11-17,APP,sell,112.0405,553.89,dropped out of top 10
+2025-11-17,LITE,sell,310.1583,236.26,dropped out of top 10
+2025-11-17,SMCI,buy,1759.0756,35.62,entered top 10
+2025-11-17,NEM,buy,722.6601,86.69,entered top 10
+2025-11-24,SMCI,sell,1759.0756,32.36,dropped out of top 10
+2025-11-24,NEM,sell,722.6601,82.26,dropped out of top 10
+2025-11-24,LRCX,buy,402.0695,145.08,entered top 10
+2025-11-24,MU,buy,273.3627,213.38,entered top 10
+2025-12-01,TPR,sell,447.7531,106.98,dropped out of top 10
+2025-12-01,MU,sell,273.3627,231.79,dropped out of top 10
+2025-12-01,LITE,buy,190.7243,315.3,entered top 10
+2025-12-01,AVGO,buy,153.2808,392.33,entered top 10
+2025-12-08,LRCX,sell,402.0695,161.34,dropped out of top 10
+2025-12-08,MU,buy,268.7275,243.46,entered top 10
+2025-12-15,AVGO,sell,153.2808,358.86,dropped out of top 10
+2025-12-15,NEM,buy,552.1203,99.82,entered top 10
+2025-12-29,PLTR,sell,319.1648,186.66,dropped out of top 10
+2025-12-29,FIX,buy,62.4867,952.71,entered top 10
+2026-01-05,FIX,sell,62.4867,1017.16,dropped out of top 10
+2026-01-05,PLTR,buy,362.8492,175.05,entered top 10
+2026-02-02,HOOD,sell,665.0178,95.78,dropped out of top 10
+2026-02-02,LRCX,buy,273.5249,232.87,entered top 10
+2026-02-09,PLTR,sell,362.8492,136.44,dropped out of top 10
+2026-02-09,FIX,buy,40.456,1227.27,entered top 10
+2026-02-17,NEM,sell,552.1203,120.8,dropped out of top 10
+2026-02-17,HII,buy,161.5193,411.87,entered top 10
+2026-02-23,HII,sell,161.5193,427.13,dropped out of top 10
+2026-02-23,NEM,buy,562.0953,122.69,entered top 10
+2026-03-09,LRCX,sell,273.5249,194.46,dropped out of top 10
+2026-03-09,COHR,buy,225.4514,236.63,entered top 10
+2026-03-16,NEM,sell,562.0953,107.85,dropped out of top 10
+2026-03-16,TER,buy,204.5461,296.03,entered top 10
+2026-03-23,BE,sell,1021.5164,155.83,crash filter: SPY below 200-day average
+2026-03-23,ECHO,sell,695.2332,110.89,crash filter: SPY below 200-day average
+2026-03-23,WDC,sell,399.7928,298.14,crash filter: SPY below 200-day average
+2026-03-23,STX,sell,214.9185,418.22,crash filter: SPY below 200-day average
+2026-03-23,CIEN,sell,231.2781,399.0,crash filter: SPY below 200-day average
+2026-03-23,LITE,sell,190.7243,742.0,crash filter: SPY below 200-day average
+2026-03-23,MU,sell,268.7275,425.41,crash filter: SPY below 200-day average
+2026-03-23,FIX,sell,40.456,1363.76,crash filter: SPY below 200-day average
+2026-03-23,COHR,sell,225.4514,253.94,crash filter: SPY below 200-day average
+2026-03-23,TER,sell,204.5461,300.48,crash filter: SPY below 200-day average
+2026-04-13,LITE,buy,107.6865,889.89,entered top 10
+2026-04-13,BE,buy,581.1883,164.88,entered top 10
+2026-04-13,WDC,buy,280.4539,341.69,entered top 10
+2026-04-13,MU,buy,229.94,416.76,entered top 10
+2026-04-13,CIEN,buy,194.0121,493.93,entered top 10
+2026-04-13,STX,buy,191.7261,499.82,entered top 10
+2026-04-13,ECHO,buy,745.0065,128.63,entered top 10
+2026-04-13,COHR,buy,313.1098,306.06,entered top 10
+2026-04-13,FIX,buy,60.588,1581.65,entered top 10
+2026-04-13,TER,buy,261.8087,366.03,entered top 10
+2026-05-11,FIX,sell,60.588,1949.59,dropped out of top 10
+2026-05-11,GLW,buy,647.3407,193.08,entered top 10
+2026-05-18,GLW,sell,647.3407,191.94,dropped out of top 10
+2026-05-18,ALB,buy,697.2152,180.42,entered top 10
+2026-05-26,ALB,sell,697.2152,173.81,dropped out of top 10
+2026-05-26,FIX,buy,64.5993,1876.68,entered top 10
+2026-06-01,FIX,sell,64.5993,1761.55,dropped out of top 10
+2026-06-01,INTC,buy,1039.529,109.54,entered top 10
+2026-07-13,ECHO,sell,745.0065,94.47,dropped out of top 10
+2026-07-13,MRVL,buy,309.2797,228.96,entered top 10
+2026-07-20,COHR,sell,313.1098,288.36,dropped out of top 10
+2026-07-20,ECHO,buy,981.505,91.79,entered top 10
+2026-07-27,MRVL,sell,309.2797,198.48,dropped out of top 10
+2026-07-27,ECHO,sell,981.505,87.04,dropped out of top 10
+2026-07-27,COHR,buy,258.941,282.4,entered top 10
+2026-07-27,LRCX,buy,238.7451,306.29,entered top 10
+2026-08-03,COHR,sell,258.941,254.61,dropped out of top 10
+2026-08-03,GLW,buy,496.3056,134.46,entered top 10
+2026-08-10,TER,sell,261.8087,386.13,dropped out of top 10
+2026-08-10,GLW,sell,496.3056,167.01,dropped out of top 10
+2026-08-10,ECHO,buy,1009.5415,90.54,entered top 10
+2026-08-10,DELL,buy,199.3971,458.4,entered top 10
+2026-08-17,DELL,sell,199.3971,495.47,dropped out of top 10
+2026-08-17,AMAT,buy,192.3585,517.96,entered top 10
+2026-08-24,LRCX,sell,238.7451,307.31,dropped out of top 10
+2026-08-24,ECHO,sell,1009.5415,85.91,dropped out of top 10
+2026-08-24,COHR,buy,289.3888,275.58,entered top 10
+2026-08-24,DELL,buy,182.0568,438.04,entered top 10
+2026-08-31,COHR,sell,289.3888,279.97,dropped out of top 10
+2026-08-31,TER,buy,228.7736,357.58,entered top 10
+2026-09-08,TER,sell,228.7736,364.66,dropped out of top 10
+2026-09-08,COHR,buy,296.4818,281.33,entered top 10
+2026-09-14,CIEN,sell,194.0121,326.65,dropped out of top 10
+2026-09-14,TER,buy,182.9669,347.47,entered top 10
+2026-09-21,BE,sell,581.1883,269.73,dropped out of top 10
+2026-09-21,AMAT,sell,192.3585,455.49,dropped out of top 10
+2026-09-21,COHR,sell,296.4818,326.15,dropped out of top 10
+2026-09-21,MRNA,buy,699.5087,161.21,entered top 10
+2026-09-21,MRVL,buy,448.212,251.6,entered top 10
+2026-09-21,AMD,buy,192.9435,584.46,entered top 10
+2026-09-28,INTC,sell,1039.529,120.56,dropped out of top 10
+2026-09-28,TER,sell,182.9669,394.31,dropped out of top 10
+2026-09-28,BE,buy,351.6325,282.79,entered top 10
+2026-09-28,CIEN,buy,281.8787,352.77,entered top 10
+2026-10-05,BE,sell,351.6325,289.7,dropped out of top 10
+2026-10-05,CIEN,sell,281.8787,393.38,dropped out of top 10
+2026-10-05,INTC,buy,920.7613,115.46,entered top 10
+2026-10-05,TER,buy,237.5374,447.54,entered top 10
+2026-10-12,MRVL,sell,448.212,274.23,dropped out of top 10
+2026-10-12,AMD,sell,192.9435,599.33,dropped out of top 10
+2026-10-12,BE,buy,432.3006,275.61,entered top 10
+2026-10-12,COHR,buy,388.9716,306.31,entered top 10
+2026-10-19,TER,sell,237.5374,341.16,dropped out of top 10
+2026-10-19,BE,sell,432.3006,233.0,dropped out of top 10
+2026-10-19,MRVL,buy,379.4701,240.24,entered top 10
+2026-10-19,ILMN,buy,338.6488,269.2,entered top 10
+2026-10-26,COHR,sell,388.9716,212.4,dropped out of top 10
+2026-10-26,BE,buy,432.7986,193.19,entered top 10
+2026-11-02,BE,sell,432.7986,205.82,dropped out of top 10
+2026-11-02,HPE,buy,1602.4636,55.56,entered top 10
+2026-11-09,WDC,sell,280.4539,271.01,dropped out of top 10
+2026-11-09,ILMN,sell,338.6488,216.76,dropped out of top 10
+2026-11-09,VLO,buy,215.7612,344.84,entered top 10
+2026-11-09,MPC,buy,200.1853,371.68,entered top 10
+2026-11-16,STX,sell,191.7261,499.5,dropped out of top 10
+2026-11-16,OKTA,buy,489.6108,178.18,entered top 10

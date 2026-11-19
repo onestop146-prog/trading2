@@ -1,0 +1,5 @@
+2026-11-19 20:50:44 UTC | INFO | ============================================================
+2026-11-19 20:50:44 UTC | INFO | BACKTEST starting
+2026-11-19 20:50:44 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-19 20:51:27 UTC | INFO | Loaded prices from yahoo: 504 tickers, 4499 days (2009-01-02 to 2026-11-19)
+2026-11-19 20:51:32 UTC | INFO | Backtest: bot +8426% (CAGR +30.2%, max DD -46%) vs SPY +751% (CAGR +13.5%)
