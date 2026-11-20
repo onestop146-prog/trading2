@@ -37,3 +37,12 @@
 2026-11-20 14:51:06 UTC | INFO | REBALANCE (daily) starting (force=False)
 2026-11-20 14:51:06 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
 2026-11-20 14:51:06 UTC | INFO | Only 21 minutes since the open; too early. Nothing to do.
+2026-11-20 15:53:06 UTC | INFO | ============================================================
+2026-11-20 15:53:06 UTC | INFO | REBALANCE (daily) starting (force=False)
+2026-11-20 15:53:06 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-20 15:53:06 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-20 15:53:10 UTC | INFO | Loaded prices from alpaca: 504 tickers, 290 days (2025-09-26 to 2026-11-19)
+2026-11-20 15:53:10 UTC | INFO | Crash filter: SPY $715.87 vs 200-day average $730.19 -> BELOW average, hold cash
+2026-11-20 15:53:10 UTC | INFO | Top 10 by 12-1 momentum: MRNA (+886%), SNDK (+463%), MU (+300%), DELL (+300%), LITE (+244%), MRVL (+212%), HPE (+183%), STX (+176%), INTC (+171%), OKTA (+157%)
+2026-11-20 15:53:10 UTC | INFO | Bot holdings before: none | cash $10000.00
+2026-11-20 15:53:12 UTC | INFO | Rebalance finished. Holdings: none | cash $10000.00
