@@ -330,3 +330,27 @@ def test_blocked_account_does_not_trade(monkeypatch):
 
     assert rebalance.run() == 0
     assert fake.orders == {}
+
+
+def test_summary_shows_crash_filter_decision():
+    from bot import report
+    ledger.save_state({"last_rebalance_date": "2026-11-20", "crash_filter_ok": False,
+                       "spy_price": 715.87, "spy_200d_average": 730.1, "top_10": ["AAA", "BBB"]})
+    ledger.record_performance("2026-11-20", 10_000, 10_000, 715.87, 0)
+    report.write_live_report({})
+    text = config.SUMMARY_MD.read_text()
+    assert "Crash filter ON" in text and "$715.87" in text and "AAA, BBB" in text
+
+
+def test_crash_filter_day_holds_cash_and_reports_it(monkeypatch):
+    """Tomorrow's likely case: SPY below its 200-day average -> no buys, decision shown in summary."""
+    opens, closes = fake_prices()
+    closes["SPY"] = np.linspace(500, 400, len(closes))   # steadily falling -> below its average
+    today = (closes.index[-1] + pd.offsets.BDay(1)).date().isoformat()
+    fake = FakeAlpaca({c: float(closes[c].iloc[-1]) for c in closes.columns}, today)
+    _patch_rebalance(monkeypatch, fake, opens, closes, today)
+
+    assert rebalance.run() == 0
+    assert fake.orders == {}
+    assert ledger.load_state()["crash_filter_ok"] is False
+    assert "Crash filter ON" in config.SUMMARY_MD.read_text()
