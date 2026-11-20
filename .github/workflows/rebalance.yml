@@ -19,6 +19,10 @@ on:
         description: "Trade outside the normal ~10am window (market must be open; still once per day)"
         type: boolean
         default: false
+      dry_run:
+        description: "Dry run: do everything EXCEPT place orders (works even when the market is closed)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write             # needed to commit trades.csv etc. back to the repo
@@ -51,12 +55,12 @@ jobs:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
         run: |
-          if [ "${{ inputs.force }}" = "true" ]; then
-            python -m bot.rebalance --force
-          else
-            python -m bot.rebalance
-          fi
+          ARGS=""
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python -m bot.rebalance $ARGS
 
       - name: Commit results back to the repo
-        if: always()          # save the log even if something went wrong
+        # Save the log even if something went wrong - but not for dry runs
+        if: always() && inputs.dry_run != true
         run: bash .github/scripts/commit_results.sh "Rebalance"

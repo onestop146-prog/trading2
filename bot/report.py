@@ -138,6 +138,23 @@ def write_live_report(latest_prices: dict) -> None:
             "![Bot vs SPY](performance_chart.png)", "",
         ]
 
+    # What the bot decided at its last rebalance (useful on days with no trades)
+    state = ledger.load_state()
+    if state.get("last_rebalance_date"):
+        lines += ["## Latest decision", ""]
+        spy, sma = state.get("spy_price"), state.get("spy_200d_average")
+        if state.get("crash_filter_ok"):
+            lines.append(f"**{state['last_rebalance_date']}:** ✅ SPY ${spy:,.2f} is above its "
+                         f"200-day average ${sma:,.2f}, so the bot is invested in the top {config.TOP_N}.")
+        else:
+            lines.append(f"**{state['last_rebalance_date']}:** 🛑 Crash filter ON: SPY ${spy:,.2f} is below "
+                         f"its 200-day average ${sma:,.2f}, so the bot holds cash. It checks again every "
+                         "trading morning and buys back in once SPY closes above the average.")
+        if state.get("top_10"):
+            lines += ["", f"Today's top {config.TOP_N} by {config.MOMENTUM_NAME} momentum: "
+                      + ", ".join(state["top_10"])]
+        lines.append("")
+
     lines += ["## Current holdings", ""]
     if not holdings:
         lines += ["None - the bot is 100% in cash.", ""]

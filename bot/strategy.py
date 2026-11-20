@@ -2,8 +2,8 @@
 The momentum strategy itself. Both the backtest and the live bot use these
 exact functions, so what you see in the backtest is what the bot does.
 
-"12-1 momentum": for each stock, measure the return from ~12 months ago to
-~1 month ago. The most recent month is skipped because, historically, stocks
+"6-1 momentum" (the default; see LOOKBACK_DAYS in config.py): for each stock,
+measure the return from ~6 months ago to ~1 month ago. The most recent month is skipped because, historically, stocks
 that jumped in the last few weeks tend to fall back a little short-term
 (a well-known effect called "short-term reversal").
 """
@@ -18,7 +18,8 @@ def momentum_scores(closes: pd.DataFrame) -> pd.Series:
     `closes` has one row per trading day (oldest first) and one column per
     stock, and must END on the most recent day we know about.
 
-    Score = price 1 month ago / price 12 months ago - 1
+    Score = price SKIP_DAYS ago / price LOOKBACK_DAYS ago - 1
+    (with the defaults: price 1 month ago / price 6 months ago - 1)
     Stocks without enough history get no score.
     """
     needed = config.LOOKBACK_DAYS + 1
@@ -30,9 +31,9 @@ def momentum_scores(closes: pd.DataFrame) -> pd.Series:
     return scores.dropna().sort_values(ascending=False)
 
 
-def top_stocks(closes: pd.DataFrame, n: int = config.TOP_N) -> list:
-    """The n stocks with the highest momentum score, best first."""
-    return momentum_scores(closes).head(n).index.tolist()
+def top_stocks(closes: pd.DataFrame, n: int = None) -> list:
+    """The n stocks (default: config.TOP_N) with the highest momentum score, best first."""
+    return momentum_scores(closes).head(n or config.TOP_N).index.tolist()
 
 
 def market_is_healthy(spy_closes: pd.Series):

@@ -64,7 +64,9 @@ def run_backtest(opens: pd.DataFrame, closes: pd.DataFrame,
     # has over SPY comes mostly from knowing in advance which companies survived.
     survivor_daily_returns = closes[stocks].pct_change(fill_method=None).mean(axis=1)
 
-    first = max(config.LOOKBACK_DAYS, config.SMA_DAYS) + 1  # need a year of history
+    # Start after one year of history (the same start date for every setting,
+    # so comparisons between settings are fair)
+    first = max(252, config.LOOKBACK_DAYS, config.SMA_DAYS) + 1
     cash = config.STARTING_CAPITAL
     holdings = {}          # ticker -> shares
     trades = []
@@ -144,7 +146,7 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str,
     dates = pd.to_datetime(equity["date"])
     start, end = dates.iloc[0].date(), dates.iloc[-1].date()
     report.plot_vs_spy(dates, equity["bot_value"], equity["spy_value"],
-                       f"Backtest: 12-1 momentum (top {config.TOP_N}, {config.REBALANCE_FREQUENCY}) vs SPY, "
+                       f"Backtest: {config.MOMENTUM_NAME} momentum (top {config.TOP_N}, {config.REBALANCE_FREQUENCY}) vs SPY, "
                        f"{start.year}-{end.year}",
                        OUT / "backtest_chart.png", spy_label="SPY buy & hold", log_scale=True)
 
@@ -161,7 +163,7 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str,
     yr = yearly / prev - 1
 
     lines = [
-        "# Backtest results: 12-1 momentum vs SPY", "",
+        f"# Backtest results: {config.MOMENTUM_NAME} momentum (top {config.TOP_N}) vs SPY", "",
         "> ## ⚠️ Survivorship bias warning",
         "> This backtest uses **today's** S&P 500 list for the whole history. Companies that",
         "> collapsed, went bankrupt or were removed from the index are missing, so the strategy",
@@ -223,7 +225,8 @@ def write_results(equity: pd.DataFrame, trades: pd.DataFrame, source_note: str,
     lines += [
         "", "## How the backtest works", "",
         "- Universe: today's S&P 500 members (see warning above).",
-        f"- Rebalance {config.REBALANCE_FREQUENCY}: rank stocks by the return from ~12 months ago to "
+        f"- Rebalance {config.REBALANCE_FREQUENCY}: rank stocks by the return from "
+        f"~{round(config.LOOKBACK_DAYS / 21)} months ago to "
         "~1 month ago, using prices up to the previous close.",
         f"- Hold the top {config.TOP_N}, equal weight. Only stocks that drop out of the top "
         f"{config.TOP_N} are sold; new entries are bought at the opening price.",

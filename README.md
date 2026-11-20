@@ -30,8 +30,10 @@ from your phone.
 ## The strategy in plain English
 
 1. **Universe:** the stocks currently in the S&P 500.
-2. **Score:** each stock's return from ~12 months ago to ~1 month ago ("12-1 momentum").
+2. **Score:** each stock's return from ~6 months ago to ~1 month ago ("6-1 momentum").
    The latest month is skipped because very recent winners tend to dip back short-term.
+   (We started with the classic 12-1 window and switched to 6-1 to trade more often: about 540
+   trades a year instead of 340. See [backtest/variants.md](backtest/variants.md) for the comparison.)
 3. **Hold:** the 10 highest-scoring stocks, equal dollar amounts (~$1,000 each from $10,000).
 4. **Rebalance daily:** every trading day ~10:00am Eastern (30 min after the open). Sell stocks that fell
    out of the top 10, buy the new ones. Stocks still in the top 10 are left alone, so on most days there's
@@ -108,6 +110,10 @@ Nothing else to do. Automatically:
 
 Want to trade right now instead of waiting for tomorrow's 10am run? Actions → **Rebalance** → **Run workflow** →
 tick **force** → Run (only works while the market is open, from ~9:55am to 4:00pm ET).
+
+Want to check everything works without trading? Actions → **Rebalance** → **Run workflow** → tick
+**dry_run** → Run. It downloads the data, checks the crash filter and your account, and lists the orders it
+*would* place, without placing any. It works any time, even when the market is closed.
 
 ---
 
