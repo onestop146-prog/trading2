@@ -33,3 +33,17 @@
 2026-11-19 22:18:21 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
 2026-11-19 22:18:21 UTC | INFO | Loaded prices from alpaca: 1 tickers, 11 days (2026-11-05 to 2026-11-19)
 2026-11-19 22:18:21 UTC | INFO | Logged 2026-11-19: bot $10000.00 | SPY benchmark $10000.00 | cash $10000.00 | 0 holdings
+2026-11-20 00:44:23 UTC | INFO | ============================================================
+2026-11-20 00:44:23 UTC | INFO | BACKTEST starting
+2026-11-20 00:44:23 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-20 00:45:27 UTC | INFO | Loaded prices from yahoo: 503 tickers, 4499 days (2009-01-02 to 2026-11-19)
+2026-11-20 00:46:04 UTC | INFO | Backtest: bot +8512% (CAGR +30.1%, max DD -43%) vs SPY +749% (CAGR +13.5%)
+2026-11-20 00:46:05 UTC | INFO | Downloaded S&P 500 list: 503 tickers
+2026-11-20 00:47:04 UTC | INFO | Loaded prices from yahoo: 504 tickers, 4499 days (2009-01-02 to 2026-11-19)
+2026-11-20 00:47:33 UTC | INFO | Current: top 10, 12-1 momentum: 343 trades/yr, CAGR +30.1%, max DD -43%
+2026-11-20 00:48:06 UTC | INFO | Top 20, 12-1 momentum: 666 trades/yr, CAGR +20.7%, max DD -42%
+2026-11-20 00:48:41 UTC | INFO | Top 30, 12-1 momentum: 959 trades/yr, CAGR +18.8%, max DD -35%
+2026-11-20 00:49:13 UTC | INFO | Top 10, 6-1 momentum: 539 trades/yr, CAGR +26.1%, max DD -37%
+2026-11-20 00:49:45 UTC | INFO | Top 10, 3-1 momentum: 764 trades/yr, CAGR +18.3%, max DD -32%
+2026-11-20 00:50:19 UTC | INFO | Top 20, 6-1 momentum: 952 trades/yr, CAGR +18.0%, max DD -38%
+2026-11-20 00:50:19 UTC | INFO | Wrote /home/runner/work/trading2/trading2/backtest/variants.md
