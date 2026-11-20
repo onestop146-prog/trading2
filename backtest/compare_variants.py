@@ -23,7 +23,7 @@ log = get_logger()
 
 # (label, how many stocks to hold, lookback days, skip days)
 VARIANTS = [
-    ("Current: top 10, 12-1 momentum", 10, 252, 21),
+    ("Top 10, 12-1 momentum", 10, 252, 21),
     ("Top 20, 12-1 momentum", 20, 252, 21),
     ("Top 30, 12-1 momentum", 30, 252, 21),
     ("Top 10, 6-1 momentum", 10, 126, 21),
@@ -44,6 +44,8 @@ def main() -> int:
     saved = (config.TOP_N, config.LOOKBACK_DAYS, config.SKIP_DAYS)
     rows, spy_row, surv_row = [], None, None
     for label, top_n, lookback, skip in VARIANTS:
+        if (top_n, lookback, skip) == saved:
+            label = f"**{label} (current setting)**"
         config.TOP_N, config.LOOKBACK_DAYS, config.SKIP_DAYS = top_n, lookback, skip
         equity, trades = bt.run_backtest(opens, closes, frequency="daily")
         dates = pd.to_datetime(equity["date"])

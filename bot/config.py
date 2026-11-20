@@ -36,10 +36,16 @@ TOP_N = 10               # how many stocks to hold
 # How often to rebalance: "daily" (every trading day ~10am ET) or "weekly"
 # (first trading day of each week). The backtest compares both.
 REBALANCE_FREQUENCY = "daily"
-LOOKBACK_DAYS = 252      # ~12 months of trading days
-SKIP_DAYS = 21           # ~1 month of trading days (the "-1" in "12-1")
+# Momentum window: the return from LOOKBACK_DAYS ago to SKIP_DAYS ago.
+# 126/21 = "6-1 momentum" (6 months ago to 1 month ago). We switched from the
+# classic 12-1 (252/21) to trade more often; see backtest/variants.md.
+LOOKBACK_DAYS = 126      # ~6 months of trading days
+SKIP_DAYS = 21           # ~1 month of trading days (the "-1" in "6-1")
 SMA_DAYS = 200           # crash filter: SPY's 200-day moving average
 BENCHMARK = "SPY"
+
+# A short name for the momentum window, e.g. "6-1" (months), used in logs and reports.
+MOMENTUM_NAME = f"{round(LOOKBACK_DAYS / 21)}-{round(SKIP_DAYS / 21)}"
 
 # If fewer than this many S&P 500 stocks have usable price data, something is
 # wrong with the data source, so we skip trading rather than guess.

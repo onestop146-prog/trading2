@@ -191,7 +191,7 @@ def run(force: bool = False, dry_run: bool = False) -> int:
                   len(scores), config.MIN_STOCKS_WITH_DATA)
         return 0
     targets = scores.head(config.TOP_N).index.tolist()
-    log.info("Top %d by 12-1 momentum: %s", config.TOP_N,
+    log.info("Top %d by %s momentum: %s", config.TOP_N, config.MOMENTUM_NAME,
              ", ".join(f"{t} ({scores[t]:+.0%})" for t in targets))
 
     # ---- 2. Where do we stand? ----------------------------------------------
