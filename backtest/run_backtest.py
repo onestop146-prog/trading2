@@ -64,7 +64,9 @@ def run_backtest(opens: pd.DataFrame, closes: pd.DataFrame,
     # has over SPY comes mostly from knowing in advance which companies survived.
     survivor_daily_returns = closes[stocks].pct_change(fill_method=None).mean(axis=1)
 
-    first = max(config.LOOKBACK_DAYS, config.SMA_DAYS) + 1  # need a year of history
+    # Start after one year of history (the same start date for every setting,
+    # so comparisons between settings are fair)
+    first = max(252, config.LOOKBACK_DAYS, config.SMA_DAYS) + 1
     cash = config.STARTING_CAPITAL
     holdings = {}          # ticker -> shares
     trades = []

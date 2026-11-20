@@ -30,9 +30,9 @@ def momentum_scores(closes: pd.DataFrame) -> pd.Series:
     return scores.dropna().sort_values(ascending=False)
 
 
-def top_stocks(closes: pd.DataFrame, n: int = config.TOP_N) -> list:
-    """The n stocks with the highest momentum score, best first."""
-    return momentum_scores(closes).head(n).index.tolist()
+def top_stocks(closes: pd.DataFrame, n: int = None) -> list:
+    """The n stocks (default: config.TOP_N) with the highest momentum score, best first."""
+    return momentum_scores(closes).head(n or config.TOP_N).index.tolist()
 
 
 def market_is_healthy(spy_closes: pd.Series):

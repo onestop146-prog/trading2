@@ -10,6 +10,7 @@ on:
       - "backtest/run_backtest.py"
       - "bot/strategy.py"
       - "bot/config.py"
+      - "backtest/compare_variants.py"
       - ".github/workflows/backtest.yml"
 
 permissions:
@@ -49,6 +50,12 @@ jobs:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
         run: python -m backtest.run_backtest
+
+      - name: Compare settings (more stocks / shorter momentum window)
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python -m backtest.compare_variants
 
       - name: Commit results back to the repo
         if: always()
