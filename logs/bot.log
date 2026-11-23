@@ -60,3 +60,7 @@
 2026-11-23 14:58:01 UTC | INFO | Top 10 by 12-1 momentum: MRNA (+738%), SNDK (+413%), DELL (+283%), MU (+280%), LITE (+180%), MRVL (+175%), HPE (+174%), OKTA (+151%), STX (+149%), INTC (+143%)
 2026-11-23 14:58:01 UTC | INFO | Bot holdings before: none | cash $10000.00
 2026-11-23 14:58:01 UTC | INFO | Rebalance finished. Holdings: none | cash $10000.00
+2026-11-23 16:04:27 UTC | INFO | ============================================================
+2026-11-23 16:04:27 UTC | INFO | REBALANCE (daily) starting (force=False)
+2026-11-23 16:04:27 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-23 16:04:27 UTC | INFO | Already rebalanced today (2026-11-23). Nothing to do.
