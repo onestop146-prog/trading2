@@ -1,8 +1,8 @@
 {
-  "last_rebalance_date": "2026-11-24",
+  "last_rebalance_date": "2026-11-25",
   "crash_filter_ok": false,
-  "spy_price": 722.29,
-  "spy_200d_average": 730.47,
+  "spy_price": 718.78,
+  "spy_200d_average": 730.62,
   "top_10": [
     "MRNA",
     "SNDK",
@@ -17,5 +17,5 @@
   ],
   "holdings": {},
   "cash": 10000.0,
-  "updated_at_utc": "2026-11-24 16:01:16"
+  "updated_at_utc": "2026-11-25 14:58:17"
 }
