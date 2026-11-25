@@ -100,3 +100,8 @@
 2026-11-25 16:06:33 UTC | INFO | REBALANCE (daily) starting (force=False)
 2026-11-25 16:06:34 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
 2026-11-25 16:06:34 UTC | INFO | Already rebalanced today (2026-11-25). Nothing to do.
+2026-11-25 22:25:55 UTC | INFO | ============================================================
+2026-11-25 22:25:55 UTC | INFO | DAILY PERFORMANCE LOG starting
+2026-11-25 22:25:55 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-25 22:25:55 UTC | INFO | Loaded prices from alpaca: 1 tickers, 11 days (2026-11-11 to 2026-11-25)
+2026-11-25 22:25:55 UTC | INFO | Logged 2026-11-25: bot $10000.00 | SPY benchmark $10011.59 | cash $10000.00 | 0 holdings
