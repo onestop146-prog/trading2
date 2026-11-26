@@ -109,3 +109,7 @@
 2026-11-26 14:55:22 UTC | INFO | REBALANCE (daily) starting (force=False)
 2026-11-26 14:55:23 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
 2026-11-26 14:55:23 UTC | INFO | 2026-11-26 is not a trading day (weekend or market holiday). Nothing to do.
+2026-11-26 15:57:06 UTC | INFO | ============================================================
+2026-11-26 15:57:06 UTC | INFO | REBALANCE (daily) starting (force=False)
+2026-11-26 15:57:07 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-26 15:57:07 UTC | INFO | 2026-11-26 is not a trading day (weekend or market holiday). Nothing to do.
