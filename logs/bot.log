@@ -105,3 +105,7 @@
 2026-11-25 22:25:55 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
 2026-11-25 22:25:55 UTC | INFO | Loaded prices from alpaca: 1 tickers, 11 days (2026-11-11 to 2026-11-25)
 2026-11-25 22:25:55 UTC | INFO | Logged 2026-11-25: bot $10000.00 | SPY benchmark $10011.59 | cash $10000.00 | 0 holdings
+2026-11-26 14:55:22 UTC | INFO | ============================================================
+2026-11-26 14:55:22 UTC | INFO | REBALANCE (daily) starting (force=False)
+2026-11-26 14:55:23 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-26 14:55:23 UTC | INFO | 2026-11-26 is not a trading day (weekend or market holiday). Nothing to do.
