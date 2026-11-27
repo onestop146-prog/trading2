@@ -117,3 +117,7 @@
 2026-11-26 22:26:09 UTC | INFO | DAILY PERFORMANCE LOG starting
 2026-11-26 22:26:10 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
 2026-11-26 22:26:10 UTC | INFO | 2026-11-26 is not a trading day (weekend or holiday). Nothing to log.
+2026-11-27 14:51:44 UTC | INFO | ============================================================
+2026-11-27 14:51:44 UTC | INFO | REBALANCE (daily) starting (force=False)
+2026-11-27 14:51:44 UTC | INFO | Connected to Alpaca PAPER account PA3...PJ
+2026-11-27 14:51:45 UTC | INFO | Only 22 minutes since the open; too early. Nothing to do.
