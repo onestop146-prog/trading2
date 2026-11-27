@@ -1,21 +1,21 @@
 {
-  "last_rebalance_date": "2026-11-25",
+  "last_rebalance_date": "2026-11-27",
   "crash_filter_ok": false,
-  "spy_price": 718.78,
-  "spy_200d_average": 730.62,
+  "spy_price": 716.7,
+  "spy_200d_average": 730.77,
   "top_10": [
     "MRNA",
     "SNDK",
     "MU",
     "DELL",
-    "LITE",
-    "MRVL",
     "HPE",
+    "MRVL",
+    "LITE",
     "OKTA",
     "STX",
     "INTC"
   ],
   "holdings": {},
   "cash": 10000.0,
-  "updated_at_utc": "2026-11-25 14:58:17"
+  "updated_at_utc": "2026-11-27 15:56:03"
 }
