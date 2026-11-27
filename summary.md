@@ -2,17 +2,17 @@
 
 > PAPER TRADING ONLY - no real money is involved.
 
-_Last updated: 2026-11-27 15:56 UTC_
+_Last updated: 2026-11-27 22:26 UTC_
 
-Tracking since **2026-11-19** (latest: 2026-11-25)
+Tracking since **2026-11-19** (latest: 2026-11-27)
 
 | Metric | Bot | SPY benchmark |
 |---|---|---|
-| Value | $10,000.00 | $10,011.59 |
-| Total return | +0.00% | +0.12% |
+| Value | $10,000.00 | $10,173.91 |
+| Total return | +0.00% | +1.74% |
 | Max drawdown | 0.00% | -3.64% |
 
-**Return vs SPY:** -0.12% (behind the benchmark)
+**Return vs SPY:** -1.74% (behind the benchmark)
 
 **Win rate:** n/a (no positions sold yet)
 
